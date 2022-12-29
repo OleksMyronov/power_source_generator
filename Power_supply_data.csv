@@ -1,0 +1,1209 @@
+;Unnamed: 0;Unnamed: 0.1;chip_name;description;input_voltage;output_voltage;output_node;model_file;output_number
+0;0;0;ADM7150-1.8;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[1.8];['V(out)'];ADM7150-1.8.asc;1
+1;1;1;ADM7150-2.8;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[2.8];['V(out)'];ADM7150-2.8.asc;1
+2;2;2;ADM7150-3.0;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[3.0];['V(out)'];ADM7150-3.0.asc;1
+3;3;3;ADM7150-3.3;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[3.3];['V(out)'];ADM7150-3.3.asc;1
+4;4;4;ADM7150-4.5;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[4.5];['V(out)'];ADM7150-4.5.asc;1
+5;5;5;ADM7150-4.8;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[4.8];['V(out)'];ADM7150-4.8.asc;1
+6;6;6;ADM7150-5.0;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[5.0];['V(out)'];ADM7150-5.0.asc;1
+7;7;7;ADM7151-02;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[3.3];['V(out)'];ADM7151-02.asc;1
+8;8;8;ADM7151-04;800 mA, Ultralow Noise, High PSRR, RF Linear Regulator;6.2;[3.3];['V(out)'];ADM7151-04.asc;1
+9;9;9;ADM7154-1.2;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;2.3;[1.2];['V(out)'];ADM7154-1.2.asc;1
+10;10;10;ADM7154-1.8;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;2.9;[1.8];['V(out)'];ADM7154-1.8.asc;1
+11;11;11;ADM7154-2.5;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;3.4;[2.5];['V(out)'];ADM7154-2.5.asc;1
+12;12;12;ADM7154-3.0;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;3.9;[3.0];['V(out)'];ADM7154-3.0.asc;1
+13;13;13;ADM7154-3.3;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;3.9;[3.3];['V(out)'];ADM7154-3.3.asc;1
+14;14;14;ADM7155-01;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;2.3;[1.8];['V(out)'];ADM7155-01.asc;1
+15;15;15;ADM7155-02;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;2.9;[1.8];['V(out)'];ADM7155-02.asc;1
+16;16;16;ADM7155-03;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;3.4;[2.5];['V(out)'];ADM7155-03.asc;1
+17;17;17;ADM7155-04;600 mA, Ultralow Noise, High PSRR, RF Linear Regulator;3.9;[3.3];['V(out)'];ADM7155-04.asc;1
+18;18;18;ADM7170;6.5V, 500mA, Ultralow Noise, High PSRR, Fast Transient Response CMOS LDO, Adjustable Output;3.5;[3.0];['V(out)'];ADM7170.asc;1
+19;19;19;ADM7171;6.5V, 1A, Ultralow Noise, High PSRR, Fast Transient Response CMOS LDO, Adjustable Output;3.5;[3.0];['V(out)'];ADM7171.asc;1
+20;20;20;ADM7172;6.5V, 2A, Ultralow Noise, High PSRR, Fast Transient Response CMOS LDO, Adjustable Output;3.5;[3.0];['V(out)'];ADM7172.asc;1
+21;21;21;ADP1071-1;Isolated Synchronous Flyback Controller with Integrated iCoupler, Programmable LLM or Forced CCM Operation;36.0;[12.1];['V(out)'];ADP1071-1.asc;1
+22;22;22;ADP1071-2;Isolated Synchronous Flyback Controller with Integrated iCoupler, forced CCM operation;36.0;[12.1];['V(out)'];ADP1071-2.asc;1
+23;23;23;ADP1074;Isolated, Synchronous Forward Controller with Active Clamp and iCoupler;48.0;[12.2];['V(out)'];ADP1074.asc;1
+24;24;24;ADP121-1.2;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.2];['V(out)'];ADP121-1.2.asc;1
+25;25;25;ADP121-1.5;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.5];['V(out)'];ADP121-1.5.asc;1
+26;26;26;ADP121-1.65;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.6];['V(out)'];ADP121-1.65.asc;1
+27;27;27;ADP121-1.8;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.8];['V(out)'];ADP121-1.8.asc;1
+28;28;28;ADP121-1.875;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.9];['V(out)'];ADP121-1.875.asc;1
+29;29;29;ADP121-2.0;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.0];['V(out)'];ADP121-2.0.asc;1
+30;30;30;ADP121-2.5;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.5];['V(out)'];ADP121-2.5.asc;1
+31;31;31;ADP121-2.8;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.8];['V(out)'];ADP121-2.8.asc;1
+32;32;32;ADP121-3.0;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[3.0];['V(out)'];ADP121-3.0.asc;1
+33;33;33;ADP121-3.3;150 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[3.3];['V(out)'];ADP121-3.3.asc;1
+34;34;34;ADP122-1.8;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.8];['V(out)'];ADP122-1.8.asc;1
+35;35;35;ADP122-2.0;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.0];['V(out)'];ADP122-2.0.asc;1
+36;36;36;ADP122-2.5;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.5];['V(out)'];ADP122-2.5.asc;1
+37;37;37;ADP122-2.6;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.6];['V(out)'];ADP122-2.6.asc;1
+38;38;38;ADP122-2.7;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.7];['V(out)'];ADP122-2.7.asc;1
+39;39;39;ADP122-2.8;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.8];['V(out)'];ADP122-2.8.asc;1
+40;40;40;ADP122-2.85;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.9];['V(out)'];ADP122-2.85.asc;1
+41;41;41;ADP122-2.9;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.9];['V(out)'];ADP122-2.9.asc;1
+42;42;42;ADP122-3.0;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[3.0];['V(out)'];ADP122-3.0.asc;1
+43;43;43;ADP122-3.3;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[3.3];['V(out)'];ADP122-3.3.asc;1
+44;44;44;ADP123;5.5 V Input, 300 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.8];['V(out)'];ADP123.asc;1
+45;45;45;ADP124-1.8;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.8];['V(out)'];ADP124-1.8.asc;1
+46;46;46;ADP124-2.5;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.5];['V(out)'];ADP124-2.5.asc;1
+47;47;47;ADP124-2.7;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.7];['V(out)'];ADP124-2.7.asc;1
+48;48;48;ADP124-2.8;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.8];['V(out)'];ADP124-2.8.asc;1
+49;49;49;ADP124-2.85;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.9];['V(out)'];ADP124-2.85.asc;1
+50;50;50;ADP124-2.9;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[2.9];['V(out)'];ADP124-2.9.asc;1
+51;51;51;ADP124-3.0;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[3.0];['V(out)'];ADP124-3.0.asc;1
+52;52;52;ADP124-3.3;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[3.3];['V(out)'];ADP124-3.3.asc;1
+53;53;53;ADP125;5.5 V Input, 500 mA, Low Quiescent Current, CMOS Linear Regulator;5.5;[1.5];['V(out)'];ADP125.asc;1
+54;54;54;ADP160-1.2;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[1.2];['V(out)'];ADP160-1.2.asc;1
+55;55;55;ADP160-1.5;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[1.5];['V(out)'];ADP160-1.5.asc;1
+56;56;56;ADP160-1.8;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[1.8];['V(out)'];ADP160-1.8.asc;1
+57;57;57;ADP160-2.1;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.1];['V(out)'];ADP160-2.1.asc;1
+58;58;58;ADP160-2.3;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.3];['V(out)'];ADP160-2.3.asc;1
+59;59;59;ADP160-2.5;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.5];['V(out)'];ADP160-2.5.asc;1
+60;60;60;ADP160-2.7;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.7];['V(out)'];ADP160-2.7.asc;1
+61;61;61;ADP160-2.75;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.8];['V(out)'];ADP160-2.75.asc;1
+62;62;62;ADP160-2.8;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.8];['V(out)'];ADP160-2.8.asc;1
+63;63;63;ADP160-2.85;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.9];['V(out)'];ADP160-2.85.asc;1
+64;64;64;ADP160-3.0;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.0];['V(out)'];ADP160-3.0.asc;1
+65;65;65;ADP160-3.3;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.3];['V(out)'];ADP160-3.3.asc;1
+66;66;66;ADP160-4.2;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[4.2];['V(out)'];ADP160-4.2.asc;1
+67;67;67;ADP1606;Extreme Low Voltage 2 MHz Synchronous Boost Converter;0.9;[1.8];['V(out)'];ADP1606.asc;1
+68;68;68;ADP1607;Extreme Low Voltage 2 MHz Synchronous Boost Converter PFM enabled at low load;0.9;[3.5];['V(out)'];ADP1607.asc;1
+69;69;69;ADP1607-001;Extreme Low Voltage 2 MHz Synchronous Boost Converter Forced PWM;0.9;[3.4];['V(out)'];ADP1607-001.asc;1
+70;70;70;ADP161;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.3];['V(out)'];ADP161.asc;1
+71;71;71;ADP1612;650kHz /1.3MHz, 1.4A, Step-Up PWM DC-to-DC Switching Regulator\n\nNote: SS pin is not modeled.;5.0;[12.2];['V(out)'];ADP1612.asc;1
+72;72;72;ADP1613;650kHz /1.3MHz, 2A, Step-Up PWM DC-to-DC Switching Regulator\n\nNote: SS pin is not modeled.;5.0;[12.2];['V(out)'];ADP1613.asc;1
+73;73;73;ADP1614;650kHz /1.3MHz, 3A, Step-Up PWM DC-to-DC Switching Regulator;3.0;[12.2];['V(out)'];ADP1614.asc;1
+74;74;74;ADP1614-1.3;1.3MHz, Adjustable up to 4A, Step-Up PWM DC-to-DC Switching Regulator.;5.0;[10.1];['V(out)'];ADP1614-1.3.asc;1
+75;75;75;ADP162-1.2;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[1.2];['V(out)'];ADP162-1.2.asc;1
+76;76;76;ADP162-1.8;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[1.8];['V(out)'];ADP162-1.8.asc;1
+77;77;77;ADP162-2.1;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.1];['V(out)'];ADP162-2.1.asc;1
+78;78;78;ADP162-2.3;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.3];['V(out)'];ADP162-2.3.asc;1
+79;79;79;ADP162-2.8;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[2.8];['V(out)'];ADP162-2.8.asc;1
+80;80;80;ADP162-3.0;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.0];['V(out)'];ADP162-3.0.asc;1
+81;81;81;ADP162-3.1;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.1];['V(out)'];ADP162-3.1.asc;1
+82;82;82;ADP162-3.3;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.3];['V(out)'];ADP162-3.3.asc;1
+83;83;83;ADP162-4.2;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[4.2];['V(out)'];ADP162-4.2.asc;1
+84;84;84;ADP1621;Constant-Frequency, Current-Mode Step-Up DC-to-DC Controller;5.0;[12.0];['V(out)'];ADP1621.asc;1
+85;85;85;ADP163;Ultralow Quiescent Current, 150mA CMOS Linear Regulator;5.0;[3.3];['V(out)'];ADP163.asc;1
+86;86;86;ADP165-1.2;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[1.2];['V(out)'];ADP165-1.2.asc;1
+87;87;87;ADP165-1.8;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[1.8];['V(out)'];ADP165-1.8.asc;1
+88;88;88;ADP165-2.2;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[2.2];['V(out)'];ADP165-2.2.asc;1
+89;89;89;ADP165-2.3;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[2.3];['V(out)'];ADP165-2.3.asc;1
+90;90;90;ADP165-2.85;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[2.9];['V(out)'];ADP165-2.85.asc;1
+91;91;91;ADP165-3.0;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[3.0];['V(out)'];ADP165-3.0.asc;1
+92;92;92;ADP165-3.3;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[3.3];['V(out)'];ADP165-3.3.asc;1
+93;93;93;ADP165-ADJ;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[3.3];['V(out)'];ADP165-ADJ.asc;1
+94;94;94;ADP166-1.2;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[1.2];['V(out)'];ADP166-1.2.asc;1
+95;95;95;ADP166-1.8;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[1.8];['V(out)'];ADP166-1.8.asc;1
+96;96;96;ADP166-2.2;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[2.2];['V(out)'];ADP166-2.2.asc;1
+97;97;97;ADP166-2.3;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[2.3];['V(out)'];ADP166-2.3.asc;1
+98;98;98;ADP166-2.85;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[2.9];['V(out)'];ADP166-2.85.asc;1
+99;99;99;ADP166-3.0;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[3.0];['V(out)'];ADP166-3.0.asc;1
+100;100;100;ADP166-3.3;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[3.3];['V(out)'];ADP166-3.3.asc;1
+101;101;101;ADP166-ADJ;Very Low Quiescent Current, 150mA, LDO Regulator;5.0;[3.3];['V(out)'];ADP166-ADJ.asc;1
+102;102;102;ADP1708;1A, Low Dropout, CMOS Linear Regulator;5.5;[3.3];['V(out)'];ADP1708.asc;1
+103;103;103;ADP172-0.9;0.9V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[0.9];['V(out)'];ADP172-0.9.asc;1
+104;104;104;ADP172-1;1V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.0];['V(out)'];ADP172-1.asc;1
+105;105;105;ADP172-1.2;1.2V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.2];['V(out)'];ADP172-1.2.asc;1
+106;106;106;ADP172-1.26;1.26V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.2];['V(out)'];ADP172-1.26.asc;1
+107;107;107;ADP172-1.5;1.5V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.5];['V(out)'];ADP172-1.5.asc;1
+108;108;108;ADP172-1.65;1.65V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.6];['V(out)'];ADP172-1.65.asc;1
+109;109;109;ADP172-1.7;1.7V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.7];['V(out)'];ADP172-1.7.asc;1
+110;110;110;ADP172-1.8;1.8V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[1.8];['V(out)'];ADP172-1.8.asc;1
+111;111;111;ADP172-2.1;2.1V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[2.1];['V(out)'];ADP172-2.1.asc;1
+112;112;112;ADP172-2.2;2.2V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[2.2];['V(out)'];ADP172-2.2.asc;1
+113;113;113;ADP172-2.9;2.9V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[2.9];['V(out)'];ADP172-2.9.asc;1
+114;114;114;ADP172-3;3V, 300 mA, Low Quiescent Current, CMOS Linear Regulator;3.6;[3.0];['V(out)'];ADP172-3.asc;1
+115;115;115;ADP1740-0.75;0.75V, 2A, Low VIN, Low Dropout Linear Regulator;1.8;[0.7];['V(out)'];ADP1740-0.75.asc;1
+116;116;116;ADP1740-1;1V, 2A, Low VIN, Low Dropout Linear Regulator;1.8;[1.0];['V(out)'];ADP1740-1.asc;1
+117;117;117;ADP1740-1.1;1.1V, 2A, Low VIN, Low Dropout Linear Regulator;1.8;[1.1];['V(out)'];ADP1740-1.1.asc;1
+118;118;118;ADP1740-1.2;1.2V, 2A, Low VIN, Low Dropout Linear Regulator;1.8;[1.2];['V(out)'];ADP1740-1.2.asc;1
+119;119;119;ADP1740-1.3;1.3V, 2A, Low VIN, Low Dropout Linear Regulator;1.8;[1.3];['V(out)'];ADP1740-1.3.asc;1
+120;120;120;ADP1740-1.5;1.5V, 2A, Low VIN, Low Dropout Linear Regulator;1.8;[1.5];['V(out)'];ADP1740-1.5.asc;1
+121;121;121;ADP1740-1.8;1.8V, 2A, Low VIN, Low Dropout Linear Regulator;2.1;[1.8];['V(out)'];ADP1740-1.8.asc;1
+122;122;122;ADP1740-2.5;2.5V, 2A, Low VIN, Low Dropout Linear Regulator;2.8;[2.5];['V(out)'];ADP1740-2.5.asc;1
+123;123;123;ADP1761;1A, Low Vin, Low Noise, CMOS Linear Regulator;1.8;[1.5];['V(out)'];ADP1761.asc;1
+124;124;124;ADP1762;2A, Low Vin, Low Noise, CMOS Linear Regulator;1.8;[1.5];['V(out)'];ADP1762.asc;1
+125;125;125;ADP1763;3A, Low Vin, Low Noise, CMOS Linear Regulator;1.8;[1.5];['V(out)'];ADP1763.asc;1
+126;126;126;ADP1764;4A, Low Vin, Low Noise, CMOS Linear Regulator;1.8;[1.5];['V(out)'];ADP1764.asc;1
+127;127;127;ADP1765;5A, Low Vin, Low Noise, CMOS Linear Regulator;1.8;[1.5];['V(out)'];ADP1765.asc;1
+128;128;128;ADP1851;Wide Range Input, Synchronous, Step-Down DC-to-DC Controller;12.0;[1.8];['V(out)'];ADP1851.asc;1
+129;129;129;ADP1853;Synchronous, Step-Down DC-to-DC Controller with Voltage Tracking and Synchronization;12.0;[1.8];['V(out)'];ADP1853.asc;1
+130;130;130;ADP198;Logic Controlled, 1A, High-Side Load Switch with Reverse Current Blocking;1.65;[1.6];['V(out)'];ADP198.asc;1
+131;131;131;ADP2119-ADJ;Adjustable Output 2A 1.2MHz Synchronous Step-Down DC-DC Regulator;5.0;[3.3];['V(out)'];ADP2119-ADJ.asc;1
+132;132;132;ADP2120-ADJ;Adjustable Output 1.25A 1.2MHz Synchronous Step-Down DC-DC Regulator;5.0;[3.3];['V(out)'];ADP2120-ADJ.asc;1
+133;133;133;ADP2164;6.5 V, 4 A, High Efficiency, Step-Down DC-to-DC Regulator;5.0;[1.2];['V(out)'];ADP2164.asc;1
+134;134;134;ADP2165;5.5V, 5A, High Efficiency, Synchronous Buck Regulator with Output Tracking, Adjustable Output;5.0;[1.2];['V(out)'];ADP2165.asc;1
+135;135;135;ADP2166;5.5V, 6A, High Efficiency, Synchronous Buck Regulator with Output Tracking, Adjustable Output;5.0;[1.2];['V(out)'];ADP2166.asc;1
+136;136;136;ADP2300;1.2 A, 20 V, 700kHz Nonsynchronous Step-Down Regulator;12.0;[5.0];['V(out)'];ADP2300.asc;1
+137;137;137;ADP2301;1.2A, 20V, 1.4MHz Nonsynchronous Step-Down Regulator;12.0;[5.0];['V(out)'];ADP2301.asc;1
+138;138;138;ADP2302;2 A, 20 V, 700kHz Nonsynchronous Step-Down Regulator;12.0;[5.0];['V(out)'];ADP2302.asc;1
+139;139;139;ADP2303;3 A, 20 V, 700kHz Nonsynchronous Step-Down Regulator;12.0;[5.0];['V(out)'];ADP2303.asc;1
+140;140;140;ADP2360;60V 50mA High Efficiency Buck Regulator;5.0;[3.4];['V(out)'];ADP2360.asc;1
+141;141;141;ADP2371-ADJ;High Voltage, 1.2MHz/600kHz, 800mA Low Quiescent Current Buck Regulator with Quick Output Discharge(QOD);12.0;[5.1];['V(out)'];ADP2371-ADJ.asc;1
+142;142;142;ADP2384;20V, 4A, Synchronous, Step-Down DC-to-DC Regulator;13.2;[2.7];['V(out)'];ADP2384.asc;1
+143;143;143;ADP2386;20V, 6A, Synchronous, Step-Down DC-to-DC Regulator;13.2;[3.0];['V(out)'];ADP2386.asc;1
+144;144;144;ADP2387;20V, 6A, Programmable current-limit, Synchronous, Step-Down DC-to-DC Regulator;13.2;[3.0];['V(out)'];ADP2387.asc;1
+145;145;145;ADP2389;18V, 12A, Programmable current limit, Synchronous Buck Regulator with Enhanced transient response;12.0;[1.8];['V(out)'];ADP2389.asc;1
+146;146;146;ADP2390;18V, 12A, Programmable current limit, PFM, Synchronous Buck Regulator with Enhanced transient response;12.0;[1.8];['V(out)'];ADP2390.asc;1
+147;147;147;ADP2441;1A, 36V, Synchronous, Step-Down DC-to-DC Regulator;24.0;[5.0];['V(out)'];ADP2441.asc;1
+148;148;148;ADP2442;1A, 36V, Synchronous, Step-Down DC-to-DC Regulator with External Clock Synchronization;24.0;[5.0];['V(out)'];ADP2442.asc;1
+149;149;149;ADP2443;3A, 36V, Synchronous, Step-Down DC-to-DC Regulator;24.0;[5.0];['V(out)'];ADP2443.asc;1
+150;150;150;ADP2503-2.8;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[2.8];['V(out)'];ADP2503-2.8.asc;1
+151;151;151;ADP2503-3.3;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[3.3];['V(out)'];ADP2503-3.3.asc;1
+152;152;152;ADP2503-3.5;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[3.5];['V(out)'];ADP2503-3.5.asc;1
+153;153;153;ADP2503-4.2;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[4.2];['V(out)'];ADP2503-4.2.asc;1
+154;154;154;ADP2503-4.5;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[4.5];['V(out)'];ADP2503-4.5.asc;1
+155;155;155;ADP2503-5.0;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[5.1];['V(out)'];ADP2503-5.0.asc;1
+156;156;156;ADP2503-ADJ;600mA, 2.5MHz Buck-Boost DC to DC Converters;3.3;[5.1];['V(out)'];ADP2503-ADJ.asc;1
+157;157;157;ADP2504-2.8;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[2.8];['V(out)'];ADP2504-2.8.asc;1
+158;158;158;ADP2504-3.3;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[3.3];['V(out)'];ADP2504-3.3.asc;1
+159;159;159;ADP2504-3.5;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[3.5];['V(out)'];ADP2504-3.5.asc;1
+160;160;160;ADP2504-4.2;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[4.2];['V(out)'];ADP2504-4.2.asc;1
+161;161;161;ADP2504-4.5;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[4.5];['V(out)'];ADP2504-4.5.asc;1
+162;162;162;ADP2504-5.0;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[5.1];['V(out)'];ADP2504-5.0.asc;1
+163;163;163;ADP2504-ADJ;1A, 2.5MHz Buck-Boost DC to DC Converters;3.3;[5.1];['V(out)'];ADP2504-ADJ.asc;1
+164;164;164;ADP7102;20V, 300mA, Low Noise, CMOS LDO, Adjustable Output;4.3;[3.2999999523162837];['V(out)'];ADP7102.asc;1
+165;165;165;ADP7104;20V, 500mA, Low Noise, CMOS LDO, Adjustable Output;4.3;[3.2999999523162837];['V(out)'];ADP7104.asc;1
+166;166;166;ADP7105;20V, 500mA, Low Noise, CMOS LDO with Soft Start, Adjustable Output;4.3;[3.2999999523162837];['V(out)'];ADP7105.asc;1
+167;167;167;ADP7112;20V, 200mA, Low Noise, CMOS LDO, Adjustable Output;4.3;[3.2999999523162837];['V(out)'];ADP7112.asc;1
+168;168;168;ADP7118;20V, 200mA, Low Noise, CMOS LDO, Adjustable Output;4.3;[3.2999999523162837];['V(out)'];ADP7118.asc;1
+169;169;169;ADP7142;40V, 200mA, Low Noise, CMOS LDO, Adjustable Output;4.3;[3.2999999523162837];['V(out)'];ADP7142.asc;1
+170;170;170;ADP7156-1.2;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;2.4;[1.2];['V(out)'];ADP7156-1.2.asc;1
+171;171;171;ADP7156-1.8;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;2.4;[1.8];['V(out)'];ADP7156-1.8.asc;1
+172;172;172;ADP7156-2.0;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.0;[2.0];['V(out)'];ADP7156-2.0.asc;1
+173;173;173;ADP7156-2.5;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.3;[2.5];['V(out)'];ADP7156-2.5.asc;1
+174;174;174;ADP7156-2.8;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.5;[2.8];['V(out)'];ADP7156-2.8.asc;1
+175;175;175;ADP7156-3.0;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.8;[3.0];['V(out)'];ADP7156-3.0.asc;1
+176;176;176;ADP7156-3.3;1.2A, Ultralow Noise, High PSRR, RF Linear Regulator;4.0;[3.3];['V(out)'];ADP7156-3.3.asc;1
+177;177;177;ADP7158-1.2;2A, Ultralow Noise, High PSRR, RF Linear Regulator;2.4;[1.2];['V(out)'];ADP7158-1.2.asc;1
+178;178;178;ADP7158-1.8;2A, Ultralow Noise, High PSRR, RF Linear Regulator;2.4;[1.8];['V(out)'];ADP7158-1.8.asc;1
+179;179;179;ADP7158-2.0;2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.0;[2.0];['V(out)'];ADP7158-2.0.asc;1
+180;180;180;ADP7158-2.5;2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.3;[2.5];['V(out)'];ADP7158-2.5.asc;1
+181;181;181;ADP7158-2.8;2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.5;[2.8];['V(out)'];ADP7158-2.8.asc;1
+182;182;182;ADP7158-3.0;2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.8;[3.0];['V(out)'];ADP7158-3.0.asc;1
+183;183;183;ADP7158-3.3;2A, Ultralow Noise, High PSRR, RF Linear Regulator;4.0;[3.3];['V(out)'];ADP7158-3.3.asc;1
+184;184;184;ADP7159-01;2A, Ultralow Noise, High PSRR, RF Linear Regulator;2.4;[1.8];['V(out)'];ADP7159-01.asc;1
+185;185;185;ADP7159-02;2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.0;[2.0];['V(out)'];ADP7159-02.asc;1
+186;186;186;ADP7159-03;2A, Ultralow Noise, High PSRR, RF Linear Regulator;3.5;[2.5];['V(out)'];ADP7159-03.asc;1
+187;187;187;ADP7159-04;2A, Ultralow Noise, High PSRR, RF Linear Regulator;4.0;[3.3];['V(out)'];ADP7159-04.asc;1
+188;188;188;LT1054;Switched-Capacitor Voltage Converter with Regulator;10.0;[7.800000190734862];['V(out)'];1054.asc;1
+189;189;189;LT1054L;Switched-Capacitor Voltage Converter with Regulator;10.0;[7.800000190734862];['V(out)'];1054.asc;1
+190;190;190;LT1070;5A High Efficiency Switching Regulator;5.0;[12.3];['V(out)'];1070.asc;1
+191;191;191;LT1070HV;5A High Efficiency Switching Regulator(High Voltage version);5.0;[12.3];['V(out)'];1070.asc;1
+192;192;192;LT1071;2.5A High Efficiency Switching Regulator;5.0;[12.5];['V(out)'];1071.asc;1
+193;193;193;LT1071HV;2.5A High Efficiency Switching Regulator(High Voltage version);5.0;[12.5];['V(out)'];1071.asc;1
+194;194;194;LT1072;1.25A High Efficiency Switching Regulator;5.0;[12.6];['V(out)'];1072.asc;1
+195;195;195;LT1072HV;1.25A High Efficiency Switching Regulator(High Voltage version);5.0;[12.6];['V(out)'];1072.asc;1
+196;196;196;LT1073;5 Volt µPower DC/DC Converter;2.8;[4.5];['V(out)'];1073.asc;1
+197;197;197;LT1073-12;12 Volt µPower DC/DC Converter;2.8;[12.1];['V(out)'];1073-12.asc;1
+198;198;198;LT1073-5;5 Volt µPower DC/DC Converter;2.8;[5.1];['V(out)'];1073-5.asc;1
+199;199;199;LT1074;5A Step-Down Switching Regulator;20.0;[5.3];['V(out)'];1074.asc;1
+200;200;200;LT1074HV;5A Step-Down Switching Regulator;20.0;[5.3];['V(out)'];1074.asc;1
+201;201;201;LT1076;2A Step-Down Switching Regulator;25.0;[5.3];['V(out)'];1076.asc;1
+202;202;202;LT1076HV;2A Step-Down Switching Regulator;25.0;[5.3];['V(out)'];1076.asc;1
+203;203;203;LT1082;1A High Voltage, Efficiency Switching Voltage Regulator;5.0;[12.6];['V(out)'];1082.asc;1
+204;204;204;LT1103;Offline Switching Regulator;175.5;[4.5];['V(out)'];1103.asc;1
+205;205;205;LT1105;Offline Switching Regulator;175.5;[20.6];['V(out)'];1105.asc;1
+206;206;206;LT1107;Adjustable µPower DC/DC Converter;2.8;[5.1];['V(out)'];1107.asc;1
+207;207;207;LT1107-12;12 Volt µPower DC/DC Converter;6.0;[12.1];['V(out)'];1107-12.asc;1
+208;208;208;LT1107-5;5 Volt µPower DC/DC Converter;3.0;[5.1];['V(out)'];1107-5.asc;1
+209;209;209;LT1108;Adjustable µPower DC/DC Converter;2.8;[5.1];['V(out)'];1108.asc;1
+210;210;210;LT1108-12;12Volt µPower DC/DC Converter;5.0;[12.1];['V(out)'];1108-12.asc;1
+211;211;211;LT1108-5;5Volt µPower DC/DC Converter;2.8;[5.1];['V(out)'];1108-5.asc;1
+212;212;212;LT1109;µPower Low Cost DC/DC Converter, Adjustable Output Voltage;3.0;[5.4];['V(out)'];1109.asc;1
+213;213;213;LT1109A;µPower DC/DC Converter Flash Memory VPP Generator, Adjustable Output Voltage;3.0;[5.4];['V(out)'];1109.asc;1
+214;214;214;LT1110;Adjustable µPower DC/DC Converter;1.5;[5.1];['V(out)'];1110.asc;1
+215;215;215;LT1110-12;12 Volt µPower DC/DC Converter;3.0;[12.1];['V(out)'];1110-12.asc;1
+216;216;216;LT1110-5;5 Volt µPower DC/DC Converter;1.5;[5.1];['V(out)'];1110-5.asc;1
+217;217;217;LT1111;Adjustable µPower DC/DC Converter;3.0;[5.1];['V(out)'];1111.asc;1
+218;218;218;LT1111-12;12 Volt µPower DC/DC Converter;5.0;[12.1];['V(out)'];1111-12.asc;1
+219;219;219;LT1111-5;5 Volt µPower DC/DC Converter;3.0;[5.1];['V(out)'];1111-5.asc;1
+220;220;220;LT1158;Half-Bridge N-Channel Power MOSFET Driver;30.0;[23.6];['V(out)'];1158.asc;1
+221;221;221;LT1170;100kHz, 5A High Efficiency Switching Regulator;5.0;[12.4];['V(out)'];1170.asc;1
+222;222;222;LT1170HV;100kHz, 5A High Efficiency Switching Regulator(High Voltage version);5.0;[12.4];['V(out)'];1170.asc;1
+223;223;223;LT1171;100kHz, 2.5A High Efficiency Switching Regulator;5.0;[14.1];['V(out)'];1171.asc;1
+224;224;224;LT1171HV;100kHz, 2.5A High Efficiency Switching Regulator(High Voltage version);5.0;[14.1];['V(out)'];1171.asc;1
+225;225;225;LT1172;100kHz, 1.25A High Efficiency Switching Regulator;5.0;[12.4];['V(out)'];1172.asc;1
+226;226;226;LT1172HV;100kHz, 1.25A High Efficiency Switching Regulator;5.0;[12.4];['V(out)'];1172.asc;1
+227;227;227;LT1173;Adjustable µPower DC/DC Converter;3.0;[5.8];['V(out)'];1173.asc;1
+228;228;228;LT1173-12;12 Volt µPower DC/DC Converter;5.0;[12.0];['V(out)'];1173-12.asc;1
+229;229;229;LT1173-5;5 Volt µPower DC/DC Converter;3.0;[5.7];['V(out)'];1173-5.asc;1
+230;230;230;LT1176;Step-Down Switching Regulator, Adjustable Output Voltage;10.0;[5.1];['V(out)'];1176.asc;1
+231;231;231;LT1185;Low Dropout Regulator;7.5;[5.199999809265137];['V(out)'];1185.asc;1
+232;232;232;LT1243;High Speed Current Mode Pulse Width Modulator;200.0;[20.1];['V(out)'];1243.asc;1
+233;233;233;LT1246;1MHz Off-Line Current Mode PWM and DC/DC Converter;17.0;[26.5];['V(out)'];1246.asc;1
+234;234;234;LT1247;1MHz Off-Line Current Mode PWM and DC/DC Converter;17.0;[26.0];['V(out)'];1247.asc;1
+235;235;235;LT1268;7.5A 150kHz Switching Regulator;5.0;[12.3];['V(out)'];1268.asc;1
+236;236;236;LT1268B;7.5A 150kHz Switching Regulator;5.0;[12.3];['V(out)'];1268.asc;1
+237;237;237;LT1269;4A High Efficiency Switching Regulator;5.0;[12.3];['V(out)'];1269.asc;1
+238;238;238;LT1270;8A High Efficiency Switching Regulator;5.0;[12.2];['V(out)'];1270.asc;1
+239;239;239;LT1270A;10A High Efficiency Switching Regulator;5.0;[12.2];['V(out)'];1270.asc;1
+240;240;240;LT1271;4A High Efficiency Switching Regulator;5.0;[12.3];['V(out)'];1271.asc;1
+241;241;241;LT1300;µPower High Efficiency 3.3/5V Step-Up DC/DC Converter;2.5;[5.0];['V(out)'];1300.asc;1
+242;242;242;LT1301;µPower High Efficiency 5V/12V DC/DC Step-Up Converter for Flash Memory;2.5;[5.1];['V(out)'];1301.asc;1
+243;243;243;LT1302;µPower High Output Current Step-up Adjustable DC/DC Converter;2.5;[5.0];['V(out)'];1302.asc;1
+244;244;244;LT1303;µPower High Efficiency DC/DC Converter with Low-Battery Detector, adjustable output voltage;3.2;[5.0];['V(out)'];1303.asc;1
+245;245;245;LT1304;µPower DC/DC Converter with Low-Battery Detector Active in Shutdown, Adjustable output voltage;3.2;[5.0];['V(out)'];1304.asc;1
+246;246;246;LT1305;µPower High Power DC/DC Converter with Low-Battery Detector;3.0;[5.1];['V(out)'];1305.asc;1
+247;247;247;LT1307;Single Cell µPower 600kHz PWM DC/DC Converter;1.8;[5.1];['V(out)'];1307.asc;1
+248;248;248;LT1307b;Single Cell µPower 600kHz PWM DC/DC Converter;1.8;[5.1];['V(out)'];1307.asc;1
+249;249;249;LT1309;500kHz µPower DC/DC Converter for Flash Memory;5.0;[12.2];['V(out)'];1309.asc;1
+250;250;250;LT1310;1.5A Boost DC/DC Converter with Phase-Locked Loop;5.0;[13.2];['V(out)'];1310.asc;1
+251;251;251;LT1316;µPower DC/DC Converter with Programmable Peak Current Limit;2.0;[5.2];['V(out)'];1316.asc;1
+252;252;252;LT1317;µPower, 600kHz PWM DC/DC Converter;1.5;[5.1];['V(out)'];1317.asc;1
+253;253;253;LT1317b;µPower, 600kHz PWM DC/DC Converter;1.5;[5.1];['V(out)'];1317.asc;1
+254;254;254;LT1339;High Power Synchronous DC/DC Controller;12.0;[5.0];['V(out)'];1339.asc;1
+255;255;255;LT1370;500kHz High Efficiency 6A Switching Regulator;5.0;[12.9];['V(out)'];1370.asc;1
+256;256;256;LT1370HV;500kHz High Efficiency 6A Switching Regulator, High Voltage Version;5.0;[12.9];['V(out)'];1370.asc;1
+257;257;257;LT1371;500kHz High Efficiency 3A Switching Regulator;5.0;[12.5];['V(out)'];1371.asc;1
+258;258;258;LT1371HV;500kHz High Efficiency 3A Switching Regulator(High Voltage version);5.0;[12.5];['V(out)'];1371.asc;1
+259;259;259;LT1372;1.5A, 500kHz High Efficiency Step-Down Switching Regulator, Adjustable Output Voltage;5.0;[12.4];['V(out)'];1372.asc;1
+260;260;260;LT1372HV;1.5A, 500kHz High Efficiency Step-Down Switching Regulator, Adjustable Output Voltage(High Voltage version);5.0;[12.4];['V(out)'];1372.asc;1
+261;261;261;LT1373;250kHz Low Supply Current High Efficiency 1.5A Switching Regulator, Adjustable Output Voltage;5.0;[12.3];['V(out)'];1373.asc;1
+262;262;262;LT1373HV;250kHz Low Supply Current High Efficiency 1.5A Switching Regulator, Adjustable Output Voltage;5.0;[12.3];['V(out)'];1373.asc;1
+263;263;263;LT1374;4.5A, 500KHz Step-Down Switching Regulator;12.0;[5.1];['V(out)'];1374.asc;1
+264;264;264;LT1374HV;4.5A, 500KHz Step-Down Switching Regulator, High Voltage Version;12.0;[5.1];['V(out)'];1374.asc;1
+265;265;265;LT1375;1.5A, 500kHz Step-Down Switching Regulator, Adjustable Output Voltage;6.2;[5.2];['V(out)'];1375.asc;1
+266;266;266;LT1375HV;1.5A, 500kHz Step-Down Switching Regulator, Adjustable Output Voltage;6.2;[5.2];['V(out)'];1375.asc;1
+267;267;267;LT1376;1.5A, 500kHz Step-Down Switching Regulator, Adjustable Output Voltage;10.0;[5.2];['V(out)'];1376.asc;1
+268;268;268;LT1376HV;1.5A, 500kHz Step-Down Switching Regulator, Adjustable Output Voltage;10.0;[5.2];['V(out)'];1376.asc;1
+269;269;269;LT1377;1.5A, 1MHz High Efficiency Step-Down Switching Regulator, Adjustable Output Voltage;5.0;[12.6];['V(out)'];1377.asc;1
+270;270;270;LT1424-5;Isolated Flyback Switching Regulator with 5V Output;5.0;[5.8];['V(out)'];1424-5.asc;1
+271;271;271;LT1424-9;Isolated Flyback Switching Regulator with 9V Output;6.0;[9.8];['V(out)'];1424-9.asc;1
+272;272;272;LT1432;5V High Efficiency Step-Down Switching Regulator Controller;10.0;[5.6];['V(out)'];1432.asc;1
+273;273;273;LT1432-3.3;3.3V High Efficiency Step-Down Switching Regulator Controller;5.0;[3.4];['V(out)'];1432-3.3.asc;1
+274;274;274;LT1500;Adaptive-Frequency Current-Mode Switching Regulator, Adjustable Output Voltage;2.5;[3.3];['V(out)'];1500.asc;1
+275;275;275;LT1500-3;Adaptive-Frequency Current-Mode Switching Regulator, Selectable 3.3V or 5V Output;3.0;[5.1];['V(out)'];1500-3.asc;1
+276;276;276;LT1501;Adaptive-Frequency Current-Mode Switching Regulator, Adjustable Output Voltage;2.5;[3.3];['V(out)'];1501.asc;1
+277;277;277;LT1505;Constant-Current/Voltage High Efficiency Battery Charger;24.0;[17.0];['V(out)'];1505.asc;1
+278;278;278;LT1505-1;Constant-Current/Voltage High Efficiency Battery Charger;24.0;[17.0];['V(out)'];1505-1.asc;1
+279;279;279;LT1506;4.5A, 500KHz Step-Down Switching Regulator, Adjustable Output Voltage;5.0;[3.4];['V(out)'];1506.asc;1
+280;280;280;LT1507;500kHz Monolithic Buck Mode Switching Regulator, Adjustable Output Voltage;12.0;[5.2];['V(out)'];1507.asc;1
+281;281;281;LT1510;Constant-Voltage/Constant-Current Battery Charger;14.0;[4.199999809265137];['V(bat)'];1510.asc;1
+282;282;282;LT1510-5;500KHz Constant-Voltage/Constant-Current Battery Charger;14.0;[4.199999809265137];['V(bat)'];1510-5.asc;1
+283;283;283;LT1512;SEPIC Constant-Current/Constant Voltage Battery Charger;5.0;[3.900000095367432];['V(bat)'];1512.asc;1
+284;284;284;LT1513;SEPIC Constant- or Constant Current/Constant Voltage Battery Charger;5.0;[4.400000095367432];['V(bat)'];1513.asc;1
+285;285;285;LT1513-2;SEPIC Constant- or Constant Current/Constant Voltage Battery Charger;5.0;[3.7000000476837163];['V(bat)'];1513-2.asc;1
+286;286;286;LT1533;Ultralow Noise 1A Switching Regulator;3.3;[5.1];['V(out)'];1533.asc;1
+287;287;287;LT1534;Ultralow Noise 2A Switching Regulator;3.3;[5.2];['V(out)'];1534.asc;1
+288;288;288;LT1534-1;Ultralow Noise 2A Switching Regulator;3.3;[5.3];['V(out)'];1534-1.asc;1
+289;289;289;LT1572;100kHz, 1.25A High Efficiency Switching Regulator with Catch Diode;5.0;[12.0];['V(out)'];1572.asc;1
+290;290;290;LT1576;1.5A, 200kHz Step-Down Switching Regulator, Adjustable Output Voltage;10.0;[5.1];['V(out)'];1576.asc;1
+291;291;291;LT1578;1.5A, 200kHz Step-Down Switching Regulator, Adjustable Output Voltage;10.0;[3.4];['V(out)'];1578.asc;1
+292;292;292;LT1610;1.7MHz, Single Cell µPower DC/DC Converter;1.5;[5.0];['V(out)'];1610.asc;1
+293;293;293;LT1611;Inverting 1.4MHz Switching Regulator in SOT-23;5.0;[5.0];['V(out)'];1611.asc;1
+294;294;294;LT1612;Synchronous, Step-Down 800KHz PWM DC/DC Converter;2.0;[1.2];['V(out)'];1612.asc;1
+295;295;295;LT1615;µPower Step-Up DC/DC Converter in SOT-23;3.3;[20.3];['V(out)'];1615.asc;1
+296;296;296;LT1615-1;µPower Step-Up DC/DC Converter in SOT-23;4.0;[10.8];['V(out)'];1615-1.asc;1
+297;297;297;LT1616;600mA, 1.4MHz Step-Down Switching Regulator in SOT-23;5.0;[3.3];['V(out)'];1616.asc;1
+298;298;298;LT1617;µPower Inverting DC/DC Converters in SOT-23;3.3;[9.0];['V(out)'];1617.asc;1
+299;299;299;LT1617-1;µPower Inverting DC/DC Converters in SOT-23;3.3;[9.0];['V(out)'];1617-1.asc;1
+300;300;300;LT1618;Constant-Current/Constant-Voltage 1.4MHz Step-Up DC/DC Converter;5.0;[12.6];['V(out)'];1618.asc;1
+301;301;301;LT1619;Low Voltage Current Mode PWM Controller;3.3;[5.1];['V(out)'];1619.asc;1
+302;302;302;LT1620;Rail-to-Rail Current Sense Amplifier;23.0;[17.2];['V(out)'];1620.asc;1
+303;303;303;LT1621;Dual Rail-to-Rail Current Sense Amplifier;23.0;[17.2];['V(out)'];1621.asc;1
+304;304;304;LT1676;Wide Input Range, High Efficiency, Step-Down Switching Regulator;30.0;[5.1];['V(out)'];1676.asc;1
+305;305;305;LT1680;High Power DC/DC Step-Up Controller;12.0;[50.8];['V(out)'];1680.asc;1
+306;306;306;LT1681;Dual Transistor Synchronous Forward Controller;16.0;[2.6];['V(out)'];1681.asc;1
+307;307;307;LT1683;Slew Rate Controlled Ultralow Noise Push-Pull DC/DC Controller;48.0;[4.9];['V(out)'];1683.asc;1
+308;308;308;LT1725;General Purpose Isolated Flyback Controller;16.0;[5.2];['V(out)'];1725.asc;1
+309;309;309;LT1737;High Power Isolated Flyback Controller;16.0;[5.5];['V(out)'];1737.asc;1
+310;310;310;LT1738;Slew Rate Controlled Ultralow Noise DC/DC Controller;6.0;[12.2];['V(out)'];1738.asc;1
+311;311;311;LT1765;Monolithic 3A, 1.25MHz Step-Down Switching Regulator;5.0;[3.5];['V(out)'];1765.asc;1
+312;312;312;LT1766;High Voltage 200KHz Step-Down Switching Regulator;20.0;[5.1];['V(out)'];1766.asc;1
+313;313;313;LT1767;Monolithic 1.5A, 1.25MHz Step-Down Switching Regulator\n\nNote: Sync pin is not modeled.;5.0;[3.7];['V(out)'];1767.asc;1
+314;314;314;LT1776;Wide Input Range, High Efficiency, Step-Down Switching Regulator;30.0;[5.1];['V(out)'];1776.asc;1
+315;315;315;LT1777;Low Noise Step-Down Switching Regulator;24.0;[5.1];['V(out)'];1777.asc;1
+316;316;316;LT1912;36V, 2A, 500KHz Step-Down Switching Regulator;15.0;[3.3];['V(out)'];1912.asc;1
+317;317;317;LT1913;25V, 3.5A, 2.4MHz Step-Down Switching Regulator;30.0;[5.2];['V(out)'];1913.asc;1
+318;318;318;LT1930;1A, 1.2MHz Boost DC/DC Converter in ThinSOT;5.0;[12.1];['V(out)'];1930.asc;1
+319;319;319;LT1930A;1A, 2.2MHz Boost DC/DC Converter in ThinSOT;5.0;[12.1];['V(out)'];1930.asc;1
+320;320;320;LT1931;1.2MHz Inverting DC/DC Converter in ThinSOT;5.0;[5.199999809265137];['V(out)'];1931.asc;1
+321;321;321;LT1931A;2.2MHz Inverting DC/DC Converter in ThinSOT;5.0;[5.199999809265137];['V(out)'];1931.asc;1
+322;322;322;LT1933;600mA, 500KHz Step-Down Switching Regulator in SOT-23;5.0;[3.3];['V(out)'];1933.asc;1
+323;323;323;LT1934;µPower Step-Down Switching Regulator in ThinSOT;5.0;[3.0];['V(out)'];1934.asc;1
+324;324;324;LT1934-1;µPower Step-Down Switching Regulator in ThinSOT;5.0;[3.3];['V(out)'];1934-1.asc;1
+325;325;325;LT1935;1.2MHz Boost DC/DC Converter in ThinSOT with 2A Switch;3.3;[5.5];['V(out)'];1935.asc;1
+326;326;326;LT1936;1.4A, 500KHz Step-Down Switching Regulator;10.0;[3.3];['V(out)'];1936.asc;1
+327;327;327;LT1938;25V, 2.2A, 2.8MHz Step-Down Switching Regulator;15.0;[3.3];['V(out)'];1938.asc;1
+328;328;328;LT1946;1.2MHz Boost DC/DC Converter with 1.5A Switch and Soft-Start;3.3;[8.2];['V(out)'];1946.asc;1
+329;329;329;LT1946A;2.7MHz Boost DC/DC Converter with 1.5A Switch and Soft-Start;3.3;[8.2];['V(out)'];1946.asc;1
+330;330;330;LT1949;600kHz, 1A Switch PWM DC/DC Converter;3.3;[10.1];['V(out)'];1949.asc;1
+331;331;331;LT1949-1;1.1MHz, 1A PWM DC/DC Converter;3.3;[10.1];['V(out)'];1949-1.asc;1
+332;332;332;LT1952;Single Switch Synchronous Forward Controller;20.0;[13.3];['V(out)'];1952.asc;1
+333;333;333;LT1952-1;Single Switch Synchronous Forward Controller;20.0;[13.3];['V(out)'];1952-1.asc;1
+334;334;334;LT1956;High Voltage, 1.5A, 500KHz Step-Down Switching Regulator;20.0;[5.2];['V(out)'];1956.asc;1
+335;335;335;LT1959;4.5A, 500KHz Step-Down Switching Regulator, Adjustable Output Voltage;5.0;[1.9];['V(out)'];LT1959.asc;1
+336;336;336;LT1961;1.5A, 1.25MHz Step-Up Switching Regulator;5.0;[12.6];['V(out)'];1961.asc;1
+337;337;337;LT1976;High Voltage 1.5A, 200KHz Step-Down Switching Regulator with 100µA Quiescent Current;20.0;[3.4];['V(out)'];1976.asc;1
+338;338;338;LT1976B;High Voltage 1.5A, 200KHz Step-Down Switching Regulator with 100µA Quiescent Current;20.0;[3.4];['V(out)'];1976.asc;1
+339;339;339;LT1977;High Voltage 1.5A, 500KHz Step-Down Switching Regulator with 100µA Quiescent Current;14.0;[3.5];['V(out)'];1977.asc;1
+340;340;340;LT3001;36V 4W No-Opto Isolated Flyback Converter;24.0;[5.0];['V(out)'];LT3001.asc;1
+341;341;341;LT3002;36V 10W No-Opto Isolated Flyback Converter;24.0;[4.8];['V(out)'];LT3002.asc;1
+342;342;342;LT3033;3A, 0.95V to 10V, Very Low Dropout Linear Regulator with Programmable Current Limit;1.2;[0.9];['V(out)'];3033.asc;1
+343;343;343;LT3042;20V, 200mA, Ultralow Noise, Ultrahigh PSRR RF Linear Regulator;5.0;[3.3];['V(out)'];3042.asc;1
+344;344;344;LT3045;20V, 500mA, Ultralow Noise, Ultrahigh PSRR RF Linear Regulator;5.0;[3.3];['V(out)'];3045.asc;1
+345;345;345;LT3048;Low Noise Bias Generator in 2mm*2mm DFN;3.2;[5.0];['V(out)'];3048.asc;1
+346;346;346;LT3048-12;Low Noise Bias Generator in 2mm*2mm DFN;3.3;[12.0];['V(out)'];3048-12.asc;1
+347;347;347;LT3048-15;Low Noise Bias Generator in 2mm*2mm DFN;3.2;[14.7];['V(out)'];3048-15.asc;1
+348;348;348;LT3048-3.3;Low Noise Bias Generator in 2mm*2mm DFN;3.3;[3.3];['V(out)'];3048-3.3.asc;1
+349;349;349;LT3048-5;Low Noise Bias Generator in 2mm*2mm DFN;3.3;[5.0];['V(out)'];3048-5.asc;1
+350;350;350;LT3050;100mA, Linear Regulator with Precision Current Limit and Diagnostic Output;12.0;[2.5];['V(out)'];3050.asc;1
+351;351;351;LT3050-3.3;100mA, Linear Regulator with Precision Current Limit and Diagnostic Output;12.0;[3.3];['V(out)'];3050-3.3.asc;1
+352;352;352;LT3050-5;100mA, Linear Regulator with Precision Current Limit and Diagnostic Output;12.0;[5.0];['V(out)'];3050-5.asc;1
+353;353;353;LT3055;500mA, Linear Regulator with Precision Current Limit and Diagnostics;12.0;[5.0];['V(out)'];3055.asc;1
+354;354;354;LT3060;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[1.8];['V(out)'];3060.asc;1
+355;355;355;LT3060-1.2;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[1.2];['V(out)'];3060-1.2.asc;1
+356;356;356;LT3060-1.5;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[1.5];['V(out)'];3060-1.5.asc;1
+357;357;357;LT3060-1.8;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[1.8];['V(out)'];3060-1.8.asc;1
+358;358;358;LT3060-2.5;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[2.5];['V(out)'];3060-2.5.asc;1
+359;359;359;LT3060-3;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[3.0];['V(out)'];3060-3.asc;1
+360;360;360;LT3060-3.3;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[3.3];['V(out)'];3060-3.3.asc;1
+361;361;361;LT3060-5;45Vin, µPower, Low Noise, 100mA Low Dropout, Linear Regulator;12.0;[5.0];['V(out)'];3060-5.asc;1
+362;362;362;LT3061;45V Vin, µPower, Low Noise, 100mA LDO with Output Discharge;2.2;[1.8];['V(out)'];3061.asc;1
+363;363;363;LT3062;45V Vin, µPower, Low Noise, 200mA LDO;2.3;[1.8];['V(out)'];3062.asc;1
+364;364;364;LT3063;45V Vin, µPower, Low Noise, 200mA LDO with Output Discharge;2.3;[1.8];['V(out)'];3063.asc;1
+365;365;365;LT3065;45V Vin, 500mA Low Noise, Linear Regulator with Programmable Current Limit and Power Good;10.0;[5.0];['V(out)'];3065.asc;1
+366;366;366;LT3066;45V Vin, 500mA Low Noise, Linear Regulator with Programmable Current Limit and Active Output Discharge;10.0;[3.3];['V(out)'];3066.asc;1
+367;367;367;LT3070;5A, Low Noise, Programmable Output, 85mV Dropout Linear Regulator;1.2;[0.9];['V(out)'];3070.asc;1
+368;368;368;LT3070-1;5A, Low Noise, Programmable Output 85mV Dropout Linear Regulator;3.0;[0.9];['V(out)'];3070-1.asc;1
+369;369;369;LT3071;5A, Low Noise, Programmable Output, 85mV Dropout Linear Regulator with Analog Margining;1.2;[0.9];['V(out)'];3071.asc;1
+370;370;370;LT3081;1.5A Single Resistor Rugged Linear Regulator with Monitor\nInternal current limit is modeled based on TO-220 pakage;5.0;[1.5];['V(out)'];3081.asc;1
+371;371;371;LT3082;200mA Single Resistor Low Dropout Linear Regulator;9.0;[5.0];['V(out)'];3082.asc;1
+372;372;372;LT3088;800mA Single Resistor Rugged Linear Regulator;3.3;[1.5];['V(out)'];3088.asc;1
+373;373;373;LT3089;800mA Single Resistor Rugged Linear Regulator with Monitors;5.0;[1.5];['V(out)'];LT3089.asc;1
+374;374;374;LT3120;26V, 9A Low-IQ CC/CV Monolithic Buck-Boost Converter;12.0;[5.0];['V(out)'];LT3120.asc;1
+375;375;375;LT3150;Fast Transient Response, Low Input Voltage, Very Low Dropout Linear Regulator;1.8;[1.5];['V(out)'];3150.asc;1
+376;376;376;LT3154;5A Low Noise, High Performance Buck-Boost DC/DC Converter, Adjustable Output;5.0;[3.3];['V(out)'];3154.asc;1
+377;377;377;LT3154-1;5A Low Noise, High Performance Buck-Boost DC/DC Converter, Selectable output 3.3V or 5V;5.0;[3.3];['V(out)'];3154-1.asc;1
+378;378;378;LT3420;Photoflash Capacitor Charger with Automatic Refresh;5.0;[318.7];['V(out)'];3420.asc;1
+379;379;379;LT3420-1;Photoflash Capacitor Charger with Automatic Refresh;5.0;[318.5];['V(out)'];3420-1.asc;1
+380;380;380;LT3431;High Voltage, 3A, 500KHz Step-Down Switching Regulator;20.0;[5.3];['V(out)'];3431.asc;1
+381;381;381;LT3433;High Voltage Step-Up/Step-Down DC/DC Converter;8.0;[9.1];['V(out)'];3433.asc;1
+382;382;382;LT3434;High Voltage 3A, 200KHz Step-Down Switching Regulator with 100µA Quiescent Current;24.0;[3.7];['V(out)'];3434.asc;1
+383;383;383;LT3435;High Voltage 3A, 500KHz Step-Down Switching Regulator with 100µA Quiescent Current;15.0;[3.5];['V(out)'];3435.asc;1
+384;384;384;LT3436;3A, 800KHz Switching Regulator;5.0;[12.7];['V(out)'];3436.asc;1
+385;385;385;LT3437;High Voltage 500mA, 200KHz Step-Down Switching Regulator with 75µA Quiescent Current\n\nNote: Sync pin is not modeled.;40.0;[3.6];['V(out)'];3437.asc;1
+386;386;386;LT3439;Ultralow Noise 1A Isolated DC/DC Transformer Driver;5.0;[4.3];['V(out)'];3439.asc;1
+387;387;387;LT3460;1.3MHz Step-Up Converter in SC70 and ThinSOT;5.0;[12.1];['V(out)'];3460.asc;1
+388;388;388;LT3460-1;650KHz Step-Up DC/DC Converter in SC70 and DFN;3.6;[17.6];['V(out)'];3460-1.asc;1
+389;389;389;LT3461;1.3MHz Step-Up Converter in ThinSOT;5.0;[12.1];['V(out)'];3461.asc;1
+390;390;390;LT3461A;3MHz Step-Up DC/DC Converter in ThinSOT;5.0;[12.1];['V(out)'];3461.asc;1
+391;391;391;LT3462;1.2MHz DC/DC Converter with Integrated Schottky in ThinSOT;5.0;[1.0];['V(out)'];3462.asc;1
+392;392;392;LT3462A;2.7MHz DC/DC Converter with Integrated Schottky in ThinSOT;5.0;[1.0];['V(out)'];3462.asc;1
+393;393;393;LT3464;µPower Boost Converter with Integrated Schottky and Output Disconnect in ThinSOT;5.0;[16.2];['V(out)'];3464.asc;1
+394;394;394;LT3466-1;White LED Driver and Boost Converter in 3mm Ч 3mm DFN Package\n\nNote: Only channel 2 is modeled.  For channel 1, use the LT3466 model.;3.0;[16.7];['V(out)'];3466-1.asc;1
+395;395;395;LT3467;1.1A Step-Up DC/DC Converter in ThinSOT with Integrated Soft-Start;3.0;[5.0];['V(out)'];3467.asc;1
+396;396;396;LT3467A;2.1MHz, 1.1A Step-Up DC/DC Converter in ThinSOT with Integrated Soft-Start;3.0;[5.0];['V(out)'];3467.asc;1
+397;397;397;LT3468;Photoflash Capacitor Charger in ThinSOT(TM);5.0;[321.7];['V(out)'];3468.asc;1
+398;398;398;LT3468-1;Photoflash Capacitor Charger in ThinSOT(TM);5.0;[321.5];['V(out)'];3468-1.asc;1
+399;399;399;LT3468-2;Photoflash Capacitor Charger in ThinSOT(TM);5.0;[321.6];['V(out)'];3468-2.asc;1
+400;400;400;LT3470;µPower Buck Regulator with Integrated Boost and Catch Diodes;10.0;[5.0];['V(out)'];3470.asc;1
+401;401;401;LT3470A;µPower Buck Regulator with Integrated Boost and Catch Diodes;10.0;[5.0];['V(out)'];3470.asc;1
+402;402;402;LT3473;µPower 1A Boost Converter with Schottky and Output Disconnect;3.6;[25.9];['V(out)'];3473.asc;1
+403;403;403;LT3473A;µPower 1A Boost Converter with Schottky and Output Disconnect;3.6;[25.9];['V(out)'];3473.asc;1
+404;404;404;LT3477;3A, DC/DC Converter with Dual Rail-to-Rail Current Sense;5.0;[14.1];['V(out)'];3477.asc;1
+405;405;405;LT3479;3A, Full Featured DC/DC Converter with Soft-Start and Inrush Current Protection;5.0;[12.2];['V(out)'];3479.asc;1
+406;406;406;LT3480;38V, 2A, 2.4MHz Step-Down Switching Regulator with 70µA Quiescent Current;30.0;[3.4];['V(out)'];3480.asc;1
+407;407;407;LT3481;36V, 2A, 2.8MHz Step-Down Switching Regulator with 50µA Quiescent Current;30.0;[3.4];['V(out)'];3481.asc;1
+408;408;408;LT3483;Inverting µPower DC/DC Converter with Schottky in ThinSOT Package;3.6;[7.9000000953674325];['V(out)'];3483.asc;1
+409;409;409;LT3483A;Inverting µPower DC/DC Converter with Schottky in ThinSOT Package;3.6;[7.9000000953674325];['V(out)'];3483.asc;1
+410;410;410;LT3484-0;Photoflash Capacitor Charger;5.0;[321.5];['V(out)'];3484-0.asc;1
+411;411;411;LT3484-1;Photoflash Capacitor Charger;5.0;[321.5];['V(out)'];3484-1.asc;1
+412;412;412;LT3484-2;Photoflash Capacitor Charger;5.0;[322.0];['V(out)'];3484-2.asc;1
+413;413;413;LT3489;2MHz Boost DC/DC Converter with 2.5A Switch and Soft-Start;3.3;[8.1];['V(out)'];3489.asc;1
+414;414;414;LT3493;1.2A, 750KHz Step-Down Switching Regulator in 2mm Ч 3mm DFN;6.0;[3.3];['V(out)'];3493.asc;1
+415;415;415;LT3493-3;1.2A, 750KHz Step-Down Switching Regulator in 2mm Ч 3mm DFN;6.0;[3.3];['V(out)'];3493-3.asc;1
+416;416;416;LT3494;µPower Low Noise Boost Converter with Output Disconnect;3.6;[14.6];['V(out)'];3494.asc;1
+417;417;417;LT3494A;µPower Low Noise Boost Converter with Output Disconnect;3.6;[14.6];['V(out)'];3494.asc;1
+418;418;418;LT3495;650mA µPower Low Noise Boost Converter with Output Disconnect;3.6;[16.0];['V(out)'];3495.asc;1
+419;419;419;LT3495-1;350mA µPower Low Noise Boost Converter with Output Disconnect;3.6;[16.0];['V(out)'];3495-1.asc;1
+420;420;420;LT3495B;650mA µPower Low Noise Boost Converter with Output Disconnect;3.6;[16.0];['V(out)'];3495.asc;1
+421;421;421;LT3495B-1;350mA µPower Low Noise Boost Converter with Output Disconnect;3.6;[16.0];['V(out)'];3495-1.asc;1
+422;422;422;LT3502;1.1MHz, 500mA Step-Down Regulator in 2mmx2mm DFN;5.0;[3.3];['V(out)'];3502.asc;1
+423;423;423;LT3502A;2.2MHz, 500mA Step-Down Regulator in 2mmx2mm DFN;5.0;[3.3];['V(out)'];3502.asc;1
+424;424;424;LT3503;1.2A, 2.2MHz Step-Down Switching Regulator in 2mm Ч 3mm DFN;15.0;[3.3];['V(out)'];3503.asc;1
+425;425;425;LT3505;1.2A Step-Down Switching Regulator in 3mm Ч 3mm DFN;10.0;[3.5];['V(out)'];3505.asc;1
+426;426;426;LT3509;Dual 36V, 700mA Step-Down Regulator\n\nNote: Only one of two channels modeled.;10.0;[5.0];['V(out)'];3509.asc;1
+427;427;427;LT3511;Monolithic High Voltage Isolated Flyback Converter;50.0;[5.0];['V(out)'];3511.asc;1
+428;428;428;LT3512;Monolithic High Voltage Isolated Flyback Converter;50.0;[5.0];['V(out)'];3512.asc;1
+429;429;429;LT3573;Isolated Flyback Converter Without an Opto-Coupler;18.0;[5.2];['V(out)'];3573.asc;1
+430;430;430;LT3574;Isolated Flyback Converter Without an Opto-Coupler;18.0;[5.1];['V(out)'];3574.asc;1
+431;431;431;LT3575;Isolated Flyback Converter Without an Opto-Coupler;18.0;[5.1];['V(out)'];3575.asc;1
+432;432;432;LT3579;6A Boost/Inverting DC/DC Converter with Fault Protection\n\nSYNC and CLKOUT pins are not modeled;5.0;[12.2];['V(out)'];3579.asc;1
+433;433;433;LT3579-1;6A Boost/Inverting DC/DC Converter with Fault Protection\n\nSYNC and CLKOUT pins are not modeled;5.0;[12.2];['V(out)'];3579-1.asc;1
+434;434;434;LT3580;Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization;5.0;[12.4];['V(out)'];3580.asc;1
+435;435;435;LT3581;3.3A Boost/Inverting DC/DC Converter with Fault Protection\n\nSYNC and CLKOUT pins are not modeled;5.0;[12.2];['V(out)'];3581.asc;1
+436;436;436;LT3663;1.2A Step-Down Switching Regulator with Output Current Limit;12.0;[5.1];['V(out)'];3663.asc;1
+437;437;437;LT3663-5;1.2A Step-Down Switching Regulator with Output Current Limit;12.0;[5.0];['V(out)'];3663-5.asc;1
+438;438;438;LT3686;37V, 1.2A Step-Down Regulator in a 3mm Ч 3mm DFN;12.0;[3.4];['V(out)'];3686.asc;1
+439;439;439;LT3686A;37V, 1.2A Step-Down Regulator in a 3mm Ч 3mm DFN;12.0;[3.4];['V(out)'];3686.asc;1
+440;440;440;LT3688;Dual 800mA Step-Down Regulator with Power-On Reset and Watchdog Timer\n\nNote:  Only one of two channels modeled.;12.0;[3.4];['V(out)'];3688.asc;1
+441;441;441;LT3689;700mA Step-Down Regulator with Power-On Reset and Watchdog Timer;12.0;[3.4];['V(out)'];3689.asc;1
+442;442;442;LT3689-5;700mA Step-Down Regulator with Power-On Reset and Watchdog Timer;12.0;[5.1];['V(out)'];3689-5.asc;1
+443;443;443;LT3690;36V, 4A, 1.5MHz Step-Down Switching Regulator with 70µA Quiescent Current;20.0;[3.3];['V(out)'];3690.asc;1
+444;444;444;LT3693;38V, 3.5A, 2.4MHz Step-Down Switching Regulator;30.0;[5.2];['V(out)'];3693.asc;1
+445;445;445;LT3695;1A Fault Tolerant µPower Step-Down Regulator;12.0;[5.2];['V(out)'];3695.asc;1
+446;446;446;LT3697;USB 5V 2.5A Output, 35V Input Buck with Cable Drop Compensation\n\nNote: Sync function is not modeled.;20.0;[5.0];['V(out)'];3697.asc;1
+447;447;447;LT3724;High-Voltage Current Mode Switching Regulator Controller;36.0;[12.1];['V(out)'];3724.asc;1
+448;448;448;LT3740;Wide Operating Range, Valley Mode, No Rsense Synchronous Step-Down Controller;6.0;[2.5];['V(out)'];3740.asc;1
+449;449;449;LT3743;High Current Synchronous Step-Down LED Driver with Three-State Control;12.0;[4.6];['V(out)'];3743.asc;1
+450;450;450;LT3748;100V Isolated Flyback Controller;48.0;[13.0];['V(out)'];LT3748.asc;1
+451;451;451;LT3750;Capacitor Charger Controller;8.0;[298.79998779296875];['V(out)'];3750.asc;1
+452;452;452;LT3751;High Voltage Capacitor Charger Controller with Regulation;24.0;[281.6000061035156];['V(out)'];3751.asc;1
+453;453;453;LT3757;Boost, Flyback, SEPIC and Inverting Controller;12.0;[24.4];['V(out)'];3757.asc;1
+454;454;454;LT3757A;Boost, Flyback, SEPIC and Inverting Controller;12.0;[24.4];['V(out)'];3757.asc;1
+455;455;455;LT3758;High Input Voltage, Boost, Flyback, SEPIC and Inverting Controller;54.0;[12.6];['V(out)'];3758.asc;1
+456;456;456;LT3758A;High Input Voltage, Boost, Flyback, SEPIC and Inverting Controller;54.0;[12.6];['V(out)'];3758.asc;1
+457;457;457;LT3759;Wide Input Voltage Range Boost/SEPIC/Inverting Controller;12.0;[12.6];['V(out)'];3759.asc;1
+458;458;458;LT3763;60V High Current Step-Down LED Driver Controller;24.0;[4.7];['V(out)'];3763.asc;1
+459;459;459;LT3781;"""Bootstrap"" Start Dual Transistor Synchronous Forward Controller";16.0;[2.7];['V(out)'];3781.asc;1
+460;460;460;LT3782;2-Phase Step-Up DC/DC Controller\n\nNote: Synchronous rectification pins are not modeled.;10.0;[49.3];['V(out)'];3782.asc;1
+461;461;461;LT3782A;2-Phase Step-Up DC/DC Controller\n\nNote: Synchronous rectification pins are not modeled.;10.0;[49.3];['V(out)'];3782.asc;1
+462;462;462;LT3790;60V Synchronous 4-Switch Buck-Boost Controller;32.0;[25.5];['V(out)'];3790.asc;1
+463;463;463;LT3791;60V 4-Switch Synchronous Buck-Boost LED Driver Controller;16.0;[24.9];['V(out)'];3791.asc;1
+464;464;464;LT3791-1;60V 4-Switch Synchronous Buck-Boost Controller;32.0;[26.1];['V(out)'];3791-1.asc;1
+465;465;465;LT3795;110V LED Controller with Spread Spectrum Frequency Modulation;36.0;[82.7];['V(out)'];3795.asc;1
+466;466;466;LT3796;100V Constant-Current and Constant-Voltage Controller with Dual Current Sense;36.0;[82.6];['V(out)'];3796.asc;1
+467;467;467;LT3800;High-Voltage Synchronous Current mode Step-Down Controller;36.0;[12.1];['V(out)'];3800.asc;1
+468;468;468;LT3840;Wide Input Range Synchronous Regulator Controller with Accurate Current Limit \n\nNote: SYNC function is not modeled;24.0;[3.5];['V(out)'];3840.asc;1
+469;469;469;LT3844;High-Voltage Current Mode Switching Regulator Controller with Programmable Operating Frequency;48.0;[12.5];['V(out)'];3844.asc;1
+470;470;470;LT3845;High-Voltage Synchronous Current mode Step-Down Controller with Adjustable Operating Frequency;36.0;[12.2];['V(out)'];3845.asc;1
+471;471;471;LT3845A;High-Voltage Synchronous Current mode Step-Down Controller with Adjustable Operating Frequency;36.0;[12.2];['V(out)'];3845.asc;1
+472;472;472;LT3905;Boost DC/DC Converter with APD Current Monitor;6.0;[54.9];['V(out)'];3905.asc;1
+473;473;473;LT3909;2-String x 60mA, 2MHz Step-Up LED Driver with +/-2% Current Matching;12.0;[29.7];['V(out)'];3909.asc;1
+474;474;474;LT3932;36V, 2A Synchronous Step-Down LED Driver;20.0;[11.2];['V(out)'];LT3932.asc;1
+475;475;475;LT3932-1;36V, 2A Synchronous Step-Down LED Driver;20.0;[11.5];['V(out)'];LT3932-1.asc;1
+476;476;476;LT3935;36V, 4A Synchronous Step-Down LED Driver;12.0;[6.2];['V(out)'];LT3935.asc;1
+477;477;477;LT3950;60V,1.5A LED Driver with Internal Exponential Scale Dimming;12.0;[26.0];['V(out)'];LT3950.asc;1
+478;478;478;LT3952;60V LED Driver with 4A Switch Current;12.0;[55.6];['V(out)'];3952.asc;1
+479;479;479;LT3952A;60V LED Driver with 4A Switch Current;12.0;[55.6];['V(out)'];3952.asc;1
+480;480;480;LT3957;Boost, Flyback, SEPIC and Inverting Controller with 5A, 40V Switch;12.0;[24.7];['V(out)'];3957.asc;1
+481;481;481;LT3957A;Boost, Flyback, SEPIC and Inverting Controller with 5A, 40V Switch;12.0;[24.7];['V(out)'];3957.asc;1
+482;482;482;LT3958;High Input Voltage Boost, Flyback, SEPIC and Inverting Controller;24.0;[49.7];['V(out)'];3958.asc;1
+483;483;483;LT3959;Wide Input Voltage Range Boost/SEPIC/Inverting Converter with 6A, 40V Switch;12.0;[12.4];['V(out)'];3959.asc;1
+484;484;484;LT3964;Dual (single model) 36V, Synchronous 1.6A Buck LED Driver with I2C;35.0;[27.0];['V(out)'];LT3964.asc;1
+485;485;485;LT3970;40V, 350mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes;10.0;[5.1];['V(out)'];3970.asc;1
+486;486;486;LT3971;"38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";12.0;[3.3];['V(out)'];3971.asc;1
+487;487;487;LT3971-3.3;"38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";24.0;[3.3];['V(out)'];3971-3.3.asc;1
+488;488;488;LT3971-5;"38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";24.0;[5.0];['V(out)'];3971-5.asc;1
+489;489;489;LT3971A;"38V, 1.2A, 2MHz Step-Down Regulator with 2.2µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";12.0;[3.3];['V(out)'];3971.asc;1
+490;490;490;LT3971A-5;"38V, 1.2A, 2MHz Step-Down Regulator with 2.2µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";24.0;[5.0];['V(out)'];3971-5.asc;1
+491;491;491;LT3972;33V, 3.5A, 2.4MHz Step-Down Switching Regulator with 75µA Quiescent Current;30.0;[5.2];['V(out)'];3972.asc;1
+492;492;492;LT3973;42V, 750mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes;10.0;[5.1];['V(out)'];3973.asc;1
+493;493;493;LT3975;"42V, 2.5A, 2MHz Step-Down Switching Regulator with 2.7µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";24.0;[3.3];['V(out)'];3975.asc;1
+494;494;494;LT3976;"42V, 5A, 2MHz Step-Down Switching Regulator with 3.3µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";24.0;[3.3];['V(out)'];3976.asc;1
+495;495;495;LT3980;58V, 2A, 2.4MHz Step-Down Switching Regulator with 85µA Quiescent Current;48.0;[5.2];['V(out)'];3980.asc;1
+496;496;496;LT3990;62V, 350mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes;10.0;[5.1];['V(out)'];3990.asc;1
+497;497;497;LT3991;"55V, 1.2A, Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";12.0;[3.3];['V(out)'];3991.asc;1
+498;498;498;LT3995;"60V, 3A, 2MHz Step-Down Switching Regulator with 2.7µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.";48.0;[3.3];['V(out)'];3995.asc;1
+499;499;499;LT3999;Low Noise, 1A, 1MHz Push-Pull DC/DC Driver with Duty Cycle Control;12.0;[12.4];['V(out)'];3999.asc;1
+500;500;500;LT4200;50A Hot Swap E-Fuse with Guaranteed SOA;12.0;[12.0];['V(out)'];LT4200.asc;1
+501;501;501;LT4430;Secondary-Side Optocoupler Driver;13.0;[5.0];['V(out)'];4430.asc;1
+502;502;502;LT7101;105V, 1A Low EMI Synchronous Step-Down Regulator with Fast Current Programming;50.0;[5.0];['V(out)'];7101.asc;1
+503;503;503;LT8210;100V Vin and Vout Synchronous 4-switch Buck-Boost DC/DC Controller with Pass Through.;12.0;[12.800000190734865];['V(out)'];8210.asc;1
+504;504;504;LT8228;Bidirectional Synchronous 100V Buck/Boost Controller with Reverse Supply, Reverse Current and Fault Protection\n\nNote: REPORT pin is not modeled.;48.0;[13.899999618530273];['V(out)'];8228.asc;1
+505;505;505;LT8300;100V µPower Flyback Converter with 150V/260mA Switch;60.0;[5.0];['V(out)'];8300.asc;1
+506;506;506;LT8301;42Vin µPower No-Opto Isolated Flyback Converter with 65V/1.2A Switch;24.0;[5.0];['V(out)'];8301.asc;1
+507;507;507;LT8302;42Vin µPower No-Opto Isolated Flyback Converter with 65V/3.6A Switch;24.0;[4.800000190734863];['V(out)'];LT8302.asc;1
+508;508;508;LT8303;100V µPower Isoloated Flyback Converter with 150V/450mA Switch;40.0;[5.199999809265137];['V(out)'];8303.asc;1
+509;509;509;LT8304;100Vin µPower No-Opto Isolated Flyback Converter with 150V/2A Switch;48.0;[4.800000190734863];['V(out)'];8304.asc;1
+510;510;510;LT8304-1;100Vin µPower No-Opto Isolated Flyback Converter with 150V/2A Switch (optimized for high step-up output applications);20.0;[199.8000030517578];['V(out)'];8304-1.asc;1
+511;511;511;LT8309;Secondary-Side Synchronous Rectifier Driver;48.0;[5.099999904632568];['V(out)'];8309.asc;1
+512;512;512;LT8310;100Vin Forward Converter Controller;36.0;[10.300000190734863];['V(out)'];8310.asc;1
+513;513;513;LT8330;Low Iq Boost/SEPIC/Inverting Converter with 1A, 60V Switch;12.0;[47.7];['V(out)'];8330.asc;1
+514;514;514;LT8331;Low Iq Boost/SEPIC/Inverting Converter with 0.5A, 140V Switch;48.0;[48.5];['V(out)'];8331.asc;1
+515;515;515;LT8333;Low Iq Boost/SEPIC/Inverting Converter with 3A, 40V Switch;5.0;[23.9];['V(out)'];LT8333.asc;1
+516;516;516;LT8334;Low Iq Boost/SEPIC/Inverting Converter with 5A, 40V Switch;6.0;[24.2];['V(out)'];LT8334.asc;1
+517;517;517;LT8335;Low Iq Boost/SEPIC/Inverting Converter with 2A, 28V Switch;6.0;[12.0];['V(out)'];8335.asc;1
+518;518;518;LT8337;28V, 5A Low Iq Synchronous Step-Up Silent Switcher;9.0;[15.199999809265135];['V(out)'];LT8337.asc;1
+519;519;519;LT8337-1;28V, 5A Low Iq Synchronous Step-Up Silent Switcher with PassThru;7.2;[15.0];['V(out)'];LT8337-1.asc;1
+520;520;520;LT8356-1;100Vin/120Vout LED Controller with Exponential PWM and Scalable Dimming;12.0;[33.59999847412109];['V(out)'];LT8356-1.asc;1
+521;521;521;LT8361;Low Iq Boost/SEPIC/Inverting Converter with 2A, 100V Switch;12.0;[46.599998474121094];['V(out)'];8361.asc;1
+522;522;522;LT8362;Low Iq Boost/SEPIC/Inverting Converter with 2A, 60V Switch;12.0;[48.099998474121094];['V(out)'];8362.asc;1
+523;523;523;LT8364;Low Iq Boost/SEPIC/Inverting Converter with 4A, 60V Switch;12.0;[47.9000015258789];['V(out)'];8364.asc;1
+524;524;524;LT8374;60V, 1.5A, 330kHz, Synchronous Step-Down LED Driver;48.0;[36.29999923706055];['V(out)'];LT8374.asc;1
+525;525;525;LT8374-1;60V, 1.5A, 2MHz, Synchronous Step-Down LED Driver;24.0;[14.899999618530273];['V(out)'];LT8374-1.asc;1
+526;526;526;LT8376;60V, 3A Synchronous Step-Down LED Driver with Silent Switcher;48.0;[36.79999923706055];['V(out)'];LT8376.asc;1
+527;527;527;LT8410;Ultralow Power Boost Converter with Output Disconnect;3.6;[16.0];['V(out)'];8410.asc;1
+528;528;528;LT8410-1;Ultralow Power Boost Converter with Output Disconnect;3.6;[19.7];['V(out)'];8410-1.asc;1
+529;529;529;LT8580;Boost/Inverting DC/DC Converter with 1A 65V Switch, Soft-Start, and Synchronization \n\n Synchronization function is not modeled;5.0;[12.600000381469727];['V(out)'];8580.asc;1
+530;530;530;LTC1046;"""Inductorless"" 5V to -5V Converter";5.0;[3.7000000476837163];['V(out)'];1046.asc;1
+531;531;531;LTC1174;High Efficiency Step-Down and Inverting DC/DC Converter, Adjustable Output Voltage;9.0;[5.099999904632568];['V(out)'];1174.asc;1
+532;532;532;LTC1174HV;High Efficiency Step-Down and Inverting DC/DC Converter, Adjustable Output Voltage;9.0;[5.099999904632568];['V(out)'];1174.asc;1
+533;533;533;LTC1261;Switched Capacitor Regulated Voltage Inverter;3.3;[5.0];['V(out)'];1261.asc;1
+534;534;534;LTC1262;12V, 30mA Flash Memory Programming Supply;5.0;[12.0];['V(out)'];1262.asc;1
+535;535;535;LTC1263;12V, 60mA Flash Memory Programming Supply;5.0;[12.0];['V(out)'];1263.asc;1
+536;536;536;LTC1265;1.2A, High Efficiency Step-Down DC/DC Controller, Adjustable Output Voltage;10.0;[3.400000095367432];['V(out)'];1265.asc;1
+537;537;537;LTC1429;Clock-Synchronized Switched Capacitor Regulated Voltage Inverter;3.3;[5.0];['V(out)'];1429.asc;1
+538;538;538;LTC1430;High Power Step-Down Synchronous Switching Regulator Controller;5.0;[3.400000095367432];['V(out)'];1430.asc;1
+539;539;539;LTC1430A;High Power Step-Down Synchronous Switching Regulator Controller;5.0;[3.400000095367432];['V(out)'];1430.asc;1
+540;540;540;LTC1433;450mA, Low Noise Current Mode Step-Down DC/DC Converter;6.0;[3.2999999523162837];['V(out)'];1433.asc;1
+541;541;541;LTC1434;450mA, Low Noise Current Mode Step-Down DC/DC Converter;6.0;[3.5999999046325684];['V(out)'];1434.asc;1
+542;542;542;LTC1474;Low Quiescent Current, High Efficiency Step-Down Converter, Adjustable Output Voltage;10.0;[3.2999999523162837];['V(out)'];1474.asc;1
+543;543;543;LTC1474-3.3;Low Quiescent Current, High Efficiency Step-Down Converter, 3.3V Output;10.0;[3.2999999523162837];['V(out)'];1474-3.3.asc;1
+544;544;544;LTC1474-5;Low Quiescent Current, High Efficiency Step-Down Converter, 5V Output;10.0;[5.0];['V(out)'];1474-5.asc;1
+545;545;545;LTC1475;Low Quiescent Current, High Efficiency Step-Down Converter, Adjustable Output Voltage;10.0;[3.2999999523162837];['V(out)'];1475.asc;1
+546;546;546;LTC1475-3.3;Low Quiescent Current, High Efficiency Step-Down Converter, 3.3V Output;10.0;[3.2999999523162837];['V(out)'];1475-3.3.asc;1
+547;547;547;LTC1475-5;Low Quiescent Current, High Efficiency Step-Down Converter, 5V Output;10.0;[5.0];['V(out)'];1475-5.asc;1
+548;548;548;LTC1502-3.3;Single Cell to 3.3V Regulated Charge Pump DC/DC Converter;1.4;[3.2999999523162837];['V(out)'];1502-3.3.asc;1
+549;549;549;LTC1504;500mA Low Voltage Step-Down Synchronous Regulator, Adjustable Output Voltage;5.0;[3.400000095367432];['V(out)'];1504.asc;1
+550;550;550;LTC1504A;500mA Low Voltage Step-Down Synchronous Regulator, Adjustable Output Voltage;5.0;[3.400000095367432];['V(out)'];1504.asc;1
+551;551;551;LTC1515;Step-Up/Step-Down Switched Capacitor DC/DC Converter with Reset, Adjustable Output Voltage;3.0;[3.400000095367432];['V(out)'];1515.asc;1
+552;552;552;LTC1515-3;Step-Up/Step-Down Switched Capacitor DC/DC Converter with Reset, Programmable 3V or 5V Output Voltage;3.0;[3.0999999046325684];['V(out)'];1515-3.asc;1
+553;553;553;LTC1515-3.3;Step-Up/Step-Down Switched Capacitor DC/DC Converter with Reset, Programmable 3.3V or 5V Output Voltage;3.0;[3.400000095367432];['V(out)'];1515-3.3.asc;1
+554;554;554;LTC1516;µPower, Regulated 5V Charge Pump DC/DC Converter;3.0;[5.0];['V(out)'];1516.asc;1
+555;555;555;LTC1517-3.3;µPower, Regulated 3.3V Charge Pump in a 5-Pin SOT-23 Package;3.0;[3.2999999523162837];['V(out)'];1517-3.3.asc;1
+556;556;556;LTC1517-5;µPower, Regulated 5V Charge Pump in a 5-Pin SOT-23 Package;3.0;[5.0];['V(out)'];1517-5.asc;1
+557;557;557;LTC1522;µPower, Regulated 5V Charge Pump DC/DC Converter;3.0;[5.0];['V(out)'];1522.asc;1
+558;558;558;LTC1550;Low Noise, Switched Capacitor Regulated Voltage Inverter, Adjustable Output;4.5;[4.300000190734863];['V(out)'];1550.asc;1
+559;559;559;LTC1574;High Efficiency Step-Down DC/DC Converter with Internal Schottky Diode, Adjustable Output Voltage;9.0;[5.0];['V(out)'];1574.asc;1
+560;560;560;LTC1574HV;High Efficiency Step-Down DC/DC Converter with Internal Schottky Diode, Adjustable Output Voltage;9.0;[5.0];['V(out)'];1574.asc;1
+561;561;561;LTC1622;Low Input Voltage Current Mode Step-Down DC/DC Controller;3.3;[2.0];['V(out)'];1622.asc;1
+562;562;562;LTC1624;High Efficiency SO-8 N-Channel Switching Regulator Controller;12.0;[3.4];['V(out)'];1624.asc;1
+563;563;563;LTC1625;No Rsense(TM) Current Mode Synchronous Step-Down Switching Regulator;6.0;[3.3];['V(out)'];LTC1625.asc;1
+564;564;564;LTC1626;Low Voltage, High Efficiency Step-Down DC/DC Controller, Adjustable Output Voltage;5.0;[2.5];['V(out)'];1626.asc;1
+565;565;565;LTC1627;Monolithic Synchronous Step-Down Switching Regulator;5.0;[3.3];['V(out)'];1627.asc;1
+566;566;566;LTC1629;PolyPhase, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.6];['V(out)'];1629.asc;1
+567;567;567;LTC1629-6;PolyPhase, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.2];['V(out)'];1629-6.asc;1
+568;568;568;LTC1649;3.3V Input High Power Step-Down Synchronous Switching Regulator Controller, Adjustable Output Voltage;3.3;[2.6];['V(out)'];1649.asc;1
+569;569;569;LTC1682;Doubler Charge Pump with Low Noise Linear Regulator, Adjustable Output Voltage;3.3;[4.9];['V(out)'];1682.asc;1
+570;570;570;LTC1693-3;High Speed MOSFET Driver;5.0;[16.5];['V(out)'];1693-3.asc;1
+571;571;571;LTC1698;Isolated Secondary Synchronous Rectifier Controller;16.0;[4.2];['V(out)'];1698.asc;1
+572;572;572;LTC1700;No Rsense Synchronous Step-Up DC/DC Controller;2.5;[5.1];['V(out)'];1700.asc;1
+573;573;573;LTC1701;1MHz Step-Down DC/DC Converter in SOT-23;5.0;[2.6];['V(out)'];1701.asc;1
+574;574;574;LTC1701B;1MHz Step-Down DC/DC Converter in SOT-23;5.0;[2.6];['V(out)'];1701.asc;1
+575;575;575;LTC1702;Dual 550kHz Synchronous 2-Phase Switching Regulator Controller\n\nNote: Only one phase of two phases is modeled.;5.0;[2.6];['V(out)'];1702.asc;1
+576;576;576;LTC1702A;Dual 550kHz Synchronous 2-Phase Switching Regulator Controller\n\nNote: Only one phase of two phases is modeled.;5.0;[2.6];['V(out)'];1702.asc;1
+577;577;577;LTC1707;High Efficiency Monolithic Synchronous Step-Down Regulator\n\nNote: External sync. capability is not modeled.;5.0;[3.3];['V(out)'];1707.asc;1
+578;578;578;LTC1709;2-Phase, 5-Bit Adjustable, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[2.1];['V(out)'];1709.asc;1
+579;579;579;LTC1709-7;2-Phase, 5-Bit VID, Current Mode, High Efficiency, Synchronous Step-Down Switching Regulator\n\nNote: The FCB pin is not modeled.  The model only operates in Forced Continuous Mode.;6.0;[0.9];['V(out)'];1709-7.asc;1
+580;580;580;LTC1709-8;2-Phase, 5-Bit VID, Current Mode, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[2.0];['V(out)'];1709-8.asc;1
+581;581;581;LTC1709-85;2-Phase, 5-Bit VID, Current Mode, High Efficiency, Synchronous Step-Down Switching Regulator\n\nNote: The FCB pin is not modeled.  The model only operates in Forced Continuous Mode.;6.0;[1.4];['V(out)'];1709-85.asc;1
+582;582;582;LTC1709-9;2-Phase, 5-Bit VID, Current Mode, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.1];['V(out)'];1709-9.asc;1
+583;583;583;LTC1735;High Efficiency Synchronous Step-Down Switching Regulator;6.0;[2.4];['V(out)'];1735.asc;1
+584;584;584;LTC1735-1;High Efficiency Synchronous Step-Down Switching Regulator;6.0;[2.4];['V(out)'];1735-1.asc;1
+585;585;585;LTC1736;5-Bit Adjustable High Efficiency Synchronous Step-Down Switching Regulator;7.0;[2.0];['V(out)'];1736.asc;1
+586;586;586;LTC1751;µPower, Regulated Charge Pump DC/DC Converter;3.0;[5.1];['V(out)'];1751.asc;1
+587;587;587;LTC1754-3.3;µPower, Regulated 3.3V Charge Pump with Shutdown in SOT-23;2.6;[3.4];['V(out)'];1754-3.3.asc;1
+588;588;588;LTC1754-5;µPower, Regulated 5V Charge Pump with Shutdown in SOT-23;3.3;[5.1];['V(out)'];1754-5.asc;1
+589;589;589;LTC1771;10µA Quiescent Current High Efficiency Step-Down DC/DC Controller;5.0;[3.3];['V(out)'];1771.asc;1
+590;590;590;LTC1772;Constant Frequency Current Mode Step-Down DC/DC Controller in SOT-23;5.0;[2.6];['V(out)'];1772.asc;1
+591;591;591;LTC1772B;Constant Frequency Current Mode Step-Down DC/DC Controller in SOT-23;5.0;[2.6];['V(out)'];1772.asc;1
+592;592;592;LTC1773;Synchronous Step-Down Regulator Controller;5.0;[2.5];['V(out)'];1773.asc;1
+593;593;593;LTC1775;High Power No Rsense(TM) Current Mode Synchronous Step-Down Switching Regulator;6.0;[3.5];['V(out)'];1775.asc;1
+594;594;594;LTC1778;Wide Operating Range, No Rsense(TM) Step-Down Controller;6.0;[2.6];['V(out)'];1778.asc;1
+595;595;595;LTC1778-1;Wide Operating Range, No Rsense(TM) Step-Down Controller;28.0;[2.8];['V(out)'];1778-1.asc;1
+596;596;596;LTC1779;250mA Current Mode Step-Down DC/DC Controller in SOT-23;5.0;[2.6];['V(out)'];1779.asc;1
+597;597;597;LTC1844-1.5;150mA, µPower, Low Noise, VLDO Linear Regulator;5.0;[1.5];['V(out)'];1844-1.5.asc;1
+598;598;598;LTC1844-1.8;150mA, µPower, Low Noise, VLDO Linear Regulator;5.0;[1.8];['V(out)'];1844-1.8.asc;1
+599;599;599;LTC1844-2.5;150mA, µPower, Low Noise, VLDO Linear Regulator;5.0;[2.5];['V(out)'];1844-2.5.asc;1
+600;600;600;LTC1844-2.8;150mA, µPower, Low Noise, VLDO Linear Regulator;5.0;[2.8];['V(out)'];1844-2.8.asc;1
+601;601;601;LTC1844-3.3;150mA, µPower, Low Noise, VLDO Linear Regulator;5.0;[3.3];['V(out)'];1844-3.3.asc;1
+602;602;602;LTC1871;Wide Input Range, No Rsense(TM) Current Mode Boost, Flyback and SEPIC Controller;3.3;[5.2];['V(out)'];1871.asc;1
+603;603;603;LTC1871-1;Wide Input Range, No Rsense(TM) Current Mode Boost, Flyback and SEPIC Controller;3.3;[5.2];['V(out)'];1871-1.asc;1
+604;604;604;LTC1871-7;High Input Voltage, Current Mode Boost, Flyback and SEPIC Controller;8.0;[13.1];['V(out)'];1871-7.asc;1
+605;605;605;LTC1872;Constant Frequency Current Mode Step-Up DC/DC Controller in SOT-23;3.3;[5.5];['V(out)'];1872.asc;1
+606;606;606;LTC1872B;Constant Frequency Current Mode Step-Up DC/DC Controller in SOT-23;3.3;[5.5];['V(out)'];1872.asc;1
+607;607;607;LTC1874;Dual Constant Frequency Current Mode Step-Down DC/DC Controller;3.3;[5.5];['V(out)'];1874.asc;1
+608;608;608;LTC1875;1.5A Synchronous Step-Down Regulator with 15µA Quiescent Current;5.0;[3.1];['V(out)'];1875.asc;1
+609;609;609;LTC1877;High Efficiency Monolithic Synchronous Step-Down Regulator\n\nNote: External sync. capability is not modeled.;5.0;[3.4];['V(out)'];1877.asc;1
+610;610;610;LTC1878;High Efficiency Monolithic Synchronous Step-Down Regulator\n\nNote: External sync. capability is not modeled.;5.0;[3.3];['V(out)'];1878.asc;1
+611;611;611;LTC1879;1.2A Synchronous Step-Down Regulator with 15µA Quiescent Current;5.0;[3.1];['V(out)'];1879.asc;1
+612;612;612;LTC1922-1;Synchronous Phase Modulated Full-Bridge Controller;48.0;[5.2];['V(out)'];1922-1.asc;1
+613;613;613;LTC1928-5;Doubler Charge Pump with Low Noise Linear Regulator  in ThinSOT;3.0;[5.0];['V(out)'];1928-5.asc;1
+614;614;614;LTC1929;2-Phase, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.6];['V(out)'];1929.asc;1
+615;615;615;LTC1983-3;100mA Regulated Charge-Pump Inverters in ThinSOT;5.0;[3.0999999046325684];['V(out)'];1983-3.asc;1
+616;616;616;LTC1983-5;100mA Regulated Charge-Pump Inverters in ThinSOT;5.5;[5.0];['V(out)'];1983-5.asc;1
+617;617;617;LTC1986;3V/5V SIM Power Supply in SOT-23;2.7;[5.0];['V(out)'];1986.asc;1
+618;618;618;LTC3025;300mA µPower VLDO Linear Regulator;3.6;[1.2];['V(out)'];3025.asc;1
+619;619;619;LTC3025-1;500mA µPower VLDO Linear Regulator;3.6;[1.2];['V(out)'];3025-1.asc;1
+620;620;620;LTC3025-2;500mA µPower VLDO Linear Regulator;3.6;[1.2];['V(out)'];3025-2.asc;1
+621;621;621;LTC3025-3;500mA µPower VLDO Linear Regulator;3.6;[1.5];['V(out)'];3025-3.asc;1
+622;622;622;LTC3025-4;500mA µPower VLDO Linear Regulator;3.6;[1.8];['V(out)'];3025-4.asc;1
+623;623;623;LTC3026;1.5A Low Input Voltage VLDO Linear Regulator;1.5;[1.2];['V(out)'];3026.asc;1
+624;624;624;LTC3026-1;1.5A Low Input Voltage VLDO Linear Regulator;1.5;[1.2];['V(out)'];3026-1.asc;1
+625;625;625;LTC3035;300mA VLDO Linear Regulator with Charge Pump Bias Generator;3.6;[3.3];['V(out)'];3035.asc;1
+626;626;626;LTC3105;400mA Step-Up DC/DC Converter with Maxmum Power Point Control and 250mV Start-Up;0.5;[4.1];['V(out)'];3105.asc;1
+627;627;627;LTC3106;300mA Low Voltage Buck-Boost Converter with PowerPath and 1.6µA Quiescent Current;3.5;[3.3];['V(out)'];3106.asc;1
+628;628;628;LTC3112;15V, 2.5A Synchronous Buck-Boost DC/DC Converter;6.0;[5.199999809265137];['V(out)'];3112.asc;1
+629;629;629;LTC3113;3A Low Noise Buck-Boost DC/DC Converter;3.6;[3.900000095367432];['V(out)'];3113.asc;1
+630;630;630;LTC3114-1;40V, 1A Synchronous Buck-Boost DC/DC Converter with Programmable Output Current;12.0;[5.0];['V(out)'];3114-1.asc;1
+631;631;631;LTC3115-1;40V, 2A Synchronous Buck-Boost DC/DC Converter;12.0;[12.5];['V(out)'];3115-1.asc;1
+632;632;632;LTC3119;18V, 5A Synchronous Buck-Boost DC/DC Converter;12.0;[5.0];['V(out)'];LTC3119.asc;1
+633;633;633;LTC3121;15V, 1.5A Synchronous Step-up DC/DC Converter with Output Disconnect;5.0;[12.100000381469727];['V(out)'];3121.asc;1
+634;634;634;LTC3122;15V, 2.5A Synchronous Step-up DC/DC Converter with Output Disconnect;5.0;[12.100000381469727];['V(out)'];3122.asc;1
+635;635;635;LTC3124;15V, 5A 2-Phase Synchronous Step-up DC/DC Converter with Output Disconnect;5.0;[12.199999809265135];['V(out)'];3124.asc;1
+636;636;636;LTC3125;1.2A Synchronous Step-up DC/DC Converter with Input Current Limit;3.3;[4.0];['V(out)'];3125.asc;1
+637;637;637;LTC3127;1A Buck-Boost DC/DC Converter with Programmable Input Current Limit;3.6;[3.2999999523162837];['V(out)'];3127.asc;1
+638;638;638;LTC3200;Low Noise, Regulated Charge Pump DC/DC Converter, Adjustable Output;3.0;[5.0];['V(out)'];3200.asc;1
+639;639;639;LTC3203;500mA Output Current Low Noise Dual Mode Step-up Charge Pump;4.0;[4.0];['V(out)'];3203.asc;1
+640;640;640;LTC3203-1;500mA Output Current Low Noise Dual Mode Step-up Charge Pump;3.6;[4.6];['V(out)'];3203-1.asc;1
+641;641;641;LTC3203B;500mA Output Current Low Noise Dual Mode Step-up Charge Pump;4.0;[4.0];['V(out)'];3203.asc;1
+642;642;642;LTC3203B-1;500mA Output Current Low Noise Dual Mode Step-up Charge Pump;3.6;[4.6];['V(out)'];3203-1.asc;1
+643;643;643;LTC3204-3.3;Low Noise Regulated Charge Pump in 2Ч2 DFN;2.4;[3.3];['V(out)'];3204-3.3.asc;1
+644;644;644;LTC3204-5;Low Noise Regulated Charge Pump in 2Ч2 DFN;3.6;[5.1];['V(out)'];3204-5.asc;1
+645;645;645;LTC3204B-3.3;Low Noise Regulated Charge Pump in 2Ч2 DFN;2.4;[3.3];['V(out)'];3204-3.3.asc;1
+646;646;646;LTC3204B-5;Low Noise Regulated Charge Pump in 2Ч2 DFN;3.6;[5.1];['V(out)'];3204-5.asc;1
+647;647;647;LTC3221;µPower, Regulated Charge Pump in 2Ч2 DFN;2.5;[3.0];['V(out)'];3221.asc;1
+648;648;648;LTC3221-3.3;µPower, Regulated Charge Pump in 2Ч2 DFN;2.5;[3.3];['V(out)'];3221-3.3.asc;1
+649;649;649;LTC3221-5;µPower, Regulated Charge Pump in 2Ч2 DFN;3.0;[5.0];['V(out)'];3221-5.asc;1
+650;650;650;LTC3225;150mA Supercapacitor Charger;3.2;[4.8];['V(out)'];3225.asc;1
+651;651;651;LTC3225-1;150mA Supercapacitor Charger;2.7;[4.0];['V(out)'];3225-1.asc;1
+652;652;652;LTC3226;2-Cell Supercapacitor Charger with Backup PowerPath Controller;3.3;[3.3];['V(out)'];3226.asc;1
+653;653;653;LTC3240-2.5;2.5V Step-up Step-down Charge Pump DC/DC Converter;2.0;[2.5];['V(out)'];3240-2.5.asc;1
+654;654;654;LTC3240-3.3;3.3V Step-up Step-down Charge Pump DC/DC Converter;3.0;[3.3];['V(out)'];3240-3.3.asc;1
+655;655;655;LTC3245;Wide Vin Range, Low Noise, 250mA Buck-Boost Charge Pump;12.0;[5.0];['V(out)'];3245.asc;1
+656;656;656;LTC3246;Wide Vin Range Buck-Boost Charge Pump \n\n(Watchdog timer not modeled);12.0;[5.0];['V(out)'];LTC3246.asc;1
+657;657;657;LTC3250-1.2;High Efficiency, Low Noise, Inductorless Step-Down DC/DC Converter;5.0;[1.2];['V(out)'];3250-1.2.asc;1
+658;658;658;LTC3250-1.5;High Efficiency, Low Noise, Inductorless Step-Down DC/DC Converter;5.0;[1.5];['V(out)'];3250-1.5.asc;1
+659;659;659;LTC3251;500mA High Efficiency, Low Noise, Inductorless Step-Down DC/DC Converter;5.0;[1.5];['V(out)'];3251.asc;1
+660;660;660;LTC3255;Wide Vin Range Fault Protected 50mA Step-Down Charge Pump;36.0;[5.0];['V(out)'];3255.asc;1
+661;661;661;LTC3261;High Voltage, Low Quiescent Current Inverting Charge Pump;15.0;[14.899999618530273];['V(out)'];3261.asc;1
+662;662;662;LTC3306A;2Mhz, 1.75A Synchronous Step-Down Regulator;5.0;[1.2];['V(out)'];LTC3306A.asc;1
+663;663;663;LTC3306C;2Mhz, 1.75A Synchronous Step-Down Regulator;5.0;[1.2];['V(out)'];LTC3306C.asc;1
+664;664;664;LTC3307B;5V, 3A Synchronous Step-down Silent Switcher in 2mm x 2mm LQFN;5.0;[3.3];['V(out)'];LTC3307B.asc;1
+665;665;665;LTC3308B;5V, 4A Synchronous Step-down Silent Switcher in 2mm x 2mm LQFN;5.0;[3.3];['V(out)'];LTC3308B.asc;1
+666;666;666;LTC3309B;5V, 6A, 10MHz, Synchronous Silent Switcher Step-down DC/DC Converter;4.0;[1.8];['V(out)'];LTC3309B.asc;1
+667;667;667;LTC3310;5V, 10A, 5MHz, Monolithic Synchronous Step-down Regulator\n\nNote: SSTT pin Temperature Monitoring function is not modeled;5.0;[3.3];['V(out)'];LTC3310.asc;1
+668;668;668;LTC3311;5V, 12.5A Monolithic Synchronous Step-down Regulator\n\nNote: SSTT pin Temperature Monitoring function is not modeled;3.3;[1.2];['V(out)'];LTC3311.asc;1
+669;669;669;LTC3311S;5V, 12.5A Monolithic Synchronous Step-down Regulator\n\nNote: SSTT pin Temperature Monitoring function is not modeled;5.0;[3.3];['V(out)'];LTC3311S.asc;1
+670;670;670;LTC3313;5V, 15A Synchronous Step-down Silent Switcher in 3mm x 3mm LQFN \n\nNote: SSTT pin Temperature Monitoring function is not modeled;3.3;[1.2000000476837158];['V(out)'];LTC3313.asc;1
+671;671;671;LTC3336;15V/250mA Nanopower Buck DC/DC with Programmable Peak Input Current;7.2;[1.7999999523162842];['V(out)'];LTC3336.asc;1
+672;672;672;LTC3355;"20V 1A Buck DC/DC with Integrated SCAP Charger and Backup Regulator\n\nThe part has 250mSec RSTB delay. You can program it to shorter time by using parameter ""Delay_RSTB"". \n\nThermal regulation feature is not modeled.";12.0;[4.300000190734863];['V(out)'];3355.asc;1
+673;673;673;LTC3370;20V, 4-Channel Buck DCDC with 8x Configurable 1A Power Stages;5.0;[3.2999999523162837];['V(out)'];3370.asc;1
+674;674;674;LTC3388-1;20V High Efficiency Nanopower Step-Down Regulator;5.0;[1.2];['V(out)'];3388-1.asc;1
+675;675;675;LTC3388-3;20V High Efficiency Nanopower Step-Down Regulator;5.0;[2.8];['V(out)'];3388-3.asc;1
+676;676;676;LTC3400;600mA, 1.2MHz µPower Synchronous Boost Converter in ThinSOT;1.4;[3.4];['V(out)'];3400.asc;1
+677;677;677;LTC3400-1;600mA, 1.2MHz µPower Synchronous Boost Converter in ThinSOT;1.4;[3.5];['V(out)'];3400-1.asc;1
+678;678;678;LTC3400B;600mA, 1.2MHz µPower Synchronous Boost Converter in ThinSOT;1.4;[3.4];['V(out)'];3400.asc;1
+679;679;679;LTC3401;1A, 3MHz µPower Synchronous Boost Converter;1.2;[3.6];['V(out)'];3401.asc;1
+680;680;680;LTC3402;2A, 3MHz µPower Synchronous Boost Converter;3.0;[3.4];['V(out)'];3402.asc;1
+681;681;681;LTC3403;1.5MHz, 600mA, Synchronous Step-Down Regulator with Bypass Transistor;5.0;[1.8];['V(out)'];3403.asc;1
+682;682;682;LTC3404;1.4MHz High Efficiency Monolithic Synchronous Step-Down Regulator\n\nNote: External sync. capability is not modeled.;5.0;[3.3];['V(out)'];3404.asc;1
+683;683;683;LTC3405;1.5MHz, 300mA, Synchronous Step-Down Regulator in ThinSOT;5.0;[3.4];['V(out)'];3405.asc;1
+684;684;684;LTC3405A;1.5MHz, 300mA, Synchronous Step-Down Regulator in ThinSOT;5.0;[3.4];['V(out)'];3405.asc;1
+685;685;685;LTC3406;1.5MHz, 600mA, Synchronous Step-Down Regulator in ThinSOT;5.0;[2.9];['V(out)'];3406.asc;1
+686;686;686;LTC3406A;1.5MHz, 600mA, Synchronous Step-Down Regulator in ThinSOT;5.0;[2.9];['V(out)'];3406.asc;1
+687;687;687;LTC3406AB;1.5MHz, 600mA, Synchronous Step-Down Regulator in ThinSOT;5.0;[2.9];['V(out)'];3406.asc;1
+688;688;688;LTC3406B;1.5MHz, 600mA, Synchronous Step-Down Regulator in ThinSOT;5.0;[2.9];['V(out)'];3406.asc;1
+689;689;689;LTC3408;1.5MHz, 600mA Synchronous Step-Down Regulator with Bypass Transistor;3.6;[1.8];['V(out)'];3408.asc;1
+690;690;690;LTC3409;600mA Low Vin Buck Regulator in 3mm x 3mm DFN;5.0;[1.8];['V(out)'];3409.asc;1
+691;691;691;LTC3410;2.25MHz, 300mA, Synchronous Step-Down Regulator in SC70;5.0;[2.6];['V(out)'];3410.asc;1
+692;692;692;LTC3410B;2.25MHz, 300mA, Synchronous Step-Down Regulator in SC70;5.0;[2.6];['V(out)'];3410.asc;1
+693;693;693;LTC3411;1.25A, 4MHz, Synchronous Step-down DC/DC Converter;5.0;[2.5];['V(out)'];3411.asc;1
+694;694;694;LTC3411A;1.25A, 4MHz, Synchronous Step-down DC/DC Converter;5.0;[2.5];['V(out)'];3411.asc;1
+695;695;695;LTC3412;2.5A, 4MHz, Monolithic Synchronous Step-down Regulator;5.0;[2.5];['V(out)'];3412.asc;1
+696;696;696;LTC3412A;3A, 4MHz, Monolithic Synchronous Step-down Regulator;5.0;[2.5];['V(out)'];3412.asc;1
+697;697;697;LTC3413;3A, 2MHz, Monolithic Synchronous Step-down Regulator for DDR/QDR Memory Termination;2.5;[1.3];['V(out)'];3413.asc;1
+698;698;698;LTC3414;4A, 4MHz, Monolithic Synchronous Step-down Regulator;5.0;[2.5];['V(out)'];3414.asc;1
+699;699;699;LTC3415;7A, PolyPhase Synchronous Step-Down Regulator;3.6;[1.8];['V(out)'];3415.asc;1
+700;700;700;LTC3416;4A, 4MHz, Monolithic Synchronous Step-down Regulator with Tracking;5.0;[1.8];['V(out)'];3416.asc;1
+701;701;701;LTC3418;8A, 4MHz, Monolithic Synchronous Step-down Regulator\n\nNote: Vref pin is not modeled and is assumed to be bypassed.  External Sync is also not modeled;5.0;[2.5];['V(out)'];3418.asc;1
+702;702;702;LTC3421;3A, 3MHz µPower Synchronous Boost Converter with Output Disconnect;1.8;[3.4];['V(out)'];3421.asc;1
+703;703;703;LTC3422;1.5A, 3MHz Synchronous Step-up DC/DC Converter with Output Disconnect;2.0;[3.3];['V(out)'];3422.asc;1
+704;704;704;LTC3425;5A, 8MHz, 4-Phase Synchronous Step-up DC/DC Converter;1.8;[3.3];['V(out)'];3425.asc;1
+705;705;705;LTC3426;1.2MHz Step-Up DC/DC Converter in SOT-23;3.3;[5.1];['V(out)'];3426.asc;1
+706;706;706;LTC3427;500mA, 1.25MHz Synchronous Step-Up DC/DC Converter in 2mm Ч 2mm DFN Package;2.0;[3.3];['V(out)'];3427.asc;1
+707;707;707;LTC3428;4A, 2MHz Dual Phase Step-Up DC/DC Converter in 3mm x 3mm DFN;2.8;[5.3];['V(out)'];3428.asc;1
+708;708;708;LTC3429;600mA, 500KHz µPower Synchronous Boost Converter with Output Disconnect;2.0;[3.3];['V(out)'];3429.asc;1
+709;709;709;LTC3440;µPower Synchronous Buck-Boost DC/DC Converter;3.0;[3.3];['V(out)'];3440.asc;1
+710;710;710;LTC3441;High Current µPower Synchronous Buck-Boost DC/DC Converter;3.0;[3.3];['V(out)'];3441.asc;1
+711;711;711;LTC3442;µPower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation;3.0;[3.3];['V(out)'];3442.asc;1
+712;712;712;LTC3443;High Current µPower 600KHz Synchronous Buck-Boost DC/DC Converter;3.0;[3.3];['V(out)'];3443.asc;1
+713;713;713;LTC3444;µPower Synchronous Buck-Boost DC/DC Converter for WCDMA Applications;3.6;[4.3];['V(out)'];3444.asc;1
+714;714;714;LTC3448;1.5MHz/2.25MHz, 600mA Synchronous Step-Down Regulator with LDO Mode;3.3;[1.5];['V(out)'];3448.asc;1
+715;715;715;LTC3458;1.4A, 1.5MHz Synchronous Step-Up DC/DC Converter with Output Disconnect\n\nNote: SYNC pin is not modeled;4.8;[7.4];['V(out)'];3458.asc;1
+716;716;716;LTC3458L;1.7A, 1.5MHz Synchronous Step-Up DC/DC Converter with Output Disconnect\n\nNote: SYNC pin is not modeled;4.8;[7.4];['V(out)'];3458.asc;1
+717;717;717;LTC3459;10V µPower Synchronous Boost Converter in ThinSOT;5.0;[7.9];['V(out)'];3459.asc;1
+718;718;718;LTC3499;750mA Synchronous Step-up DC/DC Converter with Reverse-Battery Protection;2.4;[5.1];['V(out)'];3499.asc;1
+719;719;719;LTC3499B;750mA Synchronous Step-up DC/DC Converter with Reverse-Battery Protection;2.4;[5.1];['V(out)'];3499.asc;1
+720;720;720;LTC3528;1A, 1MHz Synchronous Step-up DC/DC Converter in 3mmЧ2mm DFN;2.0;[3.3];['V(out)'];3528.asc;1
+721;721;721;LTC3528-2;1A, 2MHz Synchronous Step-up DC/DC Converter in 2mmЧ3mm DFN;2.0;[3.3];['V(out)'];3528-2.asc;1
+722;722;722;LTC3528B;1A, 1MHz Synchronous Step-up DC/DC Converter in 3mmЧ2mm DFN;2.0;[3.3];['V(out)'];3528.asc;1
+723;723;723;LTC3528B-2;1A, 2MHz Synchronous Step-up DC/DC Converter in 3mmЧ2mm DFN;2.0;[3.3];['V(out)'];3528-2.asc;1
+724;724;724;LTC3529;1.5A, 1.5MHz Step-up DC/DC Converter in 2mmЧ3mm DFN\n\nNote: 1/4th of the real internal soft-start time is presented, on purpose of saving simulation time.;3.6;[5.1];['V(out)'];3529.asc;1
+725;725;725;LTC3530;Wide Input Voltage Synchronous Buck-Boost DC/DC Converter;2.8;[3.3];['V(out)'];3530.asc;1
+726;726;726;LTC3531;200mA Buck-Boost Synchronous DC/DC Converter, Adjustable Output Voltage;2.0;[3.3];['V(out)'];3531.asc;1
+727;727;727;LTC3532;µPower Synchronous Buck-Boost DC/DC Converter;3.2;[3.3];['V(out)'];3532.asc;1
+728;728;728;LTC3533;2A Wide Input Voltage Synchronous Buck-Boost DC/DC Converter;2.8;[3.5];['V(out)'];3533.asc;1
+729;729;729;LTC3534;7V, 500mA Synchronous Buck-Boost DC/DC Converter;5.0;[5.2];['V(out)'];3534.asc;1
+730;730;730;LTC3536;1A Low Noise, Buck-Boost DC/DC Converter;3.6;[3.3];['V(out)'];3536.asc;1
+731;731;731;LTC3539;2A 1MHz Synchronous Step-up DC/DC Converter;2.0;[3.4];['V(out)'];3539.asc;1
+732;732;732;LTC3539-2;2A 2MHz Synchronous Step-up DC/DC Converter;2.0;[3.4];['V(out)'];3539-2.asc;1
+733;733;733;LTC3542;500mA, 2.25MHz Synchronous Step-Down DC/DC Converter;3.6;[1.8];['V(out)'];3542.asc;1
+734;734;734;LTC3542-1;500mA, 2.25MHz 2.8V Output Synchronous Step-Down DC/DC Converter;3.6;[2.8];['V(out)'];3542-1.asc;1
+735;735;735;LTC3543;600mA Synchronous Step Down Buck Regulator with PLL, Soft-Start and Spread Spectrum;4.0;[1.5];['V(out)'];3543.asc;1
+736;736;736;LTC3549;250mA Low Vin Buck Regulator in 2mmЧ3mm DFN;2.2;[1.5];['V(out)'];3549.asc;1
+737;737;737;LTC3552;Standalong Li-Ion Battery Charger and Dual Synchronous Buck Converter;5.0;[4.0];['V(bat)'];3552.asc;1
+738;738;738;LTC3552-1;Standalong Li-Ion Battery Charger and Dual Synchronous Buck Converter;5.0;[4.0];['V(bat)'];3552-1.asc;1
+739;739;739;LTC3559;Linear USB Battery Charger with Dual Buck Regulators;5.0;[4.199999809265137];['V(bat)'];3559.asc;1
+740;740;740;LTC3559-1;Linear USB Battery Charger with Dual Buck Regulators;5.0;[4.099999904632568];['V(bat)'];3559-1.asc;1
+741;741;741;LTC3560;2.25MHz, 800mA, Synchronous Step-Down Regulator in ThinSOT;3.6;[1.8];['V(out)'];3560.asc;1
+742;742;742;LTC3561;1A, 4MHz, Synchronous Step-down DC/DC Converter;4.0;[2.5];['V(out)'];3561.asc;1
+743;743;743;LTC3561A;1A, 4MHz, Synchronous Step-down DC/DC Converter;4.0;[2.5];['V(out)'];3561.asc;1
+744;744;744;LTC3563;500mA, 2.25MHz Synchronous Step-Down DC/DC Converter with Selectable Output Voltage;3.6;[1.3];['V(out)'];3563.asc;1
+745;745;745;LTC3564;2.25MHz, 1.25A Synchronous Step-Down Regulator;3.6;[1.8];['V(out)'];3564.asc;1
+746;746;746;LTC3568;1.8A, 4MHz, Synchronous Step-Down DC/DC Converter;5.0;[1.8];['V(out)'];3568.asc;1
+747;747;747;LTC3600;15V, 1.5A Synchronous Rail-to-Rail Single Resistor Step-Down Regulator;12.0;[2.5];['V(out)'];3600.asc;1
+748;748;748;LTC3601;1.5A, 15V, Monolithic Synchronous Step-Down Regulator;12.0;[3.3];['V(out)'];3601.asc;1
+749;749;749;LTC3602;2.5A, 10V, Monolithic Synchronous Step-Down Regulator;5.0;[3.3];['V(out)'];3602.asc;1
+750;750;750;LTC3603;2.5A, 15V, Monolithic Synchronous Step-Down Regulator;5.0;[3.3];['V(out)'];3603.asc;1
+751;751;751;LTC3604;2.5A, 15V, Monolithic Synchronous Step-Down Regulator;12.0;[3.3];['V(out)'];3604.asc;1
+752;752;752;LTC3605;15V, 5A Synchronous Step-Down Regulator;12.0;[3.3];['V(out)'];3605.asc;1
+753;753;753;LTC3605A;20V, 5A Synchronous Step-Down Regulator;12.0;[3.3];['V(out)'];3605.asc;1
+754;754;754;LTC3608;20V, 8A Monolithic Synchronous Step-Down DC/DC Converter;12.0;[2.5];['V(out)'];3608.asc;1
+755;755;755;LTC3609;6A, 32V Monolithic Synchronous Step-Down DC/DC Converter;12.0;[2.5];['V(out)'];3609.asc;1
+756;756;756;LTC3610;12A, 24V Monolithic Synchronous Step-Down DC/DC Converter;12.0;[2.5];['V(out)'];3610.asc;1
+757;757;757;LTC3611;10A, 32V Monolithic Synchronous Step-Down DC/DC Converter;12.0;[2.5];['V(out)'];3611.asc;1
+758;758;758;LTC3612;3A, 4MHz, Monolithic Synchronous Step-down DC/DC Converter;3.6;[2.5];['V(out)'];3612.asc;1
+759;759;759;LTC3613;24V, 15A Monolithic Step-Down Regulator with Differential Output Sensing;16.0;[1.5];['V(out)'];3613.asc;1
+760;760;760;LTC3614;4A, 4MHz Monolithic Synchronous Step-down DC/DC Converter;3.6;[2.5];['V(out)'];3614.asc;1
+761;761;761;LTC3616;6A, 4MHz Monolithic Synchronous Step-down DC/DC Converter;3.6;[2.5];['V(out)'];3616.asc;1
+762;762;762;LTC3617;6A Monolithic Synchronous Step-down Regulator for DDR Termination;2.5;[1.2];['V(out)'];3617.asc;1
+763;763;763;LTC3620;Ultralow Power 15mA synchronous Step-Down Switching Regulator;3.6;[1.1];['V(out)'];3620.asc;1
+764;764;764;LTC3620-1;Ultralow Power 15mA synchronous Step-Down Switching Regulator;3.6;[1.1];['V(out)'];3620-1.asc;1
+765;765;765;LTC3621;17V, 1A Synchronous Step-Down Regulator with 3.5µA Quiescent Current;12.0;[2.5];['V(out)'];LTC3621.asc;1
+766;766;766;LTC3621-2;17V, 1A Synchronous Step-Down Regulator with 3.5µA Quiescent Current;12.0;[5.0];['V(out)'];3621-2.asc;1
+767;767;767;LTC3623;15V, ±5A Rail-to-Rail Synchronous Buck Regulator;12.0;[5.0];['V(out)'];LTC3623.asc;1
+768;768;768;LTC3624;17V, 2A Synchronous Step-Down Regulator with 3.5µA Quiescent Current;12.0;[5.0];['V(out)'];LTC3624.asc;1
+769;769;769;LTC3624-2;17V, 2A Synchronous Step-Down Regulator with 3.5µA Quiescent Current;16.0;[12.1];['V(out)'];LTC3624-2.asc;1
+770;770;770;LTC3625;1A High Efficiency 2-Cell Supercapacitor Charger with Automatic Cell Balancing;3.6;[4.8];['V(out)'];3625.asc;1
+771;771;771;LTC3625-1;1A High Efficiency 2-Cell Supercapacitor Charger with Automatic Cell Balancing;3.6;[4.0];['V(out)'];3625-1.asc;1
+772;772;772;LTC3626;20V, 2.5A Synchronous Monolithic Step-Down Regulator with Current and Temperature Monitoring\n\nNote: Temperature monitor output and limit set pins are not modeled and included.;12.0;[3.3];['V(out)'];3626.asc;1
+773;773;773;LTC3630;High Efficiency, 65V 500mA Syncronous Step-Down Converter;24.0;[3.3];['V(out)'];3630.asc;1
+774;774;774;LTC3630A;High Efficiency, 76V 500mA Syncronous Step-Down Converter;24.0;[3.3];['V(out)'];3630.asc;1
+775;775;775;LTC3631;High Efficiency, High Voltage 100mA Synchronous Step-Down Converter;36.0;[5.1];['V(out)'];3631.asc;1
+776;776;776;LTC3631-3.3;High Efficiency, High Voltage 100mA Synchronous Step-Down Converter;36.0;[3.3];['V(out)'];3631-3.3.asc;1
+777;777;777;LTC3631-5;High Efficiency, High Voltage 100mA Synchronous Step-Down Converter;36.0;[5.0];['V(out)'];3631-5.asc;1
+778;778;778;LTC3632;High Efficiency, High Voltage 20mA Synchronous Step-Down Converter;36.0;[5.0];['V(out)'];3632.asc;1
+779;779;779;LTC3637;76V 1A Step-Down Regulator;48.0;[12.1];['V(out)'];3637.asc;1
+780;780;780;LTC3638;High Efficiency, 140V 250mA Step-Down Regulator;75.0;[5.1];['V(out)'];3638.asc;1
+781;781;781;LTC3639;High Efficiency, 150V 100mA Syncronous Step-Down Regulator;75.0;[5.1];['V(out)'];3639.asc;1
+782;782;782;LTC3642;High Efficiency, High Voltage 50mA Synchronous Step-Down Converter;45.0;[5.0];['V(out)'];3642.asc;1
+783;783;783;LTC3642-3.3;High Efficiency, High Voltage 50mA Synchronous Step-Down Converter;45.0;[3.3];['V(out)'];3642-3.3.asc;1
+784;784;784;LTC3642-5;High Efficiency, High Voltage 50mA Synchronous Step-Down Converter;45.0;[5.0];['V(out)'];3642-5.asc;1
+785;785;785;LTC3646;40V, 1A Synchronous Step-Down Converter;24.0;[5.1];['V(out)'];3646.asc;1
+786;786;786;LTC3646-1;40V, 1A Synchronous Step-Down Converter;24.0;[5.1];['V(out)'];3646-1.asc;1
+787;787;787;LTC3649;60V, 4A Synchronous Step-Down Regulator with Rail-to-Rail Programmable Output;24.0;[5.0];['V(out)'];3649.asc;1
+788;788;788;LTC3703;100V High Voltage Switching Regulator Controller;15.0;[12.0];['V(out)'];3703.asc;1
+789;789;789;LTC3703-5;60V Synchronous Switching Regulator Controller;33.0;[5.0];['V(out)'];3703-5.asc;1
+790;790;790;LTC3704;Wide Input Range, No Rsense(TM) Positive-to-Negative DC/DC Controller;10.0;[5.699999809265138];['V(out)'];3704.asc;1
+791;791;791;LTC3705;Two-Switch Forward Controller and Gate Driver\n\nNote:  Fault Transmit and Receive are not modeled as is not slave mode.;50.0;[11.9];['V(out)'];3705.asc;1
+792;792;792;LTC3706;Secondary-Side Synchronous Forward Controller with PolyPhase Capability NOTE:  Fault Transmit, Fault Receive, PolyPhase Capability, and the differential amplifier are not modeled.;36.0;[3.3];['V(out)'];3706.asc;1
+793;793;793;LTC3709;Fast 2-Phase, No Rsense, Synchronous DC/DC Controller with Tracking/Sequencing;5.0;[1.5];['V(out)'];3709.asc;1
+794;794;794;LTC3711;5-Bit Adjustable, Wide Operating Range, No Rsense(TM) Step-Down Controller;6.0;[2.4];['V(out)'];3711.asc;1
+795;795;795;LTC3713;Low Input Voltage, High Power, No Rsense(TM) Synchronous Controller;6.0;[3.0];['V(out)'];3713.asc;1
+796;796;796;LTC3714;5-Bit Adjustable, Wide Operating Range, No Rsense(TM) Step-Down Controller;6.0;[2.0];['V(out)'];3714.asc;1
+797;797;797;LTC3716;2-Phase, 5-Bit VID, Current Mode, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.8];['V(out)'];3716.asc;1
+798;798;798;LTC3717;Wide Operating Range, No Rsense(TM) Step-Down Controller for DDR/QDR Memory Termination;6.0;[1.3];['V(out)'];3717.asc;1
+799;799;799;LTC3719;2-Phase, 5-Bit VID, Current Mode, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.6];['V(out)'];3719.asc;1
+800;800;800;LTC3720;Single Phase VRM8.5 Current Mode Step-Down Controller;6.0;[1.4];['V(out)'];3720.asc;1
+801;801;801;LTC3722-1;Synchronous Current Mode Phase Modulated Full Bridge Controller;48.0;[5.0];['V(out)'];3722-1.asc;1
+802;802;802;LTC3722-2;Synchronous Voltage Mode Phase Modulated Full Bridge Controller;48.0;[5.3];['V(out)'];3722-2.asc;1
+803;803;803;LTC3723-1;Synchronous Push-Pull PWM Controller\n\nNote: hiccup mode fault logic is not modeled.;12.0;[5.5];['V(out)'];3723-1.asc;1
+804;804;804;LTC3723-2;Synchronous Push-Pull PWM Controller Voltage mode version.\n\nNote: hiccup mode fault logic is not modeled.;12.0;[5.5];['V(out)'];3723-2.asc;1
+805;805;805;LTC3725;Single-Switch Forward Controller and Gate Driver\n\nNote:  Fault Transmit and Receive are not modeled as is not slave mode.;12.0;[24.1];['V(out)'];3725.asc;1
+806;806;806;LTC3726;Secondary-Side Synchronous Forward Controller\n\nNote:  Fault Transmit, Fault Receive, PolyPhase Capability, and the differential amplifier are not modeled.;36.0;[3.3];['V(out)'];3726.asc;1
+807;807;807;LTC3729;550KHz, PolyPhase, High Efficiency, Synchronous Step-Down Switching Regulator;6.0;[1.6];['V(out)'];3729.asc;1
+808;808;808;LTC3731;3-Phase, 600kHz, Synchronous Buck Switching Regulator Controller;6.0;[1.4];['V(out)'];3731.asc;1
+809;809;809;LTC3731H;3-Phase, 600kHz, Synchronous Buck Switching Regulator Controller;6.0;[1.4];['V(out)'];3731.asc;1
+810;810;810;LTC3732;3-Phase, 5-Bit VID, 600kHz, Synchronous Buck Switching Regulator Controller;6.0;[1.1];['V(out)'];3732.asc;1
+811;811;811;LTC3733;3-Phase, Buck Controller for AMD CPUs;6.0;[1.6];['V(out)'];3733.asc;1
+812;812;812;LTC3733-1;3-Phase, Buck Controller for AMD CPUs;6.0;[1.6];['V(out)'];3733-1.asc;1
+813;813;813;LTC3765;Active Clamp Forward Controller and Gate Driver;48.0;[5.0];['V(out)'];3765.asc;1
+814;814;814;LTC3766;High Efficiency, Secondary-Side Synchronous Forward Controller;48.0;[3.4];['V(out)'];3766.asc;1
+815;815;815;LTC3769;60V Low Iq Synchronous Boost Controller;10.0;[25.6];['V(out)'];3769.asc;1
+816;816;816;LTC3770;Fast, No Rsense(TM) Step-Down Synchronous Controller with Margining, Tracking and PLL;12.0;[1.6];['V(out)'];3770.asc;1
+817;817;817;LTC3772;µPower No Rsense Constant Frequency Step-Down DC/DC Controller;5.0;[2.5];['V(out)'];3772.asc;1
+818;818;818;LTC3772B;µPower No Rsense Constant Frequency Step-Down DC/DC Controller;5.0;[2.5];['V(out)'];3772.asc;1
+819;819;819;LTC3775;High Frequency Synchronous Step-Down Voltage Mode DC/DC Controller;12.0;[2.5];['V(out)'];3775.asc;1
+820;820;820;LTC3778;Wide Operating Range, No Rsense(TM) Step-Down Controller;6.0;[2.0];['V(out)'];3778.asc;1
+821;821;821;LTC3779;150V Vin and Vout Synchronous 4-Switch Buck-Boost Controller;70.0;[48.5];['V(out)'];3779.asc;1
+822;822;822;LTC3780;High Efficiency, Synchronous, 4-Switch Buck-Boost Controller;5.0;[12.2];['V(out)'];3780.asc;1
+823;823;823;LTC3784;60V PolyPhase Synchronous Boost Controller;7.0;[25.1];['V(out)'];3784.asc;1
+824;824;824;LTC3785;10V, High Efficiency, Synchronous, No Rsense(TM) Buck-Boost Controller;3.6;[3.4];['V(out)'];3785.asc;1
+825;825;825;LTC3785-1;10V, High Efficiency, Buck-Boost Controller with Power Good;3.6;[3.4];['V(out)'];3785-1.asc;1
+826;826;826;LTC3786;Low Iq Synchronous Boost Controller;10.0;[25.1];['V(out)'];3786.asc;1
+827;827;827;LTC3787;PolyPhase Synchronous Boost Controller;7.0;[25.0];['V(out)'];3787.asc;1
+828;828;828;LTC3789;High Efficiency, Synchronous, 4-Switch Buck-Boost Controller;8.0;[12.2];['V(out)'];3789.asc;1
+829;829;829;LTC3801;µPower Constant Frequency Step-Down DC/DC Controller in ThinSOT;5.0;[2.5];['V(out)'];3801.asc;1
+830;830;830;LTC3801B;µPower Constant Frequency Step-Down DC/DC Controller in ThinSOT Disabled Burst Mode(TM) version;5.0;[2.5];['V(out)'];3801.asc;1
+831;831;831;LTC3803;Voltage Converter with Regulator;36.0;[5.1];['V(out)'];3803.asc;1
+832;832;832;LTC3803-3;Voltage Converter with Regulator;30.0;[5.3];['V(out)'];3803-3.asc;1
+833;833;833;LTC3803-5;Voltage Converter with Regulator;5.0;[5.3];['V(out)'];3803-5.asc;1
+834;834;834;LTC3805;Adjustable Frequency Current Mode Flyback DC/DC Controller;36.0;[5.1];['V(out)'];3805.asc;1
+835;835;835;LTC3805-5;Adjustable Frequency Current Mode Flyback/Boost/SEPIC DC/DC Controller;5.0;[12.0];['V(out)'];3805-5.asc;1
+836;836;836;LTC3807;Low Iq, Synchronous Step-Down Controller with 24V Output Voltage Capability;24.0;[12.3];['V(out)'];3807.asc;1
+837;837;837;LTC3808;No Rsense(TM), Low EMI, Synchronous DC/DC Controller with Output Tracking\n\nNote: Short circuit protection is not modeled.;5.0;[2.5];['V(out)'];3808.asc;1
+838;838;838;LTC3809;No Rsense(TM), Low EMI, Synchronous DC/DC Controller\n\nNote: Short circuit protection is not modeled.;5.0;[2.5];['V(out)'];3809.asc;1
+839;839;839;LTC3809-1;No Rsense(TM), Low Input Voltage, Synchronous DC/DC Controller with Output Tracking\n\nNote: Short circuit protection is not modeled.;5.0;[2.5];['V(out)'];3809-1.asc;1
+840;840;840;LTC3810;100V Current Mode Synchronous Switching Regulator Controller;24.0;[12.2];['V(out)'];3810.asc;1
+841;841;841;LTC3810-5;60V Current Mode Synchronous Switching Regulator Controller;42.0;[12.1];['V(out)'];3810-5.asc;1
+842;842;842;LTC3812-5;60V Current Mode Synchronous Switching Regulator Controller;42.0;[5.1];['V(out)'];3812-5.asc;1
+843;843;843;LTC3815;6A Monolithic DC/DC Step-Down Converter with Digital Power System Management \n\nNote: PMBus is not modeled;3.3;[1.9];['V(out)'];LTC3815.asc;1
+844;844;844;LTC3816;Single-Phase Wide Vin Range DC/DC Controller for Intel IMVP-6/IMVP-6.5 CPUs;12.0;[1.6];['V(out)'];3816.asc;1
+845;845;845;LTC3822;No Rsense(TM), Synchronous DC/DC Controller\n\nNote: Short circuit protection is not modeled.;3.5;[1.8];['V(out)'];3822.asc;1
+846;846;846;LTC3822-1;No Rsense(TM), Low Input Voltage, Synchronous Step-Down DC/DC Controller;3.3;[1.8];['V(out)'];3822-1.asc;1
+847;847;847;LTC3823;Fast No Rsense(TM) Step-Down Synchronous Controller with Differential Output Sensing, Tracking and PLL;12.0;[2.5];['V(out)'];3823.asc;1
+848;848;848;LTC3824;High Voltage Step-Down Controller with 40µA Quiescent Current;30.0;[5.0];['V(out)'];3824.asc;1
+849;849;849;LTC3829;3-Phase, Single Output Synchronous Step-Down DC/DC Controller with Diffamp;12.0;[1.1];['V(out)'];3829.asc;1
+850;850;850;LTC3830;High Power Step-Down Synchronous DC/DC Controller for Low Voltage Operation;5.0;[3.3];['V(out)'];3830.asc;1
+851;851;851;LTC3830-1;High Power Step-Down Synchronous DC/DC Controller for Low Voltage Operation;5.0;[1.8];['V(out)'];3830-1.asc;1
+852;852;852;LTC3832;High Power Step-Down Synchronous DC/DC Controller for Low Voltage Operation;5.0;[0.6];['V(out)'];3832.asc;1
+853;853;853;LTC3832-1;High Power Step-Down Synchronous DC/DC Controller for Low Voltage Operation;5.0;[1.0];['V(out)'];3832-1.asc;1
+854;854;854;LTC3833;Fast Accurate Step-Down DC/DC Controller with Differential Output Sensing;12.0;[1.5];['V(out)'];3833.asc;1
+855;855;855;LTC3834;30µA Iq Synchronous Step-Down Controller;12.0;[3.4];['V(out)'];3834.asc;1
+856;856;856;LTC3834-1;30µA Iq Synchronous Step-Down Controller;12.0;[3.4];['V(out)'];3834-1.asc;1
+857;857;857;LTC3835;Low Iq Synchronous Step-Down Controller;12.0;[3.3];['V(out)'];3835.asc;1
+858;858;858;LTC3835-1;Low Iq Synchronous Step-Down Controller;12.0;[3.3];['V(out)'];3835-1.asc;1
+859;859;859;LTC3839;Fast, Accurate 2-Phase, Single-Output Step-Down DC/DC Controller with Differential Output Sensing;10.0;[3.3];['V(out)'];3839.asc;1
+860;860;860;LTC3851;Synchronous 40V Step-Down Switching Controller;12.0;[3.3];['V(out)'];3851.asc;1
+861;861;861;LTC3851-1;Synchronous Step-Down Switching Regulator Controller;12.0;[3.3];['V(out)'];3851-1.asc;1
+862;862;862;LTC3851A;Synchronous Step-Down Switching Regulator Controller;12.0;[3.3];['V(out)'];3851.asc;1
+863;863;863;LTC3851A-1;Synchronous Step-Down Switching Regulator Controller;12.0;[3.3];['V(out)'];3851-1.asc;1
+864;864;864;LTC3852;Low Input Voltge, Synchronous Step-Down DC/DC Controller;3.0;[1.2];['V(out)'];3852.asc;1
+865;865;865;LTC3854;Samall Footprint, Wide Vin Range Synchronous Step-Down Controller;12.0;[5.2];['V(out)'];3854.asc;1
+866;866;866;LTC3856;2-Phase Synchronous Step-Down DC/DC Controller with Diffamp;12.0;[1.4];['V(out)'];3856.asc;1
+867;867;867;LTC3860;Dual, Multiphase Step-Down Voltage Mode DC/DC Controller with Current Sharing\n\nNote:  Internal soft-start timer is reduced to 0.5ms from 2ms;12.0;[1.2];['V(out)'];3860.asc;1
+868;868;868;LTC3861;Dual, Multiphase Step-Down Voltage Mode DC/DC Controller with Accurate Current Sharing\n\nNote:  Internal soft-start timer is reduced to 0.5ms from 2ms;12.0;[1.3];['V(out)'];3861.asc;1
+869;869;869;LTC3861-1;Dual, Multiphase Step-Down Voltage Mode DC/DC Controller with Current Sharing\n\nNote:  Internal soft-start timer is reduced to 0.5ms from 2ms;12.0;[1.2];['V(out)'];3861-1.asc;1
+870;870;870;LTC3862;Multi-Phase Current Mode Step-Up DC/DC Controller;10.0;[49.4];['V(out)'];3862.asc;1
+871;871;871;LTC3862-1;Multi-Phase Current Mode Step-Up DC/DC Controller;10.0;[49.0];['V(out)'];3862-1.asc;1
+872;872;872;LTC3862-2;Multi-Phase Current Mode Step-Up DC/DC Controller;24.0;[81.7];['V(out)'];3862-2.asc;1
+873;873;873;LTC3863;60V Low Iq Inverting DC/DC Controller;12.0;[5.199999809265137];['V(out)'];3863.asc;1
+874;874;874;LTC3864;60V Low Iq Step-Down DC/DC Controller with 100% Duty Cycle Capability;24.0;[5.0];['V(out)'];3864.asc;1
+875;875;875;LTC3866;Current Mode Synchronous Controller for Sub Milliohm DCR Sensing;12.0;[1.5];['V(out)'];3866.asc;1
+876;876;876;LTC3867;Synchronous Step-Down DC/DC Controller with Differential Remote Sense and Nonlinear Control;12.0;[1.5];['V(out)'];3867.asc;1
+877;877;877;LTC3871;Polyphase Synchronous Bidirectional Buck or Boost Controller;48.0;[12.2];['V(out)'];LTC3871.asc;1
+878;878;878;LTC3872;No Rsense(TM) Current Mode Boost DC/DC Controller;3.3;[5.0];['V(out)'];3872.asc;1
+879;879;879;LTC3873;No Rsense(TM) Constant Frequency Current Mode Boost/Flyback/SEPIC DC/DC Controller;48.0;[5.1];['V(out)'];3873.asc;1
+880;880;880;LTC3873-5;No Rsense(TM) Constant Frequency Current Mode Boost/Flyback/SEPIC DC/DC Controller;5.0;[12.2];['V(out)'];3873-5.asc;1
+881;881;881;LTC3874;Polyphase Step-Down Synchronous Salve Controller with Sub-Milliohm DCR Sensing;12.0;[1.5];['V(out)'];3874.asc;1
+882;882;882;LTC3874-1;Polyphase Step-Down Salve Controller with Sub-Milliohm DCR sensing;12.0;[1.5];['V(out)'];3874-1.asc;1
+883;883;883;LTC3875;Dual, 2-Phase, Synchronous Controller with Low Value DCR Sensing and Temperature Compensation;12.0;[1.2];['V(out)'];3875.asc;1
+884;884;884;LTC3878;Fast, Wide Operating Range No Rsense(TM) Step-Down Controller;12.0;[1.2];['V(out)'];3878.asc;1
+885;885;885;LTC3879;Fast, Wide Operating Range No Rsense(TM) Step-Down Controller;12.0;[1.2];['V(out)'];3879.asc;1
+886;886;886;LTC3882;Dual Output Polyphase Step-Down DC/DC Voltage Mode Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;32.0;[1.0];['V(out)'];LTC3882.asc;1
+887;887;887;LTC3883;Single Phase Step-Down DC/DC Controller with Digital Power System Management\n\nNote1: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled. \n\nNote2: PGood timer is modeled as less than 1uSec, but the silicon has typical 90mSec.;12.0;[1.8];['V(out)'];3883.asc;1
+888;888;888;LTC3883-1;Single Phase Step-Down DC/DC Controller with Digital Power System Management\n\nNote1: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled.\n\nNote2: PGood timer is modeled as less than 1uSec, but the silicon has typical 90mSec.;12.0;[1.8];['V(out)'];3883-1.asc;1
+889;889;889;LTC3890-2;60V Low Iq, Dual, 2-Phase Synchronous Step-Down DC/DC Controller;48.0;[12.0];['V(out)'];3890-2.asc;1
+890;890;890;LTC3891;Low Iq, 60V Synchronous Step-Down Controller;12.0;[3.3];['V(out)'];3891.asc;1
+891;891;891;LTC3892-1;60V Low Iq, Dual, 2-Phase Synchronous Step-Down DC/DC Controller;48.0;[12.2];['V(out)'];3892-1.asc;1
+892;892;892;LTC3894;150V Low Iq Step-Down DC/DC Controller with 100% Duty Cycle Capability;12.0;[5.0];['V(out)'];3894.asc;1
+893;893;893;LTC3895;150V Low Iq, Synchronous Step-Down DC/DC Controller;30.0;[12.3];['V(out)'];3895.asc;1
+894;894;894;LTC3896;150V Low Iq, Synchronous Inverting DC/DC Controller;48.0;[15.5];['V(out)'];3896.asc;1
+895;895;895;LTC3897;PolyPhase Synchronous Boost Controller with Input/Output Protection;16.0;[24.3];['V(out)'];3897.asc;1
+896;896;896;LTC3901;Secondary Side Synchronous Driver for Push-Pull and Full-Bridge Converters;12.0;[6.2];['V(out)'];LTC3901.asc;1
+897;897;897;LTC4000;High Voltage High Current Controller for Battery Charging and Power Manager;36.0;[11.9];['V(out)'];4000.asc;1
+898;898;898;LTC4009;High Efficiency Multi-Chemistry Battery Charger;16.0;[12.4];['V(batt)'];4009.asc;1
+899;899;899;LTC4009-1;High Efficiency Multi-Chemistry Battery Charger;16.0;[12.4];['V(batt)'];4009-1.asc;1
+900;900;900;LTC4009-2;High Efficiency Multi-Chemistry Battery Charger;16.0;[12.7];['V(batt)'];4009-2.asc;1
+901;901;901;LTC4020;55V Buck-Boost Multi-Chemistry Battery Charger;15.0;[14.199999809265135];['V(bat)'];LTC4020.asc;1
+902;902;902;LTC4217;2A Integrated Hot Swap Controller;12.0;[12.0];['V(out)'];4217.asc;1
+903;903;903;LTC4217-12;2A Integrated Hot Swap Controller;12.0;[12.0];['V(out)'];4217-12.asc;1
+904;904;904;LTC4218;Hot Swap Controller with Adjustable, 5% Accurate(15mV) Current Limit;12.0;[12.0];['V(out)'];4218.asc;1
+905;905;905;LTC4218-12;Hot Swap Controller with Adjustable, 5% Accurate(15mV) Current Limit;12.0;[12.0];['V(out)'];4218-12.asc;1
+906;906;906;LTC4219-12;5A 12V Integrated Hot Swap Controller;12.0;[12.0];['V(out)'];4219-12.asc;1
+907;907;907;LTC4219-5;5A 5V Integrated Hot Swap Controller;5.0;[5.0];['V(out)'];4219-5.asc;1
+908;908;908;LTC4232;5A Integrated Hot Swap Controller;12.0;[12.0];['V(out)'];4232.asc;1
+909;909;909;LTC4233;10A Integrated Hot Swap Controller;12.0;[12.0];['V(out)'];4233.asc;1
+910;910;910;LTC4234;20A Integrated Hot Swap Controller;12.0;[12.0];['V(out)'];4234.asc;1
+911;911;911;LTC4267;Power over Ethernet IEEE 802.3af PD Interface with Integrated Switching Regulator;57.0;[3.4];['V(out)'];4267.asc;1
+912;912;912;LTC4267-1;Power over Ethernet IEEE 802.3af PD Interface with Integrated Switching Regulator;57.0;[3.4];['V(out)'];4267-1.asc;1
+913;913;913;LTC4267-3;Power over Ethernet IEEE 802.3af PD Interface with Integrated Switching Regulator;57.0;[3.4];['V(out)'];4267-3.asc;1
+914;914;914;LTC4269-1;IEEE802.3at PD with Synchronous No-Opto Flyback Controller with AUX Support;54.0;[3.5];['V(out)'];LTC4269-1.asc;1
+915;915;915;LTC4269-2;IEEE802.3at PD and Synchronous Forward Controller with AUX support;54.0;[13.0];['V(out)'];LTC4269-2.asc;1
+916;916;916;LTC4278;IEEE802.3at PD with Synchronous No-Opto Flyback Controller with 12V AUX Support;54.0;[3.6];['V(out)'];4278.asc;1
+917;917;917;LTC4441;N-Channel MOSFET Gate Driver;10.0;[24.8];['V(out)'];4441.asc;1
+918;918;918;LTC4441-1;N-Channel MOSFET Gate Driver;10.0;[24.9];['V(out)'];4441-1.asc;1
+919;919;919;LTC660;100mA CMOS Voltage Converter;5.0;[4.400000095367432];['V(out)'];660.asc;1
+920;920;920;LTC7000;Fast 150V Protected High Side NMOS Static Switch Driver;135.0;[134.7];['V(out)'];LTC7000.asc;1
+921;921;921;LTC7000-1;Fast 150V Protected High Side NMOS Static Switch Driver;135.0;[134.7];['V(out)'];LTC7000-1.asc;1
+922;922;922;LTC7003;Fast 60V Protected High Side NMOS Static Switch Driver;36.0;[35.9];['V(out)'];LTC7003.asc;1
+923;923;923;LTC7103;105V, 2.3A Low EMI Synchronous Step-Down Regulator;50.0;[5.0];['V(out)'];7103.asc;1
+924;924;924;LTC7103-1;105V, 2.3A Low EMI Synchronous Step-Down Regulator with Fast Current Programming;50.0;[5.0];['V(vout)'];LTC7103-1.asc;1
+925;925;925;LTC7130;20V 20A Monolithic Buck Converter with Ultralow DCR Sensing;12.0;[1.5];['V(out)'];7130.asc;1
+926;926;926;LTC7138;High Efficiency, 140V 400mA Step-Down Regulator;72.0;[5.0];['V(out)'];7138.asc;1
+927;927;927;LTC7149;60V, 4A Synchronous Step-Down Regulator with Rail-to-Rail Programmable Inverting Output;24.0;[5.0];['V(out)'];LTC7149.asc;1
+928;928;928;LTC7150S;20V, 20A Synchronous Step-Down Regulator;12.0;[1.2];['V(out)'];LTC7150S.asc;1
+929;929;929;LTC7151S;20V, 15A Synchronous Step-Down Silent Switcher 2 Regulator;12.0;[1.0];['V(out)'];LTC7151S.asc;1
+930;930;930;LTC7800;Low Iq, 60V High Frequency Synchronous Step-Down Controller;12.0;[3.3];['V(out)'];7800.asc;1
+931;931;931;LTC7801;150V Low Iq, Synchronous Step-Down DC/DC Controller;30.0;[12.399999618530273];['V(out)'];7801.asc;1
+932;932;932;LTC7803;40V Low Iq, 100% Duty Cycle, Synchronous Step-Down Controller with Spread Spectrum;12.0;[3.4];['V(out)'];LTC7803.asc;1
+933;933;933;LTC7804;Low Iq Synchronous Boost Controller;12.0;[24.4];['V(out)'];LTC7804.asc;1
+934;934;934;LTC7812;Low Iq, 38V Synchronous Boost + Buck Controller;6.0;[5.0];['V(out)'];7812.asc;1
+935;935;935;LTC7813;Low Iq, 60V Synchronous Boost+Buck Controller;6.0;[8.5];['V(out)'];7813.asc;1
+936;936;936;LTC7821;Hybrid Step-Down Synchronous Controller;48.0;[12.1];['V(out)'];LTC7821.asc;1
+937;937;937;LTC7841;PolyPhase Synchronous Boost Controller with PMBus Interface;10.0;[24.3];['V(out)'];LTC7841.asc;1
+938;938;938;LTC7851;Quad Output, Multiphase Step-Down Voltage Mode DC/DC Controller with Accurate Current Sharing\n\nNote:  Internal soft-start timer is reduced to 0.5ms from 2ms;12.0;[1.0];['V(out)'];7851.asc;1
+939;939;939;LTC7851-1;Quad Output, Multiphase Step-Down Voltage Mode DC/DC Controller with Accurate Current Sharing\n\nNote:  Internal soft-start timer is reduced to 0.5ms from 2ms;12.0;[1.0];['V(out)'];7851-1.asc;1
+940;940;940;LTM4600;10A High Efficiency DC/DC µModule;7.0;[1.5];['V(out)'];4600.asc;1
+941;941;941;LTM4600HV;10A, 28Vin High Efficiency DC/DC µModule;7.0;[1.5];['V(out)'];4600.asc;1
+942;942;942;LTM4601;12A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4601.asc;1
+943;943;943;LTM4601-1;12A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4601-1.asc;1
+944;944;944;LTM4601A;12A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4601.asc;1
+945;945;945;LTM4601A-1;12A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4601-1.asc;1
+946;946;946;LTM4601AHV;12A, 28Vin DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4601.asc;1
+947;947;947;LTM4601HV;12A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4601.asc;1
+948;948;948;LTM4602;6A High Efficiency DC/DC µModule;7.0;[1.5];['V(out)'];4602.asc;1
+949;949;949;LTM4602HV;6A, 28Vin High Efficiency DC/DC µModule;7.0;[1.5];['V(out)'];4602.asc;1
+950;950;950;LTM4603;6A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4603.asc;1
+951;951;951;LTM4603-1;6A DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4603-1.asc;1
+952;952;952;LTM4603HV;6A, 28Vin DC/DC µModule with PLL, Output Tracking and Margining;6.0;[1.5];['V(out)'];4603.asc;1
+953;953;953;LTM4604;Low Voltage, 4A DC/DC µModule with Tracking;3.3;[2.5];['V(out)'];4604.asc;1
+954;954;954;LTM4604A;Low Voltage, 4A DC/DC µModule with Tracking;3.3;[2.5];['V(out)'];4604.asc;1
+955;955;955;LTM4605;High Efficiency Buck-Boost DC/DC µModule;15.0;[12.0];['V(out)'];4605.asc;1
+956;956;956;LTM4606;Ultralow EMI 28Vin,6A DC/DC µModule;16.0;[2.5];['V(out)'];4606.asc;1
+957;957;957;LTM4607;36Vin, 24Vout High Efficiency Buck-Boost DC/DC µModule;15.0;[20.3];['V(out)'];4607.asc;1
+958;958;958;LTM4608;Low Vin, 8A DC/DC µModule with Tracking, Margining, and Frequency Synchronization;3.6;[1.8];['V(out)'];4608.asc;1
+959;959;959;LTM4608A;Low Vin, 8A DC/DC µModule with Tracking, Margining, and Frequency Synchronization;3.6;[1.8];['V(out)'];4608.asc;1
+960;960;960;LTM4609;36Vin, 34Vout High Efficiency Buck-Boost DC/DC µModule;18.0;[30.3];['V(out)'];4609.asc;1
+961;961;961;LTM4611;Ultralow Vin, 15A DC/DC µModule Regulator;3.3;[1.0];['V(out)'];4611.asc;1
+962;962;962;LTM4612;Ultralow Noise 36Vin, 15Vout, 5A, DC/DC µModule;30.0;[12.2];['V(out)'];4612.asc;1
+963;963;963;LTM4613;EN55022B Compliant 36Vin, 15Vout, 8A, DC/DC µModule Regulator;30.0;[12.2];['V(out)'];4613.asc;1
+964;964;964;LTM4618;6A DC/DC µModule Regulator with Tracking and Frequency Synchronization;12.0;[2.5];['V(out)'];4618.asc;1
+965;965;965;LTM4623;Ultrathin 20Vin, 3A Step-Down DC/DC µModule Regulator;12.0;[1.5];['V(out)'];4623.asc;1
+966;966;966;LTM4624;14Vin, 4A Step-Down DC/DC µModule Regulator;12.0;[1.5];['V(out)'];4624.asc;1
+967;967;967;LTM4625;20V, 5A Step-Down µModule Regulator;12.0;[1.5];['V(out)'];4625.asc;1
+968;968;968;LTM4626;20Vin, 12A Step-Down DC/DC µModule Regulator;12.0;[1.0];['V(out)'];4626.asc;1
+969;969;969;LTM4627;15A DC/DC µModule Regulator;12.0;[1.2];['V(out)'];4627.asc;1
+970;970;970;LTM4630;Dual 18A or Single 36A DC/DC µModule Regulator;12.0;[1.2];['V(out)'];4630.asc;1
+971;971;971;LTM4630-1;Dual 18A or Single 36A µModule Regulator with ±1% DC and ±3% Transient Accuracy;12.0;[1.2];['V(out)'];4630-1.asc;1
+972;972;972;LTM4630A;Dual 18A or Single 36A DC/DC µModule Regulator;12.0;[1.2];['V(out)'];4630.asc;1
+973;973;973;LTM4631;Ultrathin Dual 10A or Single 20A DC/DC µModule Regulator;12.0;[1.2];['V(out)'];4631.asc;1
+974;974;974;LTM4636;40A DC/DC µModule Regulator;12.0;[1.0];['V(out)'];4636.asc;1
+975;975;975;LTM4636-1;40A µModule Regulator with OverVoltage/ \n\n OverTemperature Protection;12.0;[1.0];['V(out)'];4636-1.asc;1
+976;976;976;LTM4637;20A DC/DC µModule Step-Down Regulator;12.0;[1.2];['V(out)'];4637.asc;1
+977;977;977;LTM4638;20Vin, 15A Step-Down DC/DC µModule Regulator;12.0;[1.0];['V(out)'];4638.asc;1
+978;978;978;LTM4639;Low Vin 20A DC/DC µModule Step-Down Regulator \n\n[Note]: OT_Test pin is not modeled;3.3;[1.5];['V(out)'];4639.asc;1
+979;979;979;LTM4641;38V, 8A DC/DC µModule Regulator with Advanced Input and Output Protection;12.0;[1.0];['V(out)'];4641.asc;1
+980;980;980;LTM4645;25A DC/DC Step-Down µModule Regulator;12.0;[1.0];['V(out)'];LTM4645.asc;1
+981;981;981;LTM4647;30A DC/DC Step-Down µModule Regulator;12.0;[1.0];['V(out)'];4647.asc;1
+982;982;982;LTM4648;Low Vin, 10A Step-Down µModule Regulator;4.0;[1.5];['V(out)'];4648.asc;1
+983;983;983;LTM4649;10A Step-Down DC/DC µModule Regulator;12.0;[1.5];['V(out)'];4649.asc;1
+984;984;984;LTM4650;Dual 25A or Single 50A DC/DC µModule Regulator;12.0;[1.2];['V(out)'];4650.asc;1
+985;985;985;LTM4650-1;Dual 25A or Single 50A µModule Regulator with 3% Transient Accuracy;12.0;[1.0];['V(out)'];4650-1.asc;1
+986;986;986;LTM4650A;Dual 25A or Single 50A DC/DC µModule Regulator with 1% DC Accuracy;12.0;[1.2];['V(out)'];4650.asc;1
+987;987;987;LTM4650A-1;Dual 25A or Single 50A DC/DC µModule Regulator with 1% DC Accuracy;12.0;[1.0];['V(out)'];4650-1.asc;1
+988;988;988;LTM4651;EN55022B Compliant 58V, 24W Inverting-Output DC/DC µModule Regulator;24.0;[24.399999618530273];['V(out)'];4651.asc;1
+989;989;989;LTM4652;BiDirectional Dual ±25A or Single ±50A DC/DC µModule Regulator with Input Overvoltage Protection;12.0;[3.3];['V(out)'];LTM4652.asc;1
+990;990;990;LTM4653;EN55022B Compliant 58V, 4A Step-Down DC/DC µModule Regulator;48.0;[24.2];['V(out)'];LTM4653.asc;1
+991;991;991;LTM4657;20Vin, 8A Step-Down DC/DC uModule Regulator;12.0;[5.2];['V(out)'];LTM4657.asc;1
+992;992;992;LTM4660;72V, 300W Hybrid Step-Down Non-Isolated µModule Bus Converter;48.0;[12.0];['V(out)'];4660.asc;1
+993;993;993;LTM4693;5A Low Noise, High Performance Buck-Boost DC/DC µModule Regulator;2.8;[3.3];['V(out)'];4693.asc;1
+994;994;994;LTM8002;40Vin, 2.5A Silent Switcher µModule Regulator;12.0;[5.0];['V(out)'];8002.asc;1
+995;995;995;LTM8003;40Vin, 3.5A Step-Down µModule Regulator (H Grade);24.0;[5.0];['V(out)'];LTM8003.asc;1
+996;996;996;LTM8005;38Vin Boost µModule Regulator for LED Drive with 10A Switch;12.0;[37.3];['V(out)'];8005.asc;1
+997;997;997;LTM8020;200mA, 36V DC/DC µModule;25.0;[5.0];['V(out)'];8020.asc;1
+998;998;998;LTM8021;500mA, 40V DC/DC µModule;20.0;[5.0];['V(out)'];8021.asc;1
+999;999;999;LTM8022;1A, 36V DC/DC µModule;20.0;[5.3];['V(out)'];8022.asc;1
+1000;1000;1000;LTM8023;2A, 36V DC/DC µModule;20.0;[3.4];['V(out)'];8023.asc;1
+1001;1001;1001;LTM8025;36V, 3A Step-Down µModule Converter;30.0;[12.7];['V(out)'];8025.asc;1
+1002;1002;1002;LTM8026;36Vin. 5A CVCC Step-Down µModule Regulator;24.0;[2.5];['V(out)'];8026.asc;1
+1003;1003;1003;LTM8027;60V, 4A DC/DC µModule Regulator;24.0;[12.3];['V(out)'];8027.asc;1
+1004;1004;1004;LTM8028;36Vin. UltraFast, Low Ouput Noise 5A µModule Regulator;24.0;[1.2];['V(out)'];8028.asc;1
+1005;1005;1005;LTM8029;36V, 600mA Step-Down µModule Converter with 5µA Quiescent Current;10.0;[5.1];['V(out)'];8029.asc;1
+1006;1006;1006;LTM8031;Ultralow Noise EMC 36V, 1A DC/DC µModule Regulator;24.0;[4.9];['V(out)'];8031.asc;1
+1007;1007;1007;LTM8032;Ultralow Noise EMC Compliant 36V, 2A DC/DC µModule;20.0;[5.0];['V(out)'];8032.asc;1
+1008;1008;1008;LTM8033;Ultralow Noise EMC 36Vin, 3A DC/DC µModule Regulator;30.0;[12.7];['V(out)'];8033.asc;1
+1009;1009;1009;LTM8046;3.1Vin to 32Vin, 2kVAC Isolated DC/DC µModule Converter;12.0;[5.3];['V(out)'];8046.asc;1
+1010;1010;1010;LTM8047;3.1Vin to 32Vin Isolated µModule DC/DC Converter;10.0;[5.8];['V(out)'];8047.asc;1
+1011;1011;1011;LTM8047A;3.1Vin to 32Vin Isolated µModule DC/DC Converter;10.0;[5.8];['V(out)'];8047.asc;1
+1012;1012;1012;LTM8050;58V, 2A Step-Down µModule Regulator;48.0;[12.4];['V(out)'];8050.asc;1
+1013;1013;1013;LTM8052;36Vin. 5A, 2-Quadrant CVCC Step-Down µModule Regulator;24.0;[2.5];['V(out)'];8052.asc;1
+1014;1014;1014;LTM8052A;36Vin. 5A, 2-Quadrant CVCC Step-Down µModule Regulator;24.0;[2.5];['V(out)'];8052.asc;1
+1015;1015;1015;LTM8053;40Vin, 3.5A/6A Step-Down µModule Regulator;24.0;[5.1];['V(out)'];8053.asc;1
+1016;1016;1016;LTM8054;36Vin, 5.4A Buck-Boost µModule Regulator;24.0;[12.9];['V(out)'];8054.asc;1
+1017;1017;1017;LTM8055;36Vin, 8.5A Buck-Boost µModule Regulator;12.0;[12.2];['V(out)'];8055.asc;1
+1018;1018;1018;LTM8055-1;36Vin, 8.5A Buck-Boost µModule Regulator;24.0;[12.4];['V(out)'];8055-1.asc;1
+1019;1019;1019;LTM8056;58Vin, 48Vout Buck-Boost µModule Regulator;32.0;[25.2];['V(out)'];LTM8056.asc;1
+1020;1020;1020;LTM8057;3.1Vin to 31Vin Isolated µModule DC/DC Converter;24.0;[5.0];['V(out)'];8057.asc;1
+1021;1021;1021;LTM8061-4.1;32V, 2A µModule Li-Ion/Polymer Battery Charger;12.0;[4.2];['V(out)'];8061-4.1.asc;1
+1022;1022;1022;LTM8061-4.2;32V, 2A µModule Li-Ion/Polymer Battery Charger;12.0;[4.3];['V(out)'];8061-4.2.asc;1
+1023;1023;1023;LTM8061-8.2;32V, 2A µModule Li-Ion/Polymer Battery Charger;12.0;[8.3];['V(out)'];8061-8.2.asc;1
+1024;1024;1024;LTM8061-8.4;32V, 2A µModule Li-Ion/Polymer Battery Charger;12.0;[8.5];['V(out)'];8061-8.4.asc;1
+1025;1025;1025;LTM8062;32 Vin, 2A µModule Power Tracking Battery Charger;12.0;[3.7];['V(out)'];8062.asc;1
+1026;1026;1026;LTM8062A;32 Vin, 2A µModule Power Tracking Battery Charger;12.0;[3.7];['V(out)'];8062.asc;1
+1027;1027;1027;LTM8063;40Vin, 2A Silent Switcher µModule Regulator;12.0;[5.1];['V(out)'];8063.asc;1
+1028;1028;1028;LTM8064;58Vin, 6A CVCC Step-Down µModule Regulator;55.0;[5.0];['V(out)'];8064.asc;1
+1029;1029;1029;LTM8065;40Vin, 2.5A Silent Switcher µModule Regulator;12.0;[5.0];['V(out)'];8065.asc;1
+1030;1030;1030;LTM8067;28Vin to 40Vin Isolated µModule DC/DC Converter;24.0;[5.0];['V(out)'];8067.asc;1
+1031;1031;1031;LTM8071;60Vin, 5A Silent Switcher µModule Regulator;22.0;[3.4];['V(out)'];LTM8071.asc;1
+1032;1032;1032;LTM8073;60Vin, 3A Silent Switcher µModule Converter;48.0;[5.1];['V(out)'];LTM8073.asc;1
+1033;1033;1033;LTM8074;40Vin, 1.2A Silent Switcher uModule Regulator;12.0;[3.3];['V(out)'];8074.asc;1
+1034;1034;1034;MAX15090B;2.7V to 18V, 12A, Hot-Swap Solution with Current Report Output;12.0;[12.0];['V(out)'];MAX15090B.asc;1
+1035;1035;1035;MAX15090C;2.7V to 18V, 12A, Hot-Swap Solution with Current Report Output;12.0;[12.0];['V(out)'];MAX15090C.asc;1
+1036;1036;1036;MAX15091;2.7V to 18V, 9A, Integrated Hot-Swap Solution with Current Report Output;12.0;[12.0];['V(out)'];MAX15091.asc;1
+1037;1037;1037;MAX15091A;2.7V to 18V, 9A, Integrated Hot-Swap Solution with Current Report Output;12.0;[12.0];['V(out)'];MAX15091A.asc;1
+1038;1038;1038;MAX15093;2.7V to 18V, 15A, Hot-Swap Solution with Current Report Output;12.0;[12.0];['V(out)'];MAX15093.asc;1
+1039;1039;1039;MAX15093A;2.7V to 18V, 15A, Hot-Swap Solution with Current Report Output;12.0;[12.0];['V(out)'];MAX15093A.asc;1
+1040;1040;1040;MAX15095;2.7V to 18V, 6.6A Integrated Hot-Swap/Electronic Circuit Breaker;12.0;[12.0];['V(out)'];MAX15095.asc;1
+1041;1041;1041;MAX15095A;2.7V to 18V, 6.6A Integrated Hot-Swap/Electronic Circuit Breaker;12.0;[12.0];['V(out)'];MAX15095A.asc;1
+1042;1042;1042;MAX15095D;2.7V to 18V, 6.6A Integrated Hot-Swap/Electronic Circuit Breaker;12.0;[12.0];['V(out)'];MAX15095D.asc;1
+1043;1043;1043;MAX15096;2.7V to 18V, 6A Integrated Hot-Swap/Electronic Circuit Breaker;12.0;[12.0];['V(out)'];MAX15096.asc;1
+1044;1044;1044;MAX15096A;2.7V to 18V, 6A Integrated Hot-Swap/Electronic Circuit Breaker;12.0;[12.0];['V(out)'];MAX15096A.asc;1
+1045;1045;1045;MAX15096D;2.7V to 18V, 6A Integrated Hot-Swap/Electronic Circuit Breaker;12.0;[12.0];['V(out)'];MAX15096D.asc;1
+1046;1046;1046;MAX17597;Peak-Current-Mode Controllers for Flyback and Boost Regulators;15.0;[25.3];['V(out)'];MAX17597.asc;1
+1047;1047;1047;ADP1850;Wide Range Input, Dual/Two-Phase, DC-to-DC Channel Synchronous Buck Controller;12.0;[2.5, 2.5];['V(out1)', 'V(out2)'];ADP1850.asc;2
+1048;1048;1048;ADP2311;Dual 1A, 18V, Synchronous Step-Down Regulator with Fail-Safe Voltage Monitoring\n\nNote: Watchdog Timeout Period TWD=50ms;12.0;[3.3, 3.3];['V(out2)', 'V(out1)'];ADP2311.asc;2
+1049;1049;1049;ADP5003;Low Noise Micro PMU,3 A Buck Regulator with 3 A LDO;10.0;[2.0, 1.8];['V(out1)', 'V(out2)'];ADP5003.asc;2
+1050;1050;1050;ADP5014_chan1_2;Switcher model of channels 1 and 2 of ADP5014;5.0;[1.0, 1.0];['V(out1)', 'V(out2)'];ADP5014_chan1_2.asc;2
+1051;1051;1051;ADP5014_chan3_4;Switcher model of channels 3 and 4 of ADP5014;5.0;[3.3, 2.5];['V(out1)', 'V(out2)'];ADP5014_chan3_4.asc;2
+1054;1054;1054;LT1939;Monolithic 2A Step-Down Regulator Plus Linear Regulator/Controller;12.0;[5.0, 3.3];['V(out1)', 'V(out2)'];1939.asc;2
+1055;1055;1055;LT1940;Dual Monolithic 1.5A, 1.5MHz Step-Down Switching Regulator;5.0;[3.4, 3.4];['V(out1)', 'V(out2)'];1940.asc;2
+1058;1058;1058;LT1944;Dual µPower Step-Up DC/DC Converter;3.5;[5.0, 12.4];['V(out1)', 'V(out2)'];1944.asc;2
+1059;1059;1059;LT1945;Dual µPower Step-Up DC/DC Converter;3.5;[-20.0, 11.9];['V(out1)', 'V(out2)'];1945.asc;2
+1060;1060;1060;LT3072;Dual, Low Noise, 2.5A Programmable Output, 80mV Low Dropout Linear Regulator;1.65;[1.2, 1.2];['V(out1)', 'V(out2)'];3072.asc;2
+1061;1061;1061;LT3463;Dual µPower DC/DC Converter with Schottky Diodes;4.0;[15.0, -8.1];['V(out1)', 'V(out2)'];3463.asc;2
+1062;1062;1062;LT3463A;Dual µPower DC/DC Converter with Schottky Diodes;4.0;[15.0, -8.1];['V(out1)', 'V(out2)'];3463.asc;2
+1063;1063;1063;LT3471;Dual 1.3A, 1.2MHz Boost/Inverter in 3mm x 3mm DFN;3.3;[7.0, -6.9];['V(out1)', 'V(out2)'];3471.asc;2
+1064;1064;1064;LT3472;Boost and Inverting DC/DC Converter for CCD Bias;3.6;[15.0, -8.0];['V(out1)', 'V(out2)'];3472.asc;2
+1065;1065;1065;LT3500;Monolithic 2A Step-Down Regulator Plus Linear Regulator/Controller;12.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3500.asc;2
+1066;1066;1066;LT3501;Dual Tracking 3A Step-Down Switching Regulator\n\nNote: Drop-out demand boost cap refresh is not modeled.;10.0;[1.8, 3.3];['V(out1)', 'V(out2)'];3501.asc;2
+1068;1068;1068;LT3506;Dual Monolithic 1.6A Step-Down Switching Regulator;5.0;[1.2, 1.8];['V(out1)', 'V(out2)'];3506.asc;2
+1069;1069;1069;LT3506A;Dual Monolithic 1.6A Step-Down Switching Regulator;5.0;[1.2, 1.8];['V(out1)', 'V(out2)'];3506.asc;2
+1070;1070;1070;LT3508;Dual Monolithic 1.4A Step-Down Switching Regulator;10.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3508.asc;2
+1071;1071;1071;LT3510;Dual Tracking 2A Step-Down Switching Regulator\n\nNote: Drop-out demand boost cap refresh is not modeled.;10.0;[1.8, 3.3];['V(out1)', 'V(out2)'];3510.asc;2
+1073;1073;1073;LT3587;High Voltage Monolithic Inverter and Dual Boost;4.25;[14.9, -8.0];['V(out1)', 'V(out2)'];3587.asc;2
+1075;1075;1075;LT3692;Monolithic Dual Tracking 3.5A Step-Down Switching Regulator;12.0;[1.8, 5.0];['V(out1)', 'V(out2)'];3692.asc;2
+1076;1076;1076;LT3692A;Monolithic Dual Tracking 3.5A Step-Down Switching Regulator;12.0;[1.8, 5.0];['V(out1)', 'V(out2)'];3692.asc;2
+1077;1077;1077;LT3742;Dual, 2-Phase Step-Down Switching Controller;14.0;[8.0, 5.0];['V(out1)', 'V(out2)'];3742.asc;2
+1079;1079;1079;LT3988;Dual 60v Monolithic 1A Step-Down Switching Regulator;10.0;[3.3, 5.0];['V(out2)', 'V(out1)'];3988.asc;2
+1080;1080;1080;LT3992;Monolithic Dual Tracking 3A Step-Down Switching Regulator;24.0;[12.1, 5.0];['V(out1)', 'V(out2)'];3992.asc;2
+1081;1081;1081;LTC1628;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;7.0;[5.0, 3.3];['V(out1)', 'V(out2)'];1628.asc;2
+1082;1082;1082;LTC1703;Dual 550kHz Synchronous 2-Phase Switching Regulator Controller with VID;5.0;[1.5, 2.0];['V(out2)', 'V(out1)'];1703.asc;2
+1083;1083;1083;LTC1873;Dual 550kHz Synchronous 2-Phase Switching Regulator Controller with 5-Bit VID;5.0;[2.0, 2.5];['V(out1)', 'V(out2)'];1873.asc;2
+1084;1084;1084;LTC2920-2;Single/Dual Power Supply Margining Controller;5.0;[4.7, 0.6];['V(out1)', 'V(out2)'];2920-2.asc;2
+1086;1086;1086;LTC3104;2.6µA Quiescent Current, 15V, 300mA Synchronous Step-Down DC/DC Converter and 10mA LDO;12.0;[2.3, 1.8];['V(out1)', 'V(out2)'];3104.asc;2
+1087;1087;1087;LTC3260;Low Noise Dual Supply Inverting Charge Pump;15.0;[12.1, -12.1];['V(out+)', 'V(out-)'];3260.asc;2
+1088;1088;1088;LTC3265;Low Noise Dual Supply with Boost and Inverting Charge Pumps;12.0;[15.1, -15.1];['V(out+)', 'V(out-)'];3265.asc;2
+1089;1089;1089;LTC3407-2;Dual Synchronous, 800mA, 2.25MHz Step-Down DC/DC Regulator\n\nNote: POR is not modeled.;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3407-2.asc;2
+1090;1090;1090;LTC3407-3;Dual Synchronous, 1.8V/0.8A and 3.3V/0.8A, 2.25MHz Step-Down DC/DC Regulator\n\nNote: POR is not modeled;5.0;[1.8, 3.3];['V(out1)', 'V(out2)'];3407-3.asc;2
+1091;1091;1091;LTC3407-4;Dual Synchronous, 800mA, 2.25MHz Step-Down DC/DC Regulator\n\nNote: POR is not modeled;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3407-4.asc;2
+1092;1092;1092;LTC3407;Dual Synchronous, 600mA, 1.5MHz Step-Down DC/DC Regulator;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3407.asc;2
+1093;1093;1093;LTC3407A-2;Dual Synchronous, 800mA, 2.25MHz Step-Down DC/DC Regulator\n\nNote: POR is not modeled.;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3407-2.asc;2
+1094;1094;1094;LTC3407A;Dual Synchronous, 600mA, 1.5MHz Step-Down DC/DC Regulator;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3407.asc;2
+1095;1095;1095;LTC3417;Dual Synchronous 1.4A/800mA 4MHz Step-Down DC/DC Regulator;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3417.asc;2
+1096;1096;1096;LTC3417A;Dual Synchronous 1.5A/1A 4MHz Step-Down DC/DC Regulator;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3417.asc;2
+1097;1097;1097;LTC3419;Dual Monolithic 600mA Synchronous Step-Down Regulator;3.6;[2.5, 1.8];['V(out1)', 'V(out2)'];3419.asc;2
+1101;1101;1101;LTC3523-2;Synchronous 600mA Step-Up and 400mA Step-Down DC/DC Converters;2.0;[3.3, 1.2];['V(out1)', 'V(out2)'];3523-2.asc;2
+1102;1102;1102;LTC3523;Synchronous 600mA Step-Up and 400mA Step-Down DC/DC Converters;2.0;[3.3, 1.2];['V(out1)', 'V(out2)'];3523.asc;2
+1103;1103;1103;LTC3527-1;Dual 800mA/400mA, 1.2MHz/2.2MHz Synchronous Step-Up DC/DC Converter;2.5;[3.3, 1.8];['V(out1)', 'V(out2)'];3527-1.asc;2
+1104;1104;1104;LTC3527;Dual 800mA/400mA, 1.2MHz/2.2MHz Synchronous Step-Up DC/DC Converter;2.5;[3.3, 1.8];['V(out1)', 'V(out2)'];3527.asc;2
+1105;1105;1105;LTC3535;Dual Channel 550mA 1MHz Synchronous Step-up DC/DC Converter;1.2;[1.8, 3.3];['V(out1)', 'V(out2)'];3535.asc;2
+1106;1106;1106;LTC3537;2.2MHz 600mA Synchronous Step-Up DC/DC Converter and 100mA LDO;1.5;[3.3, 3.0];['V(out1)', 'V(out2)'];3537.asc;2
+1107;1107;1107;LTC3541-1;High Efficiency Buck + VLDO Regulator;3.6;[2.5, 1.5];['V(out1)', 'V(out2)'];3541-1.asc;2
+1108;1108;1108;LTC3541-2;High Efficiency Buck + VLDO Regulator;3.6;[1.9, 1.5];['V(out1)', 'V(out2)'];3541-2.asc;2
+1109;1109;1109;LTC3541-3;High Efficiency Buck + VLDO Regulator;3.6;[1.8, 1.6];['V(out1)', 'V(out2)'];3541-3.asc;2
+1110;1110;1110;LTC3541;High Efficiency Buck + VLDO Regulator;3.6;[2.5, 1.5];['V(out1)', 'V(out2)'];3541.asc;2
+1115;1115;1115;LTC3546;Dual Synchronous, 3A/1A or 2A/2A Configurable Step-Down DC/DC Regulator\n\nNote: 1/6th of the real internal soft-start time is presented, for the purpose of saving simulation time.;5.0;[1.2, 2.5];['V(out1)', 'V(out2)'];3546.asc;2
+1116;1116;1116;LTC3547-1;Dual Monolithic 300mA Synchronous Step-Down Regulator;5.0;[1.8, 1.2];['V(out1)', 'V(out2)'];3547-1.asc;2
+1117;1117;1117;LTC3547;Dual Monolithic 300mA Synchronous Step-Down Regulator;5.0;[2.5, 1.8];['V(out1)', 'V(out2)'];3547.asc;2
+1118;1118;1118;LTC3547B-1;Dual Monolithic 300mA Synchronous Step-Down Regulator;5.0;[1.8, 1.2];['V(out1)', 'V(out2)'];3547-1.asc;2
+1119;1119;1119;LTC3547B;Dual Monolithic 300mA Synchronous Step-Down Regulator;5.0;[2.5, 1.8];['V(out1)', 'V(out2)'];3547.asc;2
+1120;1120;1120;LTC3548;Dual Synchronous, 400mA/800mA, 2.25MHz Step-Down DC/DC Regulator;2.8;[1.8, 2.5];['V(out1)', 'V(out2)'];3548.asc;2
+1121;1121;1121;LTC3548A;Dual Synchronous 400mA/800mA, 2.25MHz Step-Down DC/DC Regulator;2.8;[1.8, 2.5];['V(out1)', 'V(out2)'];3548.asc;2
+1122;1122;1122;LTC3552-1;Standalong Li-Ion Battery Charger and Dual Synchronous Buck Converter;5.0;[1.8, 1.6];['V(out1)', 'V(out2)'];3552-1.asc;2
+1123;1123;1123;LTC3552;Standalong Li-Ion Battery Charger and Dual Synchronous Buck Converter;5.0;[1.8, 2.5];['V(out1)', 'V(out2)'];3552.asc;2
+1124;1124;1124;LTC3559-1;Linear USB Battery Charger with Dual Buck Regulators;5.0;[2.5, 1.2];['V(out1)', 'V(out2)'];3559-1.asc;2
+1125;1125;1125;LTC3559;Linear USB Battery Charger with Dual Buck Regulators;5.0;[2.5, 1.2];['V(out1)', 'V(out2)'];3559.asc;2
+1127;1127;1127;LTC3607;Dual 600mA 15V Synchronous Step-Down DC/DC Regulator;12.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3607.asc;2
+1128;1128;1128;LTC3615;Dual 4MHz, 3A Synchronous Step-down DC/DC Converter;5.0;[2.5, 1.8];['V(out2)', 'V(out1)'];3615.asc;2
+1129;1129;1129;LTC3618;Dual 4MHz, ±3A Synchronous Buck Converter for DDR Termination;3.3;[0.9, 1.8];['V(out2)', 'V(out1)'];3618.asc;2
+1130;1130;1130;LTC3619;400mA/800mA Synchronous Step-Down DC/DC with Average Input Current Limit;4.2;[3.4, 1.8];['V(out2)', 'V(out1)'];3619.asc;2
+1131;1131;1131;LTC3619B;400mA/800mA Synchronous Step-Down DC/DC with Average Input Current Limit;4.2;[3.4, 1.8];['V(out2)', 'V(out1)'];3619.asc;2
+1132;1132;1132;LTC3622-2;17V, Dual 1A Synchronous Step-Down Regulator with Ultra Low Quiescent Current;12.0;[3.3, 5.0];['V(out2)', 'V(out1)'];3622-2.asc;2
+1133;1133;1133;LTC3622;17V, Dual 1A Synchronous Step-Down Regulator with Ultra Low Quiescent Current;12.0;[5.0, 2.5];['V(out2)', 'V(out1)'];3622.asc;2
+1134;1134;1134;LTC3633;Dual Channel 3A, 15V Monolithic Synchronous Step-Down Regulator \n\nPower On Reset timer is 1/16th of the real value in the part;12.0;[1.2, 2.5];['V(out1)', 'V(out2)'];3633.asc;2
+1135;1135;1135;LTC3633A;Dual Channel 3A, 20V Monolithic Synchronous Step-Down Regulator;12.0;[1.2, 2.5];['V(out1)', 'V(out2)'];3633.asc;2
+1136;1136;1136;LTC3634;15V Dual 3A Monolithic Step-Down Regulator for DDR Power;12.0;[1.8, 0.9];['V(out1)', 'V(out2)'];3634.asc;2
+1137;1137;1137;LTC3636;Dual Channel 6A, 20V Monolithic Synchronous Step-Down Regulator;12.0;[3.3, 5.0];['V(out2)', 'V(out1)'];LTC3636.asc;2
+1139;1139;1139;LTC3701;2 Phase, Low Input Voltage, Dual Step-Down DC/DC Controller;5.0;[2.5, 1.8];['V(out1)', 'V(out2)'];3701.asc;2
+1140;1140;1140;LTC3707;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;7.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3707.asc;2
+1141;1141;1141;LTC3708;Fast 2-Phase, No Rsense Buck Controller with Output Tracking;5.0;[1.8, 2.5];['V(out2)', 'V(out1)'];3708.asc;2
+1142;1142;1142;LTC3727-1;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;18.0;[5.0, 11.9];['V(out1)', 'V(out2)'];3727-1.asc;2
+1143;1143;1143;LTC3727;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator\n\nNote: Latch off not modeled.;18.0;[5.0, 11.9];['V(out1)', 'V(out2)'];3727.asc;2
+1144;1144;1144;LTC3727A-1;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;18.0;[5.0, 11.9];['V(out1)', 'V(out2)'];3727-1.asc;2
+1145;1145;1145;LTC3727LX-1;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;18.0;[5.0, 11.9];['V(out1)', 'V(out2)'];3727-1.asc;2
+1146;1146;1146;LTC3728;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;7.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3728.asc;2
+1147;1147;1147;LTC3728L;High Efficiency, 2-Phase Synchronous Step-Down Switching Regulator;7.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3728.asc;2
+1148;1148;1148;LTC3736-1;Dual 2-Phase, no Rsense(TM), Synchronous Controller with Spread Spectrum;5.0;[1.8, 1.8];['V(out1)', 'V(out2)'];3736-1.asc;2
+1149;1149;1149;LTC3736-2;Dual 2-Phase, No Rsense(TM), Synchronous Controller with Output Tracking;5.0;[1.8, 1.8];['V(out1)', 'V(out2)'];3736-2.asc;2
+1150;1150;1150;LTC3736;2-Phase, no Rsense(TM), Low Input Voltage, Dual Synchronous Step-Down DC/DC Controller;5.0;[1.8, 1.8];['V(out2)', 'V(out1)'];3736.asc;2
+1152;1152;1152;LTC3776;Dual 2-Phase, no Rsense(TM), Synchronous Controller for DDR/QDR Memory Termination;5.0;[1.8, 0.9];['V(out1)', 'V(out2)'];3776.asc;2
+1153;1153;1153;LTC3777;150V Vin and Vout Synchronous 4-Switch Buck-Boost Controller + Switching Bias Supply;36.0;[48.3, 11.9];['V(out1)', 'V(bout)'];3777.asc;2
+1154;1154;1154;LTC3788-1;2-Phase, Dual Output Synchronous Boost Controller;8.0;[24.2, 12.1];['V(out1)', 'V(out2)'];3788-1.asc;2
+1155;1155;1155;LTC3788;2-Phase Dual Output Synchronous Boost Controller;7.0;[24.2, 12.1];['V(out1)', 'V(out2)'];3788.asc;2
+1156;1156;1156;LTC3802;Dual 550kHz Synchronous 2-Phase DC/DC Controller with Programmable Up/Down Tracking;12.0;[2.5, 3.3];['V(out2v5)', 'V(out3v3)'];3802.asc;2
+1157;1157;1157;LTC3811;High Speed Dual, Multiphase Step-Down DC/DC Controller;12.0;[2.0, 1.5];['V(out1)', 'V(out2)'];3811.asc;2
+1158;1158;1158;LTC3826-1;30µA Iq, Dual, 2-Phase Synchronous Step-Down Controller;10.0;[3.4, 8.4];['V(out1)', 'V(out2)'];3826-1.asc;2
+1159;1159;1159;LTC3826;30µA Iq, Dual, 2-Phase Synchronous Step-Down Controller;10.0;[3.3, 8.4];['V(out1)', 'V(out2)'];3826.asc;2
+1160;1160;1160;LTC3827-1;Low Iq, Dual, 2-Phase Synchronous Controller;10.0;[3.4, 8.4];['V(out1)', 'V(out2)'];3827-1.asc;2
+1161;1161;1161;LTC3827;Low Iq, Dual, 2-Phase Synchronous Controller\n\nNote: PhasMD and ClkOut pins are not modeled;10.0;[3.3, 8.4];['V(out1)', 'V(out2)'];3827.asc;2
+1162;1162;1162;LTC3828;Dual, 2-Phase Step-Down Controller with Tracking;6.0;[3.3, 2.5];['V(out1)', 'V(out2)'];3828.asc;2
+1163;1163;1163;LTC3836;Dual 2-Phase, no Rsense(TM) Low Vin Synchronous Controller;3.3;[1.2, 1.8];['V(out2)', 'V(out1)'];3836.asc;2
+1164;1164;1164;LTC3838-1;Dual, Fast, Accurate Step-Down DC/DC Controller with Dual Differential Output Sensing;24.0;[1.2, 1.5];['V(out1)', 'V(out2)'];3838-1.asc;2
+1165;1165;1165;LTC3838-2;Dual, Fast, Accurate Step-Down DC/DC Controller with External Reference Voltage and Dual Differential Output Sensing;24.0;[1.2, 1.8];['V(out1)', 'V(out2)'];3838-2.asc;2
+1166;1166;1166;LTC3838;Dual, Fast, Accurate Step-Down DC/DC Controller with Differential Output Sensing;24.0;[1.2, 1.5];['V(out1)', 'V(out2)'];3838.asc;2
+1167;1167;1167;LTC3850-1;Dual, 2-Phase Step-Down Switching Controller;10.0;[3.3, 2.5];['V(out1)', 'V(out2)'];3850-1.asc;2
+1168;1168;1168;LTC3850-2;Dual, 2-Phase Step-Down Switching Controller;10.0;[3.3, 2.5];['V(out1)', 'V(out2)'];3850-2.asc;2
+1169;1169;1169;LTC3850;Dual, 2-Phase Step-Down Switching Controller;10.0;[3.3, 2.5];['V(out1)', 'V(out2)'];3850.asc;2
+1170;1170;1170;LTC3855;Dual, Multiphase Synchronous Controller with Differential Remote Sense;12.0;[2.5, 1.8];['V(out1)', 'V(out2)'];3855.asc;2
+1171;1171;1171;LTC3857-1;Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;23.0;[3.3, 8.5];['V(out1)', 'V(out2)'];3857-1.asc;2
+1172;1172;1172;LTC3857;Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;10.0;[3.3, 8.5];['V(out1)', 'V(out2)'];3857.asc;2
+1173;1173;1173;LTC3858-1;Low Iq, Dual 2-Phase Synchronous Step-Down Controller;10.0;[3.4, 8.4];['V(out1)', 'V(out2)'];3858-1.asc;2
+1174;1174;1174;LTC3858-2;Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;12.0;[3.3, 8.5];['V(out1)', 'V(out2)'];3858-2.asc;2
+1175;1175;1175;LTC3858;Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;12.0;[3.3, 8.5];['V(out1)', 'V(out2)'];3858.asc;2
+1178;1178;1178;LTC3868-1;Low Iq, Dual 2-Phase Synchronous Step-Down Controller;10.0;[3.3, 8.4];['V(out1)', 'V(out2)'];3868-1.asc;2
+1179;1179;1179;LTC3868;Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;12.0;[3.3, 8.5];['V(out1)', 'V(out2)'];3868.asc;2
+1180;1180;1180;LTC3869-2;Dual, 2-Phase Synchronous Step-Down DC/DC Controller;10.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3869-2.asc;2
+1181;1181;1181;LTC3869;Dual, 2-Phase Synchronous Step-Down DC/DC Controller;10.0;[5.0, 3.3];['V(out1)', 'V(out2)'];3869.asc;2
+1182;1182;1182;LTC3870-1;Polyphase Step-Down Salve Controller for Digital Power System Management;12.0;[3.3, 1.8];['V(out1)', 'V(out0)'];3870-1.asc;2
+1183;1183;1183;LTC3870;Polyphase Step-Down Salve Controller for LTC3880/LTC3883 with Digital Power System Management;12.0;[1.8, 3.3];['V(out1)', 'V(out0)'];3870.asc;2
+1184;1184;1184;LTC3876;Dual DC/DC Controller for DDR Power with Differential VDDQ Sensing and ±50mA VTT Reference;10.0;[1.5, 0.8];['V(out1)', 'V(out2)'];3876.asc;2
+1185;1185;1185;LTC3880-1;Dual Output Polyphase Step-Down DC/DC Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.8, 3.3];['V(out1)', 'V(out0)'];3880-1.asc;2
+1186;1186;1186;LTC3880;Dual Output Polyphase Step-Down DC/DC Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.8, 3.3];['V(out1)', 'V(out0)'];3880.asc;2
+1187;1187;1187;LTC3884;Dual Output Polyphase Step-Down DC/DC Controller with Sub-Milliohm DCR Sensing and Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.0, 1.5];['V(out1)', 'V(out0)'];3884.asc;2
+1188;1188;1188;LTC3886-1;60V Dual Output Step-Down Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;30.0;[5.0, 12.0];['V(out1)', 'V(out0)'];LTC3886-1.asc;2
+1189;1189;1189;LTC3886;60V Dual Output Step-Down Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;30.0;[5.0, 12.0];['V(out1)', 'V(out0)'];LTC3886.asc;2
+1190;1190;1190;LTC3887-1;Dual Output Polyphase Step-Down DC/DC Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[3.3, 0.5];['V(out1)', 'V(out0)'];LTC3887-1.asc;2
+1191;1191;1191;LTC3887;Dual Output Polyphase Step-Down DC/DC Controller with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[3.3, 0.5];['V(out1)', 'V(out0)'];LTC3887.asc;2
+1192;1192;1192;LTC3890-1;60V Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;48.0;[12.0, 3.3];['V(out2)', 'V(out1)'];3890-1.asc;2
+1193;1193;1193;LTC3890-3;60V Low Iq, Dual, 2-Phase Synchronous Step-Down DC/DC Controller;48.0;[8.4, 3.3];['V(out2)', 'V(out1)'];3890-3.asc;2
+1194;1194;1194;LTC3890;60V Low Iq, Dual, 2-Phase Synchronous Step-Down Controller;48.0;[12.0, 3.3];['V(out2)', 'V(out1)'];3890.asc;2
+1195;1195;1195;LTC3892;60V Low Iq, Dual, 2-Phase Synchronous Step-Down DC/DC Controller;48.0;[12.1, 5.1];['V(out2)', 'V(out1)'];3892.asc;2
+1197;1197;1197;LTC7050;Dual 30A Monolithic Driver and Half Bridge with Current Sense and Temperature Monitor;12.0;[1.2, 1.1];['V(out1)', 'V(out2)'];7050.asc;2
+1198;1198;1198;LTC7124;17V, Dual 3.5A Synchronous Step-Down  Regulator with Ultralow Quiescent Current;12.0;[1.8, 3.3];['V(out1)', 'V(out2)'];7124.asc;2
+1199;1199;1199;LTC7810;150V Low Iq, Dual, 2-Phase Synchronous Step-Down DC/DC Controller\n\nNote: REGSD pin is not modeled.;48.0;[5.0, 12.0];['V(out1)', 'V(out2)'];LTC7810.asc;2
+1203;1203;1203;LTC7840;Dual Phase Dual Output Non-Synchronous Boost Controller;10.0;[47.2, 47.2];['V(out1)', 'V(out2)'];7840.asc;2
+1204;1204;1204;LTC7852;Dual Output, 6-Phase, Multiphase Current Mode Synchronous Controller with Current Monitoring;12.0;[0.5, 0.5];['V(out1)', 'V(out2)'];7852.asc;2
+1205;1205;1205;LTM4614;Dual 4A per Channel Low Vin DC/DC µModule;3.6;[1.2, 1.5];['V(out1)', 'V(out2)'];4614.asc;2
+1207;1207;1207;LTM4619;Dual, 26Vin, 4A DC/DC µModule Regulator;12.0;[2.5, 3.3];['V(out1)', 'V(out2)'];4619.asc;2
+1208;1208;1208;LTM4620;High Efficiency Dual 13A or Single 26A µModule;12.0;[2.5, 1.2];['V(out1)', 'V(out2)'];4620.asc;2
+1209;1209;1209;LTM4620A;Dual 13A or Single 26A DC/DC µModule Regulator;12.0;[2.5, 1.2];['V(out1)', 'V(out2)'];4620.asc;2
+1210;1210;1210;LTM4622;Dual Ultrathin 2.5A Step-Down DC/DC µModule Regulator;12.0;[1.5, 1.0];['V(out2)', 'V(out1)'];LTM4622.asc;2
+1211;1211;1211;LTM4622A;Dual Ultrathin 2A or Single 4A Step-Down DC/DC µModule Regulator;12.0;[1.5, 1.0];['V(out2)', 'V(out1)'];LTM4622A.asc;2
+1212;1212;1212;LTM4628;High Efficiency Dual 8A or Single 16A µModule;12.0;[2.5, 3.3];['V(out1)', 'V(out2)'];4628.asc;2
+1215;1215;1215;LTM4642;20Vin, Dual 4A or Single 8A DC/DC µModule Regulator;12.0;[1.2, 1.0];['V(out2)', 'V(out1)'];4642.asc;2
+1219;1219;1219;LTM4646;Dual 10A or Single 20A µModule Regulator;12.0;[1.0, 1.2];['V(out1)', 'V(out2)'];LTM4646.asc;2
+1220;1220;1220;LTM4655;60V EMI Compliant Split-Supply DC/DC Regulator;24.0;[5.0, -5.0];['V(out1)', 'V(out2)'];LTM4655.asc;2
+1221;1221;1221;LTM4662;High Efficiency Dual 12A module;12.0;[1.0, 1.2];['V(out1)', 'V(out2)'];4662.asc;2
+1222;1222;1222;LTM4664;High Efficiency Dual Output Step-Down Converter with Power System Management;48.0;[1.0, 1.0];['V(out1)', 'V(out0)'];4664.asc;2
+1225;1225;1225;LTM4675;Dual 9A or Single 18A µModule Regulator with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.8, 0.9];['V(out1)', 'V(out0)'];4675.asc;2
+1226;1226;1226;LTM4676;Dual 13A or Single 26A µModule Regulator with PMBus Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;16.0;[1.8, 1.0];['V(out1)', 'V(out0)'];4676.asc;2
+1227;1227;1227;LTM4676A;Dual 13A or Single 26A µModule Regulator with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;16.0;[1.8, 1.0];['V(out1)', 'V(out0)'];4676.asc;2
+1228;1228;1228;LTM4677;Dual 18A or Single 36A µModule Regulator with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.7, 1.0];['V(out1)', 'V(out0)'];4677.asc;2
+1229;1229;1229;LTM4678;Dual Output Polyphase Step-Down DC/DC Controller with Sub-Milliohm DCR Sensing and Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.0, 2.0];['V(out1)', 'V(out0)'];4678.asc;2
+1230;1230;1230;LTM4680;Dual Output Polyphase Step-Down DC/DC Controller with Sub-Milliohm DCR Sensing and Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.0, 1.0];['V(out1)', 'V(out0)'];4680.asc;2
+1231;1231;1231;LTM4686-1;Dual 10A or Single 20A µModule Regulator with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.8, 1.0];['V(out1)', 'V(out0)'];4686-1.asc;2
+1232;1232;1232;LTM4686;Dual 10A or Single 20A µModule Regulator with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;12.0;[1.8, 1.0];['V(out1)', 'V(out0)'];4686.asc;2
+1233;1233;1233;LTM4699;Dual Output  50A Polyphase Step-Down Power Supply Module with Digital Power System Management\n\nNote: SDA, SCL, _Alert, Share_clk, WP, GPIOs, ASEL, TSNSs are not modeled;48.0;[1.6, 1.3];['V(out0)', 'V(out1)'];4699.asc;2
+1234;1234;1234;LTM4705;20VIN, Dual 5A or Single 10A Step-Down DC/DC uModule Regulator;12.0;[2.5, 1.0];['V(out1)', 'V(out2)'];LTM4705.asc;2
+1237;1237;1237;LTM8045;Inverting or SEPIC µModule with Up to 700mA Output Current;12.0;[-5.1, 5.0];['V(out-)', 'V(out+)'];8045.asc;2
+1238;1238;1238;LTM8048;3.1Vin to 32Vin Isolated µModule DC/DC Converter with LDO Post Regulator;10.0;[5.7, 5.0];['V(out1)', 'V(out2)'];8048.asc;2
+1239;1239;1239;LTM8048A;3.1Vin to 32Vin Isolated µModule DC/DC Converter with LDO Post Regulator;10.0;[5.7, 5.0];['V(out1)', 'V(out2)'];8048.asc;2
+1240;1240;1240;LTM8049;Dual SEPIC or Inverting µModule DC/DC Converter;12.0;[12.1, -12.0];['V(out1)', 'V(out2)'];8049.asc;2
+1241;1241;1241;LTM8058;3.1Vin to 32Vin Isolated µModule DC/DC Converter with LDO Post Regulator;16.0;[5.7, 5.0];['V(out1)', 'V(out2)'];8058.asc;2
+1243;1243;1243;LTM8068;28Vin to 40Vin Isolated µModule DC/DC Converter with LDO Post Regulator;24.0;[5.6, 5.0];['V(out1)', 'V(out2)'];8068.asc;2
