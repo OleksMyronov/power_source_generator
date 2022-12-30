@@ -233,11 +233,11 @@ def selection(population, filename, out_node_list=["V(OUT)"], v_out = [5], fract
     best_scheme = population[np.argmin(fitness)]
     return selected_scemes, best_scheme, level
 
-def create_new_generation(population_tuple, filename, out_node, new_vout, deviation):
+def create_new_generation(population_tuple, filename, out_node, new_vout, deviation, fraction):
     '''Performs selection-crossover-mutation'''
     generated = []
     population, component_types = population_tuple
-    selected, best, level = selection(population, filename, out_node, new_vout)
+    selected, best, level = selection(population, filename, out_node, new_vout, fraction)
     for i in range(0, len(population)-len(selected)):
         [p1, p2] = random.sample(selected, 2)
         c = mutation(crossover(p1, p2), component_types, deviation)
@@ -509,7 +509,7 @@ def combine_input_circuit(input_file, body_file, ac_source):
     file.close()
     return
 
-def generate_scheme_by_request(request, n_generations=6, n_samples=20):
+def generate_scheme_by_request(request, n_generations=6, n_samples=20, sel=0.2):
     '''Selects scheme from dataset and performs genetic algorithm optimization'''
     MIN_SD = 0.025 #minimum standard deviation
     MAX_SD = 0.5   #maximum standard deviation
@@ -538,7 +538,7 @@ def generate_scheme_by_request(request, n_generations=6, n_samples=20):
         deviation = min(MAX_SD, sd + MIN_SD)
         for i in range(n_generations):
             print('Generation: {}'.format(i))
-            pop, best, level = create_new_generation(pop, model, node_out, req_vout, deviation)
+            pop, best, level = create_new_generation(pop, model, node_out, req_vout, deviation, sel)
             deviation = level/max(req_vout)+MIN_SD
             print('Deviation: {}'.format(deviation))
     gen_name = 'generated_'+scheme['chip_name']+'.asc'
@@ -554,7 +554,7 @@ def generate_scheme_by_request(request, n_generations=6, n_samples=20):
         os.remove(gen_name[:-4] + '.net')
     return 
 
-text1 = 'step down converter 27v input 500mA output 16V'       
+text1 = 'step down converter input 27v, output 16V 500mA '       
 text2 = 'low noise linear regulator 40V to 7.2V'                
 text3 = 'capacitor charger with 8.6V input and 160V output'      
 text4 = 'linear converter 230v 50Hz AC input, 500mA output 12V'
@@ -564,8 +564,9 @@ text7 = 'synchronous step-down controller 70V input, output 4.2V and 15V'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='text_info')
-    parser.add_argument('--req', dest='req', type=str, default = text4, help='Request text')
+    parser.add_argument('--req', dest='req', type=str, default = text1, help='Request text')
     parser.add_argument('--gen', dest='gen', type=int, default=3, help='Number of generations')
     parser.add_argument('--pop', dest='pop', type=int, default=20, help='Number of samples in population')
+    parser.add_argument('--sel', dest='sel', type=float, default=0.2, help='Fraction of samples, selected for "breeding"')
     args = parser.parse_args()
-    generate_scheme_by_request(args.req, args.gen, args.pop)
+    generate_scheme_by_request(args.req, args.gen, args.pop, args.sel)
