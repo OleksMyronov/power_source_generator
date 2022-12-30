@@ -1,7 +1,6 @@
 from PyLTSpice.LTSpiceBatch import SimCommander
 from PyLTSpice.LTSpice_RawRead import LTSpiceRawRead
 import random
-import math
 import numpy as np
 import pandas as pd
 from fuzzywuzzy import fuzz
@@ -226,7 +225,7 @@ def selection(population, filename, out_node_list=["V(OUT)"], v_out = [5], fract
         for i in ['.raw', '.op.raw', '.log', '.net']: 
             if os.path.exists(file + i):
                 os.remove(file + i)   
-        fitness = math.sqrt(sum((np.array(v_out_simulated)-np.array(v_out))**2))
+        fitness = (sum((np.array(v_out_simulated)-np.array(v_out))**2))**0.5
         fitness_scores.append(fitness)
     level = np.quantile(fitness_scores, fraction)
     print('Selection level: {}'.format(level))
@@ -250,7 +249,7 @@ def output_relevance(desired_voltage, real_voltage):
     '''Defines how close are desired and real output voltages'''
     desired_voltage = sorted(desired_voltage)
     real_voltage = sorted(str_to_float_list(real_voltage))
-    sd = math.sqrt(sum((np.array(desired_voltage)-np.array(real_voltage))**2))
+    sd = (sum((np.array(desired_voltage)-np.array(real_voltage))**2))**0.5
     max_voltage = max([abs(x) for x in real_voltage])
     res = (max_voltage + 1)/(max_voltage + sd + 1)
     return 1 if desired_voltage==0 else res
@@ -298,7 +297,7 @@ def get_best_scheme_match(request, database_file = 'Power_supply_data.csv'):
     ac_input_patterns = [r'([0-9\.]*)v ?([0-9\.]*hz)? ac input ?',
                          r'ac input ([0-9\.]*)v ?([0-9\.]*hz)?',
                          r'input ac ([0-9\.]*)v ?([0-9\.]*hz)?',
-                         r'input ([0-9\.]*)v ?([0-9\.]*hz)? ac'
+                         r'input ([0-9\.]*)v ?([0-9\.]*hz)? ac',
                          ]
     ac_source = False
     input_frequency = 50
@@ -403,7 +402,6 @@ def write_component_additional_features(filename):
 def get_workspace_frame(netlist_text):
     '''Finds min and max netlist component coordinates'''
     min_x, min_y, max_x, max_y =  10000, 10000, -10000, -10000
-     
     for line in netlist_text:
         line = line.split()
         if line[0] == 'SYMBOL':
@@ -454,13 +452,89 @@ def add_circuit_module(source_text, destination_text,
             y2 = int(line[4])
             source_text[i] = 'WIRE {} {} {} {}\n'.format(x1+dx, y1+dy, x2+dx, y2+dy)
         if line[0] == 'FLAG':
-         print(ac_in[0])
+            if line[3] == old_node_name:
+                line[3] = new_node_name
+            x1 = int(line[1])
+            y1 = int(line[2])
+            source_text[i] = 'FLAG {} {} {}\n'.format(x1+dx, y1+dy, line[3])
+        if line[0] == 'SYMATTR' and line[1] == 'InstName':
+            source_text[i] = 'SYMATTR InstName {}_1\n'.format(line[2])
+        if ac_voltage and source_text[i] == 'SYMATTR Value SINE(0 310 50)\n':
+                source_text[i] = 'SYMATTR Value SINE(0 {} {})'.format(ac_voltage, ac_frequency)
+        if not line[0] in ['Version', 'SHEET', 'TEXT']:
+            output_lines.append(source_text[i])
+    if ac_frequency:       #replacing simulation time in destination circuit with one AC period
+        for i in range(len(destination_text)):
+            line = destination_text[i].split()
+            if line[0] == 'TEXT' and line[-1]=='startup':
+                line[-2] = str(round(1000/ac_frequency))+'m' 
+                destination_text[i] = ' '.join(line)+'\n'
+    return destination_text + output_lines
+
+def delete_components(text_lines, component_names = None):
+    '''Delete components from netlist text by list of component names'''
+    output_text = ''
+    if component_names:
+        component_start = [i for i, x in enumerate(text_lines) if 'SYMBOL' in x]
+        component_end = component_start+ [len(text_lines)]
+        component_start = [0] + component_start
+        component_lines = tuple(zip(component_start, component_end))
+        for component in component_lines:
+            component_text = ''.join(text_lines[component[0] : component[1]])
+            for component_name, component_type in component_names:
+                pattern = r'SYMBOL '+component_type +'[\S\s]+?\nSYMATTR InstName '\
+                + component_name+'\nSYMATTR Value \S*\n'
+                component_text = re.sub(pattern,'', component_text)    
+            output_text = output_text + component_text
+    return output_text.splitlines(True)
+
+def combine_input_circuit(input_file, body_file, ac_source):
+    '''Rewrites body file with adding netlist from input file'''
+    source_file = os.path.join('rectifiers', input_file)
+    input_voltage_name, node_name = get_voltage_source(body_file)
+    file = open(body_file, 'r')
+    destination_text = file.readlines()
+    file.close()
+    file = open(source_file, 'r')
+    source_text = file.readlines()
+    file.close()
+    destination_text = delete_components(destination_text,
+                                         [(input_voltage_name, 'voltage'),
+                                          (input_voltage_name, 'VOLTAGE')])
+    destination_text = add_circuit_module(source_text, destination_text,
+                                          old_node_name = 'IN', new_node_name = node_name,
+                                          ac_source = ac_source)
+    file = open(body_file, 'w')
+    file.writelines(destination_text)
+    file.close()
+    return
+
+def generate_scheme_by_request(request, n_generations=6, n_samples=20):
+    '''Selects scheme from dataset and performs genetic algorithm optimization'''
+    MIN_SD = 0.025 #minimum standard deviation
+    MAX_SD = 0.5   #maximum standard deviation
+    scheme, req_vin, req_vout, ac_in = get_best_scheme_match(request)
+    print('Selected chip: {}'.format(scheme['chip_name']))
+    print(scheme['description'])
+    model = scheme['model_file']
+    req_vout = sorted(req_vout)
+    scheme_out = str_to_float_list(scheme['output_voltage'])
+    node_out = str_to_str_list(scheme['output_node'])
+    scheme_out = sorted(zip(node_out, scheme_out), key = lambda x: x[1])
+    node_out = [x[0] for x in scheme_out]
+    scheme_out = [x[1] for x in scheme_out]
+    print('Selected chip output voltages: {}'.format(scheme_out))
+    print('Selected chip output nodes: {}'.format(node_out))
+    dir_path = 'pcb_dataset'
+    scheme_path = os.path.join(dir_path, model)
+    if os.path.isfile(scheme_path):
+        write_intital_voltage(scheme_path, model, req_vin)
         if ac_in[0]:
-            ac_input_path = 'full_wave.asc' #the most common rectifier scheme
-            combine_input_circuit(ac_input_path, model, ac_in)
+            ac_input_path = 'full_wave.asc'  #the most common rectifier scheme
+            combine_input_circuit(ac_input_path, model, ac_in)  
         template, component_types = get_netlist_components(model)
         pop = generate_population(template, component_types, n_samples)
-        sd = math.sqrt(sum((np.array(req_vout)-np.array(scheme_out))**2))
+        sd = (sum((np.array(req_vout)-np.array(scheme_out))**2))**0.5
         deviation = min(MAX_SD, sd + MIN_SD)
         for i in range(n_generations):
             print('Generation: {}'.format(i))
@@ -483,15 +557,15 @@ def add_circuit_module(source_text, destination_text,
 text1 = 'step down converter 27v input 500mA output 16V'       
 text2 = 'low noise linear regulator 40V to 7.2V'                
 text3 = 'capacitor charger with 8.6V input and 160V output'      
-text4 = 'AC/DC linear converter 230v input 500mA output 12V'
+text4 = 'linear converter 230v 50Hz AC input, 500mA output 12V'
 text5 = 'step down AC-DC converter 24v input 500mA output 16V'  
 text6 = 'linear converter 36v input, output 10V and 5.5V'
 text7 = 'synchronous step-down controller 70V input, output 4.2V and 15V'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='text_info')
-    parser.add_argument('--req', dest='req', type=str, default = text1, help='Request text')
-    parser.add_argument('--gen', dest='gen', type=int, default=6, help='Number of generations')
+    parser.add_argument('--req', dest='req', type=str, default = text4, help='Request text')
+    parser.add_argument('--gen', dest='gen', type=int, default=3, help='Number of generations')
     parser.add_argument('--pop', dest='pop', type=int, default=20, help='Number of samples in population')
     args = parser.parse_args()
     generate_scheme_by_request(args.req, args.gen, args.pop)
