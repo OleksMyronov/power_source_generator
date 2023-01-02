@@ -3,7 +3,7 @@
 This project is based on LTSpice circuit simulator. It uses ready-made power supply circuits from LTSpice library to create new power supply 
 circuits with different component parameters and desired output voltages.
 
-The purpose of this project is to demonstrate the ability to optimize electronic circuit without prewious knowledge of how it actually works. Any power supply circuit has input voltage source and converts it to output. LTSpice simulator performs this conversion as a "black box" and genetic algorithm just operates with some abstract circuit features, comparing actual and desired outputs of different circuit variations.
+The purpose of this project is to demonstrate the ability to optimize electronic circuit without previous knowledge of how it actually works. Any power supply circuit has input voltage source and converts it to output. LTSpice simulator performs this conversion as a "black box" and genetic algorithm just operates with some abstract circuit features, comparing actual and desired outputs of different circuit variations.
 
 Project uses simple genetic algorithm to change circuit parameters. Algorithm performs mutation and crossover on values of resistors, capacitors and inductances, values of other, more complicated components (like zener diods, transistors and chips) remains unchanged. Circuit topology also remains unchanged, except adding full-wave rectifier for transforming DC/DC converters to AC/DC. LTSpice simulator is used to check circuit validity, measure simulated output voltages and determine how well they match the desired parameters. Output load resistors also would remain unchanged. 
 
