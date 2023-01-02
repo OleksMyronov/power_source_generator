@@ -556,7 +556,7 @@ def generate_scheme_by_request(request, n_generations=6, n_samples=20, sel=0.2):
 text1 = 'step down converter input 27V, output 16V 500mA '       
 text2 = 'low noise linear regulator 40V to 7.2V'                
 text3 = 'capacitor charger with 8.6V input and 160V output'      
-text4 = 'linear converter 24v 60Hz AC input, output 14.2V'  #change output
+text4 = 'linear converter 24v 60Hz AC input, output 14.2V'
 text5 = 'step down converter 36V AC input, output 16V 500mA'  
 text6 = 'synchronous step-down controller 70V input, output 4.2V and 15V'
 

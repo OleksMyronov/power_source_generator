@@ -485,19 +485,19 @@
 483;LT3959;Wide Input Voltage Range Boost/SEPIC/Inverting Converter with 6A, 40V Switch;12.0;[12.4];['V(out)'];3959.asc;1
 484;LT3964;Dual (single model) 36V, Synchronous 1.6A Buck LED Driver with I2C;35.0;[27.0];['V(out)'];LT3964.asc;1
 485;LT3970;40V, 350mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes;10.0;[5.1];['V(out)'];3970.asc;1
-486;LT3971;38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;12.0;[3.3];['V(out)'];3971.asc;1
-487;LT3971-3.3;38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;24.0;[3.3];['V(out)'];3971-3.3.asc;1
-488;LT3971-5;38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;24.0;[5.0];['V(out)'];3971-5.asc;1
-489;LT3971A;38V, 1.2A, 2MHz Step-Down Regulator with 2.2µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;12.0;[3.3];['V(out)'];3971.asc;1
-490;LT3971A-5;38V, 1.2A, 2MHz Step-Down Regulator with 2.2µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;24.0;[5.0];['V(out)'];3971-5.asc;1
+486;LT3971;38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;12.0;[3.3];['V(out)'];3971.asc;1
+487;LT3971-3.3;38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;24.0;[3.3];['V(out)'];3971-3.3.asc;1
+488;LT3971-5;38V, 1.2A, 2MHz Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;24.0;[5.0];['V(out)'];3971-5.asc;1
+489;LT3971A;38V, 1.2A, 2MHz Step-Down Regulator with 2.2µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;12.0;[3.3];['V(out)'];3971.asc;1
+490;LT3971A-5;38V, 1.2A, 2MHz Step-Down Regulator with 2.2µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;24.0;[5.0];['V(out)'];3971-5.asc;1
 491;LT3972;33V, 3.5A, 2.4MHz Step-Down Switching Regulator with 75µA Quiescent Current;30.0;[5.2];['V(out)'];3972.asc;1
 492;LT3973;42V, 750mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes;10.0;[5.1];['V(out)'];3973.asc;1
-493;LT3975;42V, 2.5A, 2MHz Step-Down Switching Regulator with 2.7µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;24.0;[3.3];['V(out)'];3975.asc;1
-494;LT3976;42V, 5A, 2MHz Step-Down Switching Regulator with 3.3µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;24.0;[3.3];['V(out)'];3976.asc;1
+493;LT3975;42V, 2.5A, 2MHz Step-Down Switching Regulator with 2.7µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;24.0;[3.3];['V(out)'];3975.asc;1
+494;LT3976;42V, 5A, 2MHz Step-Down Switching Regulator with 3.3µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;24.0;[3.3];['V(out)'];3976.asc;1
 495;LT3980;58V, 2A, 2.4MHz Step-Down Switching Regulator with 85µA Quiescent Current;48.0;[5.2];['V(out)'];3980.asc;1
 496;LT3990;62V, 350mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes;10.0;[5.1];['V(out)'];3990.asc;1
-497;LT3991;55V, 1.2A, Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;12.0;[3.3];['V(out)'];3991.asc;1
-498;LT3995;60V, 3A, 2MHz Step-Down Switching Regulator with 2.7µA Quiescent Current\n\nNote: Sync pin is not modeled; Burst Mode is selected.;48.0;[3.3];['V(out)'];3995.asc;1
+497;LT3991;55V, 1.2A, Step-Down Regulator with 2.8µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;12.0;[3.3];['V(out)'];3991.asc;1
+498;LT3995;60V, 3A, 2MHz Step-Down Switching Regulator with 2.7µA Quiescent Current\n\nNote: Sync pin is not modeled, Burst Mode is selected.;48.0;[3.3];['V(out)'];3995.asc;1
 499;LT3999;Low Noise, 1A, 1MHz Push-Pull DC/DC Driver with Duty Cycle Control;12.0;[12.4];['V(out)'];3999.asc;1
 500;LT4200;50A Hot Swap E-Fuse with Guaranteed SOA;12.0;[12.0];['V(out)'];LT4200.asc;1
 501;LT4430;Secondary-Side Optocoupler Driver;13.0;[5.0];['V(out)'];4430.asc;1
