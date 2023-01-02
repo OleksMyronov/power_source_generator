@@ -152,7 +152,7 @@ def get_voltage_source(file, node_patterns = ['IN', 'VIN']):
     input_voltage_node_name = ''
     for line in netlist:
         line = line.split()
-        if len(line)>2:
+        if len(line)==4:
             if line[1] in node_patterns or line[2] in node_patterns:
                 input_voltage_name = line[0]
                 node_name = line[1]
@@ -277,13 +277,9 @@ def get_best_scheme_match(request, database_file = 'Power_supply_data.csv'):
     '''Finds circuit from database_file, that "best matches" request text'''
     input_voltage = '0'
     output_voltage = '0'
+    ac_source = False
+    input_frequency = 50
     request = request.lower()
-    requested = re.search(r'([0-9\.]*)v to ([0-9\.]*)v', request)
-    if requested:
-        if requested.group(1)!='' and requested.group(2)!='':
-            request = re.sub(r'[0-9\.]*v to [0-9\.]*v ?', '', request)
-            input_voltage = requested.group(1)
-            output_voltage = requested.group(2)
     v_in_patterns = [r'([0-9\.]*)v input ?',
                      r'input ([0-9\.]*)v ?'
                      ]
@@ -299,8 +295,12 @@ def get_best_scheme_match(request, database_file = 'Power_supply_data.csv'):
                          r'input ac ([0-9\.]*)v ?([0-9\.]*hz)?',
                          r'input ([0-9\.]*)v ?([0-9\.]*hz)? ac',
                          ]
-    ac_source = False
-    input_frequency = 50
+    requested = re.search(r'([0-9\.]*)v to ([0-9\.]*)v', request)
+    if requested:
+        if requested.group(1)!='' and requested.group(2)!='':
+            request = re.sub(r'[0-9\.]*v to [0-9\.]*v ?', '', request)
+            input_voltage = requested.group(1)
+            output_voltage = requested.group(2)
     for pattern in ac_input_patterns:
         requested = re.search(pattern, request)
         if requested:
@@ -316,7 +316,6 @@ def get_best_scheme_match(request, database_file = 'Power_supply_data.csv'):
             if requested.group(1)!='':
                 input_voltage = requested.group(1)
                 request = re.sub(pattern, '', request)
-    output_voltage = []
     for pattern in v_out_patterns:
         requested =  re.findall(pattern, request)
         if requested:
@@ -330,7 +329,7 @@ def get_best_scheme_match(request, database_file = 'Power_supply_data.csv'):
         input_voltage = round(1.41 * input_voltage, 1)
         ac_input = (input_voltage, input_frequency)
     else:
-        ac_input = (None, None)       
+        ac_input = (None, None)
     output_voltage = [float(x) for x in output_voltage]
     df = pd.read_csv(database_file, sep = ';').dropna()
     df = df[df['output_number']==len(output_voltage)]
@@ -554,19 +553,18 @@ def generate_scheme_by_request(request, n_generations=6, n_samples=20, sel=0.2):
         os.remove(gen_name[:-4] + '.net')
     return 
 
-text1 = 'step down converter input 27v, output 16V 500mA '       
+text1 = 'step down converter input 27V, output 16V 500mA '       
 text2 = 'low noise linear regulator 40V to 7.2V'                
 text3 = 'capacitor charger with 8.6V input and 160V output'      
-text4 = 'linear converter 230v 50Hz AC input, 500mA output 12V'
-text5 = 'step down AC-DC converter 24v input 500mA output 16V'  
-text6 = 'linear converter 36v input, output 10V and 5.5V'
-text7 = 'synchronous step-down controller 70V input, output 4.2V and 15V'
+text4 = 'linear converter 24v 60Hz AC input, output 14.2V'  #change output
+text5 = 'step down converter 36V AC input, output 16V 500mA'  
+text6 = 'synchronous step-down controller 70V input, output 4.2V and 15V'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='text_info')
     parser.add_argument('--req', dest='req', type=str, default = text1, help='Request text')
-    parser.add_argument('--gen', dest='gen', type=int, default=3, help='Number of generations')
+    parser.add_argument('--gen', dest='gen', type=int, default=6, help='Number of generations')
     parser.add_argument('--pop', dest='pop', type=int, default=20, help='Number of samples in population')
-    parser.add_argument('--sel', dest='sel', type=float, default=0.2, help='Fraction of samples, selected for "breeding"')
+    parser.add_argument('--sel', dest='sel', type=float, default=0.2, help='Fraction of samples, selected for breeding')
     args = parser.parse_args()
     generate_scheme_by_request(args.req, args.gen, args.pop, args.sel)
