@@ -1,7 +1,9 @@
 # Electronic circuit generator
 
 This project is based on LTSpice circuit simulator. It uses ready-made power supply circuits from LTSpice library to create new power supply 
-circuits with different component parameters and desired output voltages. 
+circuits with different component parameters and desired output voltages.
+
+The purpose of this project is to demonstrate the ability to optimize electronic circuit without prewious knowledge of how it actually works. Any power supply circuit has input voltage source and converts it to output. LTSpice simulator performs this conversion as a "black box" and genetic algorithm just operates with some abstract circuit features, comparing actual and desired outputs of different circuit variations.
 
 Project uses simple genetic algorithm to change circuit parameters. Algorithm performs mutation and crossover on values of resistors, capacitors and inductances, values of other, more complicated components (like zener diods, transistors and chips) remains unchanged. Circuit topology also remains unchanged, except adding full-wave rectifier for transforming DC/DC converters to AC/DC. LTSpice simulator is used to check circuit validity, measure simulated output voltages and determine how well they match the desired parameters. Output load resistors also would remain unchanged. 
 
@@ -21,6 +23,10 @@ AC voltage source would be simulated for 1/2 period, that is usually much more t
 ### **! NOTE**
 
 #### **Successful LTSpice simulation doesn't mean successful circuit operation in reality. Check that there is no temperature, voltage, current or other component parameter limits exceeded. Use manufacturer documentation for specific component to verify actual parameter limits.**
+
+**Most demo circuits in LTSpice database have low input voltage and chip VCC pin connected directly to input voltage source. Setting different, high input voltage to chip does't break the simulation. You may fix this manually, adding voltage divider or resistor with zener diode in LTSpice.**
+
+For this project we use more than 1200 demo circuits from LTSpice database. It's also possible to optimize your own power supply circuit. You should add circuit .asc file to **pcb_dataset** folder and add your specific circuit description with basic parameters to **Power_supply.csv**. Then just add your description and new desired parameters to your request. Expanding circuit dataset would improve functionality.
 
 ## Installation
 1. Clone this repo to your local machine
