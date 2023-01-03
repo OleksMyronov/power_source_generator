@@ -85,11 +85,11 @@ Some more valid requests:
 **--gen** defines number of genetic algorithm generations. More generations means more precise results, but also it would take proportionally more time for simulation.
 It's recommended to start a trial simulation with 2-5 generations to determine if selected scheme converges to desired parameters and how much time is needed per single generation. 
 
-**--pop** - defines number of circuit samples in generation. More samples means faster convergence but proportionally more simulation time.
+**--pop** - defines number of circuit samples in population. More samples means faster convergence, but proportionally more simulation time.
 For small circuits 20 samples is usually enouhg, for large circuits it's recommended to set this number to at leas component number.
 
 **--sel** - defines fraction of samples, selected in single generation. pop\*sel should be at least 2 for successfull breeding. Small selection rate usually provides faster algorithm convergence, but less chances to get out from local optimum.
 
 **Most demo circuits in LTSpice database have low input voltage and chip VCC pin connected directly to input voltage source. Setting high input voltage to chip does't break the simulation, but would break chip in reality. You may fix circuit manually, adding voltage divider or resistor with zener diode in LTSpice.**
 
-For this project we use more than 1200 demo circuits from LTSpice database. It's also possible to optimize your own power supply circuit. You should add circuit .asc file to **pcb_dataset** folder and add your specific circuit description with basic parameters to **Power_supply.csv**. Then just add your description and new desired parameters to your request. Expanding circuit dataset would essentially improve functionality.
+For this project we use more than 1200 demo circuits from LTSpice database. It's also possible to optimize your own power supply circuit. You should add circuit .asc file to **pcb_dataset** folder and add your specific circuit description with basic parameters to **Power_supply.csv**. Then add your description and new desired output parameters to your request. Initial dataset covers just a small fraction of the whole input-output-description parameter area. Adding more different circuits would improve the convergence time and results quality.
